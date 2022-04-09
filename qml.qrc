@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>qmls/Component/MessageChip.qml</file>
+        <file>qmls/Page/IntoPage.qml</file>
+        <file>assets/mdpi/top_bg.png</file>
+        <file>qmls/Component/InputEdit.qml</file>
+        <file>assets/mdpi/ic_eye_off.png</file>
+        <file>assets/mdpi/ic_eye_on.png</file>
+        <file>assets/mdpi/ic_eye_off1.png</file>
+        <file>assets/mdpi/ic_login_psw.png</file>
+        <file>assets/mdpi/ic_login_user.png</file>
+        <file>qmls/Component/LittleWindow.qml</file>
+        <file>assets/mdpi/error.png</file>
+        <file>assets/mdpi/inform.png</file>
+        <file>assets/mdpi/radio_off.png</file>
+        <file>assets/mdpi/radio_on.png</file>
+        <file>assets/mdpi/ic_login_kf.png</file>
+        <file>assets/mdpi/ic_login_ty.png</file>
+        <file>qmls/Page/IntoLogin.qml</file>
+    </qresource>
+    <qresource prefix="/qmls"/>
+    <qresource prefix="/sqs" lang="qws"/>
+</RCC>
