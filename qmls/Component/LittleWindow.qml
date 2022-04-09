@@ -1,6 +1,5 @@
 ﻿import QtQuick 2.0
 import QtQuick.Controls 2.5
-import "../Component"
 //自定义弹窗
 Item {
     id:littwin

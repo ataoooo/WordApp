@@ -18,6 +18,12 @@
         <file>assets/mdpi/ic_login_kf.png</file>
         <file>assets/mdpi/ic_login_ty.png</file>
         <file>qmls/Page/IntoLogin.qml</file>
+        <file>qmls/Component/MyComboBox.qml</file>
+        <file>assets/mdpi/useType.png</file>
+        <file>assets/mdpi/phone.png</file>
+        <file>assets/mdpi/pwd.png</file>
+        <file>assets/mdpi/pwd2.png</file>
+        <file>assets/mdpi/userID.png</file>
     </qresource>
     <qresource prefix="/qmls"/>
     <qresource prefix="/sqs" lang="qws"/>
