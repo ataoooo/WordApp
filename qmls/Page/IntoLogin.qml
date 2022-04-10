@@ -188,7 +188,7 @@ Rectangle{
             return
         }
         //插入记录
-        var insRes = myDB.insertRecord(userPhone,utype,userId,userPsw)
+        var insRes = myDB.insertRecord(uphone,utype,uID,uPwd)
         if(!insRes) //插入失败
         {
             tipwin.visible = true;
@@ -205,7 +205,7 @@ Rectangle{
         id:tipwin
         btnNum: 1
         icon:"../../assets/mdpi/error.png"
-        rectext: "注册失败，请稍后重试！"
+        rectext: "注册失败！该用户名已存在！"
         onBtnClicked: {
             console.log("The result is = ",isClick)
             tipwin.visible = false

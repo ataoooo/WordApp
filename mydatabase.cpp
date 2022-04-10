@@ -82,6 +82,7 @@ bool myDataBase::findPhone(QString phone)
 
 bool myDataBase::insertRecord(QString phoneNum,QString userType,QString userID,QString pwd)
 {
+    qDebug() << "insert message" << QString("%1  %2  %3  %4").arg(phoneNum).arg(userType).arg(userID).arg(pwd);
     bool conRes = checkConnectDB("./userTable.db");
     if( !conRes ) return false;
     QSqlQuery query;
