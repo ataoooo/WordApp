@@ -4,7 +4,6 @@ import QtQuick.Controls 2.5
 import "qmls/Page"
 import "qmls/Component"
 
-
 Window {
     id:root
     visible: true
@@ -13,6 +12,8 @@ Window {
     color: "white"
     property string allColor: "#DE739F";
     property bool _quit: false;
+    //用户名
+    property var userName: ""
 
     StackView{
         id:stack
@@ -59,6 +60,7 @@ Window {
     Component {id:msghint; MessageChip{}}
     Component {id:mainPage; IntoPage{}}
     Component {id:logPage; IntoLogin{}}
+    Component {id:enterPage; EnterPage{}}
 
     Timer{
         id:quitTimer
@@ -71,7 +73,7 @@ Window {
     }
 
     function login(){
-        //page.sourceComponent = navPage;
+        page.sourceComponent = navPage;
         showMsgHint("欢迎回来");
     }
 
@@ -80,6 +82,13 @@ Window {
         showMsgHint("您已登出！")
     }
 
+    //去往登陆后的页面
+    function enterMainView()
+    {
+        page.sourceComponent = enterPage
+    }
+
+    //回到登录页面
     function enterLogin(){
         page.sourceComponent = mainPage;
         showMsgHint("欢迎登录！")

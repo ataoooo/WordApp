@@ -3,6 +3,7 @@ import QtGraphicalEffects 1.0
 import "../Component"
 //注册窗口
 //用户id 密码 电话 类别 确认密码
+
 Rectangle{
     id:logRec
     anchors.fill: parent
@@ -13,6 +14,21 @@ Rectangle{
         width: parent.width
         fillMode: Image.PreserveAspectFit
         z:0
+    }
+    //退出按钮
+    Image {
+        id: popIco
+        source: "../../assets/mdpi/ic_arrow_back.png"
+        height: dp(15) * 0.6;
+        anchors{
+            left: parent.left
+            leftMargin: dp(3)
+        }
+        fillMode: Image.PreserveAspectFit
+        MouseArea {
+            anchors.fill: parent
+            onClicked: root.enterLogin()
+        }
     }
     Rectangle{
         id:messRec
@@ -205,7 +221,7 @@ Rectangle{
         id:tipwin
         btnNum: 1
         icon:"../../assets/mdpi/error.png"
-        rectext: "注册失败！该用户名已存在！"
+        rectext: "注册失败！该用户名已存在！ "
         onBtnClicked: {
             console.log("The result is = ",isClick)
             tipwin.visible = false

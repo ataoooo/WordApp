@@ -25,7 +25,12 @@
         <file>assets/mdpi/pwd2.png</file>
         <file>assets/mdpi/userID.png</file>
         <file>assets/mdpi/must.png</file>
+        <file>assets/mdpi/top.png</file>
+        <file>qmls/Page/DirectoryPage.qml</file>
+        <file>qmls/Page/EnterPage.qml</file>
+        <file>assets/mdpi/ic_arrow_back.png</file>
+        <file>assets/mdpi/ic_barcode.png</file>
     </qresource>
     <qresource prefix="/qmls"/>
-    <qresource lang="qws" prefix="/sqs"/>
+    <qresource prefix="/sqs" lang="qws"/>
 </RCC>

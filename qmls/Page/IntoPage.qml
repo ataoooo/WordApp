@@ -96,10 +96,10 @@ Rectangle{
                         var checkres = checkPwd();
                         console.log("The res = ",checkres)
                         if( checkres )
-                            root.login()
+                            root.enterMainView()
                         else
                             win.visible = true
-                        }
+                    }
                 }
             }
             Rectangle{
@@ -144,7 +144,7 @@ Rectangle{
                 Image {
                     id: checkImg;
                     source: parent.checked? "../../assets/mdpi/radio_on.png":
-                                     "../../assets/mdpi/radio_off.png";
+                                            "../../assets/mdpi/radio_off.png";
                     height: checkTxt.height;
                     fillMode: Image.PreserveAspectFit;
                     MouseArea {
@@ -196,9 +196,7 @@ Rectangle{
                     }
                 }
             }
-
         }
-
     }
 
     // 联系客服 & 体验一下
@@ -264,7 +262,11 @@ Rectangle{
         var uId = userId.recieveText();
         var upwd = userPsw.recieveText()
         var pwd =  myDB.findPwd(userId.recieveText());
+        root.userName = uId
         console.log("userId is :", uId," - ",upwd," - ",pwd);
+        //为了方便
+//        if( uId === "" || upwd === "" )
+//            return false;
         if( upwd === pwd )
             return true;
         return false;
