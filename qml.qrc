@@ -24,7 +24,8 @@
         <file>assets/mdpi/pwd.png</file>
         <file>assets/mdpi/pwd2.png</file>
         <file>assets/mdpi/userID.png</file>
+        <file>assets/mdpi/must.png</file>
     </qresource>
     <qresource prefix="/qmls"/>
-    <qresource prefix="/sqs" lang="qws"/>
+    <qresource lang="qws" prefix="/sqs"/>
 </RCC>

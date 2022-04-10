@@ -6,6 +6,11 @@ Item {
     anchors.centerIn: parent
     property alias icon: img.source
     property alias rectext: tip.text
+    property real btnNum: 1
+
+    //按钮信号
+    signal btnClicked(bool isClick)
+
     visible: false
     width: 220
     height: 160
@@ -54,7 +59,8 @@ Item {
 
         //确定按钮
         Rectangle{
-            id:okBtn
+            id:oneokBtn
+            visible: btnNum == 1
             width: tip.width * 0.5
             height: dp(6)
             radius: 5
@@ -72,11 +78,67 @@ Item {
             MouseArea{
                 anchors.fill: parent
                 onClicked:{
-                    littwin.visible = false
-                    }
+                    emit: btnClicked(true)
+                }
             }
         }
 
+        Row
+        {
+            visible: btnNum == 2
+            anchors{
+                bottom: parent.bottom
+                left: parent.left
+                leftMargin: dp(3)
+            }
+            spacing: dp(3)
+
+            //确定按钮
+            Rectangle{
+                id:okBtn
+                width: tip.width * 0.5
+                height: dp(6)
+                radius: 5
+                color: allColor
+                Text {
+                    anchors.centerIn: parent
+                    text: qsTr("确定")
+                    color: "white"
+                    font.pixelSize: parent.height * 0.5
+                }
+                MouseArea{
+                    anchors.fill: parent
+                    onClicked:{
+                        emit: btnClicked(true)
+                    }
+                }
+            }
+
+            //取消按钮
+            Rectangle{
+                id:cancelBtn
+                width: tip.width * 0.5
+                height: dp(6)
+                radius: 5
+                color: allColor
+//                anchors.bottom: parent.bottom
+//                anchors.bottomMargin: dp(2)
+//                anchors.left: parent.left
+//                anchors.leftMargin: (parent.width - okBtn.width) / 2
+                Text {
+                    anchors.centerIn: parent
+                    text: qsTr("取消")
+                    color: "white"
+                    font.pixelSize: parent.height * 0.5
+                }
+                MouseArea{
+                    anchors.fill: parent
+                    onClicked:{
+                        emit: btnClicked(false)
+                    }
+                }
+            }
+        }
 
     }
 }

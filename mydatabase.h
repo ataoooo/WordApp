@@ -16,7 +16,11 @@ public:
     //查询用户密码
     Q_INVOKABLE QString findPwd(QString id);
     //插入用户信息
-    Q_INVOKABLE bool insertRecord(QString& phoneNum,QString& userType,QString& userID,QString& pwd);
+    Q_INVOKABLE bool insertRecord(QString phoneNum,QString userType,QString userID,QString pwd);
+    //查看号码是否被注册
+    Q_INVOKABLE bool findPhone(QString phone);
+    //删除记录
+    Q_INVOKABLE bool delRecord(QString context);
     //---------------用户信息----------------
 
 };

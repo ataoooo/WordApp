@@ -9,6 +9,10 @@ Rectangle{
     property alias placeholderText: editField.placeholderText;
     property alias echoMode: editField.echoMode;
     property bool isPsw: placeholderText === "请输入密码"; //判断是否为密码输入框
+    property bool isMust:false  //是否必填
+
+    property var cleanText: false
+
     //最左侧图标
     Image {
         id: editIcon
@@ -31,11 +35,11 @@ Rectangle{
             verticalCenter: parent.verticalCenter
             left: editIcon.right
             leftMargin: dp(5)
-            right: showPsw.left
+            right: mustWrite.left
         }
         width: parent.width - editIcon.width
         height: parent.height
-        implicitWidth: width - showPsw.width
+        implicitWidth: width - showPsw.width- mustWrite.width
         font:{
             pixelSize: (isPsw && text !== "" && !showPsw.showpsw)? parent.height * 0.2: parent.height * 0.6;
 
@@ -44,6 +48,19 @@ Rectangle{
             color: "transparent"
         }
         color: allColor
+    }
+    //必填图标
+    Image {
+        id: mustWrite
+        source: isMust ? "../../assets/mdpi/must.png" : ""
+        width: isMust ? parent.height : 0
+        height: width
+        fillMode: Image.PreserveAspectFit
+        anchors{
+            right: parent.right
+            rightMargin: dp(5)
+            verticalCenter: parent.verticalCenter
+        }
     }
     //下划线
     Rectangle{
@@ -71,6 +88,7 @@ Rectangle{
         source: isPsw ? "../../assets/mdpi/ic_eye_off1.png":""
         MouseArea{
             anchors.fill: parent
+
             onClicked: {
                 if(!parent.showpsw){
                     parent.showpsw = !parent.showpsw
@@ -87,5 +105,10 @@ Rectangle{
     }
     function recieveText(){
         return editField.text;
+    }
+
+    onCleanTextChanged: {
+        if(cleanText)
+            editField.text = ""
     }
 }

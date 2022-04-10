@@ -63,7 +63,24 @@ QString myDataBase::findPwd(QString id)
     return pwd;
 }
 
-bool myDataBase::insertRecord(QString& phoneNum,QString& userType,QString& userID,QString& pwd)
+bool myDataBase::findPhone(QString phone)
+{
+    bool conRes = checkConnectDB("./userTable.db");
+    if( !conRes ) return false;
+    QSqlQuery query;
+    bool res = query.exec(QString("select userID from usertable where phoneNum = '%1'").arg(phone));
+    if(!res)
+    {
+        qDebug() << "sql have error" << query.lastError();
+        return false;
+    }
+    query.next();
+    QString uID = query.value(0).toString();
+    qDebug() << "The id is = " << uID;
+    return (uID =="" ) ? true : false;
+}
+
+bool myDataBase::insertRecord(QString phoneNum,QString userType,QString userID,QString pwd)
 {
     bool conRes = checkConnectDB("./userTable.db");
     if( !conRes ) return false;
@@ -71,6 +88,21 @@ bool myDataBase::insertRecord(QString& phoneNum,QString& userType,QString& userI
     //²åÈë
     bool sqlRes = query.exec(QString("insert into usertable values('%1','%2','%3','%4')").
                              arg(userID).arg(userType).arg(pwd).arg(phoneNum));
+    if(!sqlRes)
+    {
+        qDebug() << "error :" << query.lastError();
+        return false;
+    }
+    return true;
+}
+
+bool myDataBase::delRecord(QString context)
+{
+    bool conRes = checkConnectDB("./userTable.db");
+    if( !conRes ) return false;
+    QSqlQuery query;
+    //É¾³ý
+    bool sqlRes = query.exec(context);
     if(!sqlRes)
     {
         qDebug() << "error :" << query.lastError();

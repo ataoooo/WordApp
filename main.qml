@@ -56,9 +56,7 @@ Window {
         }
     }
 
-
-//    Component {id:msghint; MessageChip{}}
-
+    Component {id:msghint; MessageChip{}}
     Component {id:mainPage; IntoPage{}}
     Component {id:logPage; IntoLogin{}}
 
@@ -82,8 +80,13 @@ Window {
         showMsgHint("您已登出！")
     }
 
+    function enterLogin(){
+        page.sourceComponent = mainPage;
+        showMsgHint("欢迎登录！")
+    }
+
     function showMsgHint(msg){
-        var msgHint = msgHint.createObject(root,{});
+        var msgHint = msghint.createObject(root,{});
         msgHint.text = msg;
     }
 

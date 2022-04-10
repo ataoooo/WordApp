@@ -275,6 +275,7 @@ Rectangle{
         id:win
         icon:"../../assets/mdpi/error.png"
         rectext: "用户名不存在或密码错误！"
+        onBtnClicked: win.visible = false
     }
 
     //垃圾

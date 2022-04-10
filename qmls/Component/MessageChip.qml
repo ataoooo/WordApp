@@ -1,11 +1,13 @@
 ﻿import QtQuick 2.0
 
+//悬浮提示框框
 Rectangle{
     id:chip
     width: txt.width + dp(8)
-    height: txt.width + dp(6)
+    height: txt.height + dp(6)
     anchors.horizontalCenter: parent.horizontalCenter
-    anchors.bottom: dp(20)
+    anchors.bottom: parent.bottom
+    anchors.bottomMargin: dp(20)
     color: "#505152"
     radius: width/5
     property alias text: txt.text
@@ -16,6 +18,7 @@ Rectangle{
         font.pixelSize: dp(3.5)
         color: "white"
     }
+    //动画
     PropertyAnimation{
         id:show
         target: chip
@@ -23,7 +26,9 @@ Rectangle{
         property: "opacity"
         from: 0
         to: 1
-        duration: 700
+        //持续时间
+        duration: 500
+        //指定动态缓和曲线
         easing.type: Easing.InQuint
         onStopped: delay.start()
     }
@@ -39,10 +44,13 @@ Rectangle{
     }
     Timer{
         id:delay
+        //间隔
         interval: 2000
         running: false
         repeat: false
+        //调用stop后执行
         onTriggered: hide.start()
     }
+    //show --- delay --- hide
     Component.onCompleted: show.start()
 }
