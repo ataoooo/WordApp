@@ -76,7 +76,16 @@ Page {
         }
 
         //这里好像需要一个搜索框框啦
+        SearchEdit{
+            id:search
+            anchors{
+                top: ewmImg.bottom
+                topMargin: dp(5)
+                horizontalCenter: parent.horizontalCenter
+            }
+            width: parent.width * 0.95
 
+        }
 
 
 

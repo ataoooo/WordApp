@@ -5,6 +5,7 @@
 #include <QQmlComponent>
 #include "keyfilter.h"
 #include "mydatabase.h"
+#include "dictionary.h"
 
 #include<fstream>
 #include <QMutex>
@@ -67,7 +68,7 @@ int main(int argc, char *argv[])
 
     //µ¼³öÊôÐÔ
     engine.rootContext()->setContextProperty("myDB", new myDataBase);
-
+    engine.rootContext()->setContextProperty("wordDB",new Dictionary);
     QQmlComponent component(&engine,QUrl("qrc:/main.qml"));
     QObject* object = component.create();
     KeyFilter::getInstance()->setFilter(object);

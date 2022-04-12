@@ -30,6 +30,7 @@
         <file>qmls/Page/EnterPage.qml</file>
         <file>assets/mdpi/ic_arrow_back.png</file>
         <file>assets/mdpi/ic_barcode.png</file>
+        <file>qmls/Component/SearchEdit.qml</file>
     </qresource>
     <qresource prefix="/qmls"/>
     <qresource prefix="/sqs" lang="qws"/>
