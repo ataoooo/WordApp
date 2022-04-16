@@ -31,6 +31,33 @@
         <file>assets/mdpi/ic_arrow_back.png</file>
         <file>assets/mdpi/ic_barcode.png</file>
         <file>qmls/Component/SearchEdit.qml</file>
+        <file>assets/mdpi/book.png</file>
+        <file>assets/mdpi/phrase.png</file>
+        <file>qmls/Component/PngEdit.qml</file>
+        <file>assets/mdpi/noteBool.png</file>
+        <file>assets/mdpi/englishLevel .png</file>
+        <file>assets/mdpi/shop.png</file>
+        <file>assets/mdpi/ic_dictionary_color.png</file>
+        <file>assets/mdpi/ic_dictionary_grey.png</file>
+        <file>assets/mdpi/ic_mine_color.png</file>
+        <file>assets/mdpi/ic_mine_grey.png</file>
+        <file>assets/mdpi/ic_study_color.png</file>
+        <file>assets/mdpi/ic_study_grey.png</file>
+        <file>assets/mdpi/ic_remember_grey.png</file>
+        <file>assets/mdpi/ic_remember_color.png</file>
+        <file>assets/dbfile/userTable.db</file>
+        <file>assets/dbfile/lookup.db</file>
+        <file>qmls/Page/UserPage.qml</file>
+        <file>qmls/Component/PageHeader.qml</file>
+        <file>assets/mdpi/ic_about_us.png</file>
+        <file>assets/mdpi/ic_xgmm.png</file>
+        <file>assets/mdpi/ic_yjfk.png</file>
+        <file>assets/mdpi/icon_swich.png</file>
+        <file>assets/mdpi/icon_arrow.png</file>
+        <file>qmls/Component/ListItem.qml</file>
+        <file>qmls/Page/AccountInfoPage.qml</file>
+        <file>qmls/Component/StackPageBase.qml</file>
+        <file>qmls/Component/ListItemForUserInfo.qml</file>
     </qresource>
     <qresource prefix="/qmls"/>
     <qresource prefix="/sqs" lang="qws"/>

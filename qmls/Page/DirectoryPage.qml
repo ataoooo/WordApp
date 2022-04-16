@@ -9,6 +9,7 @@ Page {
     visible: opacity > 0
     //仅当可见时启用页面操作
     enabled: visible
+    property bool isReplace: false
     Rectangle{
         anchors.fill: parent
         z: 0
@@ -75,7 +76,7 @@ Page {
             }
         }
 
-        //这里好像需要一个搜索框框啦
+        //搜索框
         SearchEdit{
             id:search
             anchors{
@@ -84,11 +85,124 @@ Page {
                 horizontalCenter: parent.horizontalCenter
             }
             width: parent.width * 0.95
-
+            z:99
         }
 
+        //下方的一些图标
+        Row{
+            id:rowname
+            anchors{
+                top:search.bottom
+                topMargin: dp(3)
+                horizontalCenter: parent.horizontalCenter
+            }
+            width: search.width
+            height: dp(12)
+            //图片+文字
+            PngEdit{
+                width:search.width/5
+                iconSource:"../../assets/mdpi/book.png"
+                iconText:"单词本"
+                MouseArea{
+                    anchors.fill: parent
+                    onClicked: {
+                        console.log("click the image")
+                    }
+                }
+            }
+            PngEdit{
+                width:search.width/5
+                iconSource:"../../assets/mdpi/phrase.png"
+                iconText:"例句"
+            }
+            PngEdit{
+                width:search.width/5
+                iconSource:"../../assets/mdpi/noteBool.png"
+                iconText:"我的笔记"
+            }
+            PngEdit{
+                width:search.width/5
+                iconSource:"../../assets/mdpi/englishLevel .png"
+                iconText:"四六级"
+            }
+            PngEdit{
+                width:search.width/5
+                iconSource:"../../assets/mdpi/shop.png"
+                iconText:"商城"
+            }
+        }
+
+        //滑动广告位
+        SwipeView {
+            id: swipeView
+            width: parent.width
+            height: dp(30)
+            anchors.top: rowname.bottom
+            anchors.topMargin: dp(3)
+            currentIndex: 0 // 当前页面的索引 1
+            Item{
+                Rectangle{
+                    id:rec1
+                    radius: 5
+                    color: "red"
+                    Text{
+                        anchors.centerIn: parent
+                        font.pixelSize: 50
+                        text: "广告位招租"
+                    }
+                    anchors.fill: parent
+                }
+            }
+            Item{
+                Rectangle{
+                    id:rec2
+                    radius: 5
+                    color: "blue"
+                    Text{
+                        anchors.centerIn: parent
+                        text: "广告位招租"
+                        font.pixelSize: 50
+                    }
+                    anchors.fill: parent
+                }
+            }
+        }
+        //滑动页下方指示符
+        //        PageIndicator {
+        //            id: indicator
+        //            count: swipeView.count
+        //            currentIndex: swipeView.currentIndex
+        //            anchors.bottom: swipeView.bottom
+        //            anchors.horizontalCenter: parent.horizontalCenter
+        //        }
+        //定时器，触发广告位的自动切换
+        Timer{
+            id:countDown;
+            interval: 5000; //时延5s
+            repeat: true;
+            triggeredOnStart: true;
+            onTriggered: {
+                //启动时并不切换
+                if(!isReplace)
+                {
+                    isReplace = true;
+                    return;
+                }
+                if(swipeView.currentIndex == 0)
+                    swipeView.currentIndex = 1;
+                else swipeView.currentIndex = 0;
+            }
+        }
 
 
         //底部按键组布局
     }
+
+
+
+    Component.onCompleted: {
+        countDown.start();
+    }
+
+
 }

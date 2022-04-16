@@ -10,38 +10,23 @@ myDataBase::myDataBase(QObject* parent) : QObject (parent){}
 
 bool myDataBase::checkConnectDB(QString dbName)
 {
-    bool initDB(false); //是否需要建表
-    QFile file(dbName);
-    if(!file.exists())
-    {
-        qDebug() << "file do not exit";
-        file.open( QIODevice::ReadWrite | QIODevice::Text );
-        file.close();
-        initDB = true;
-    }
     QSqlDatabase db;
     if(QSqlDatabase::contains("qt_sql_default_connection"))
         db = QSqlDatabase::database("qt_sql_default_connection");
     else
         db = QSqlDatabase::addDatabase("QSQLITE");
+//    QFile file("/storage/emulated/0/data/userTable.db");
+//    if(!file.exists() || file.size() == 0)
+//    {
+//        QFile::copy("assets:/dbfile/userTable.db","/storage/emulated/0/data/userTable.db");
+//        file.setPermissions(QFile::ReadUser  | QFile::WriteUser);
+//    }
+//    db.setDatabaseName("/storage/emulated/0/data/userTable.db");
     db.setDatabaseName(dbName);
     if(!db.open())
     {
         qDebug() << "fail to open DB";
         return false;
-    }
-    if(initDB)
-    {
-        qDebug() << "need to create table";
-        QSqlQuery query;
-        //创建用户表，四个属性 id 用户类别 密码 和 电话号码
-        bool sqlRes = query.exec("create table usertable (userID varchar(20) primary key, "
-                   "userType varchar(20) not NULL,userPwd varchar(30) not NULL,phoneNum varchar(15) not NULL)");
-        if(!sqlRes)
-        {
-            qDebug() << "The error is " << query.lastError();
-            return false;
-        }
     }
     return true;
 }
@@ -61,6 +46,23 @@ QString myDataBase::findPwd(QString id)
     QString pwd = query.value(0).toString();
     qDebug() << "The password is = " << pwd;
     return pwd;
+}
+
+QString myDataBase::getPhone(QString id)
+{
+    bool conRes = checkConnectDB("./userTable.db");
+    if( !conRes ) return "";
+    QSqlQuery query;
+    bool res = query.exec(QString("select phoneNum from usertable where userID = '%1'").arg(id));
+    if(!res)
+    {
+        qDebug() << "sql have error" << query.lastError();
+        return "";
+    }
+    query.next();
+    QString uPhone = query.value(0).toString();
+    qDebug() << "The id is = " << uPhone;
+    return uPhone;
 }
 
 bool myDataBase::findPhone(QString phone)

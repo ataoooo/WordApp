@@ -44,7 +44,7 @@ Rectangle{
         id:searchEd
         clip: false
         height: parent.height
-        text: zonelist.currentIndex
+        //text: zonelist.currentIndex
         //输入字母以及空格
         validator: RegExpValidator {regExp: /^[A-Za-z\s]*$/}
         anchors{

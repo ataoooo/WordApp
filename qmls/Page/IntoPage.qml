@@ -160,7 +160,7 @@ Rectangle{
                         width: 0;
                         height: width;
                         radius: width / 2;
-                        color: check.checked? tintColor: "grey";
+                        color: check.checked? allColor: "grey";
                         PropertyAnimation {
                             id: checkAni;
                             target: parent;
@@ -262,7 +262,9 @@ Rectangle{
         var uId = userId.recieveText();
         var upwd = userPsw.recieveText()
         var pwd =  myDB.findPwd(userId.recieveText());
+        root.userPhone = myDB.getPhone(uId)
         root.userName = uId
+        root.userPwd = pwd
         console.log("userId is :", uId," - ",upwd," - ",pwd);
         //为了方便
 //        if( uId === "" || upwd === "" )

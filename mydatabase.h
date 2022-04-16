@@ -15,6 +15,8 @@ public:
     //---------------用户信息----------------
     //查询用户密码
     Q_INVOKABLE QString findPwd(QString id);
+    //获取电话
+    Q_INVOKABLE QString getPhone(QString id);
     //插入用户信息
     Q_INVOKABLE bool insertRecord(QString phoneNum,QString userType,QString userID,QString pwd);
     //查看号码是否被注册
@@ -22,7 +24,6 @@ public:
     //删除记录
     Q_INVOKABLE bool delRecord(QString context);
     //---------------用户信息----------------
-
 };
 
 #endif // MYDATABASE_H

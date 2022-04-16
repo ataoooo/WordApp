@@ -14,6 +14,8 @@ Window {
     property bool _quit: false;
     //用户名
     property var userName: ""
+    property var userPwd: ""
+    property var userPhone: ""
 
     StackView{
         id:stack
@@ -54,6 +56,7 @@ Window {
     function pushStack(code){
         switch(code){
         case 1:stack.push(testPage); break;
+        case 5:stack.push(accountInfoPage);break;
         }
     }
 
@@ -61,6 +64,7 @@ Window {
     Component {id:mainPage; IntoPage{}}
     Component {id:logPage; IntoLogin{}}
     Component {id:enterPage; EnterPage{}}
+    Component {id: accountInfoPage; AccountInfoPage{}}
 
     Timer{
         id:quitTimer

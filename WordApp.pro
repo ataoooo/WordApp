@@ -1,4 +1,5 @@
 QT += quick sql
+#QT += quick sql androidextras
 CONFIG += c++11
 
 # The following define makes your compiler emit warnings if you use
@@ -37,5 +38,11 @@ HEADERS += \
     keyfilter.h \
     mydatabase.h
 
-DISTFILES +=
+android{
+    data.files += android/userTable.db
+    data.files += android/lookup.db
+    data.path = /assets/dbfile
+    INSTALLS += data
+}
 
+    ANDROID_PACKAGE_SOURCE_DIR = $$PWD/android
