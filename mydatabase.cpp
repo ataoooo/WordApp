@@ -65,6 +65,23 @@ QString myDataBase::getPhone(QString id)
     return uPhone;
 }
 
+QString myDataBase::findType(QString id)
+{
+    bool conRes = checkConnectDB("./userTable.db");
+    if( !conRes ) return "";
+    QSqlQuery query;
+    bool res = query.exec(QString("select userType from usertable where userID = '%1'").arg(id));
+    if(!res)
+    {
+        qDebug() << "sql have error" << query.lastError();
+        return "";
+    }
+    query.next();
+    QString uPhone = query.value(0).toString();
+    qDebug() << "The id is = " << uPhone;
+    return uPhone;
+}
+
 bool myDataBase::findPhone(QString phone)
 {
     bool conRes = checkConnectDB("./userTable.db");
@@ -106,6 +123,81 @@ bool myDataBase::delRecord(QString context)
     QSqlQuery query;
     //删除
     bool sqlRes = query.exec(context);
+    if(!sqlRes)
+    {
+        qDebug() << "error :" << query.lastError();
+        return false;
+    }
+    return true;
+}
+
+bool myDataBase::upGradePwd(QString id,QString pwd)
+{
+    bool conRes = checkConnectDB("./userTable.db");
+    if( !conRes ) return false;
+    QSqlQuery query;
+    //更新
+    bool sqlRes = query.exec(QString("update usertable set userPwd = '%1' where userID = '%2'").arg(pwd).arg(id));
+    if(!sqlRes)
+    {
+        qDebug() << "error :" << query.lastError();
+        return false;
+    }
+    return true;
+}
+
+bool myDataBase::upGradePhone(QString id,QString phone)
+{
+    bool conRes = checkConnectDB("./userTable.db");
+    if( !conRes ) return false;
+    QSqlQuery query;
+    //更新
+    bool sqlRes = query.exec(QString("update usertable set PhoneNum = '%1' where userID = '%2'").arg(phone).arg(id));
+    if(!sqlRes)
+    {
+        qDebug() << "error :" << query.lastError();
+        return false;
+    }
+    return true;
+}
+
+bool myDataBase::upGradeType(QString id,QString uType)
+{
+    bool conRes = checkConnectDB("./userTable.db");
+    if( !conRes ) return false;
+    qDebug() << "The type is = " << uType;
+    QSqlQuery query;
+    //更新
+    bool sqlRes = query.exec(QString("update usertable set userType = '%1' where userID = '%2'").arg(uType).arg(id));
+    if(!sqlRes)
+    {
+        qDebug() << "error :" << query.lastError();
+        return false;
+    }
+    return true;
+}
+
+bool myDataBase::upGradeName(QString oldId,QString newId)
+{
+    bool conRes = checkConnectDB("./userTable.db");
+    if( !conRes ) return false;
+    QSqlQuery query;
+
+    //查找是否存在
+    bool res = query.exec(QString("select userID from usertable where userID = '%1'").arg(newId));
+    if(!res)
+    {
+        qDebug() << "sql have error" << query.lastError();
+        return false;
+    }
+    query.next();
+    //存在了
+    if(query.value(0).toString() != ""){
+        qDebug() << "The name is esit = " << newId;
+        return false;
+    }
+    //更新
+    bool sqlRes = query.exec(QString("update usertable set userID = '%1' where userID = '%2'").arg(newId).arg(oldId));
     if(!sqlRes)
     {
         qDebug() << "error :" << query.lastError();

@@ -12,10 +12,13 @@ Window {
     color: "white"
     property string allColor: "#DE739F";
     property bool _quit: false;
+    property var userValue: ""
+    property var userKey: ""
     //用户名
     property var userName: ""
     property var userPwd: ""
     property var userPhone: ""
+    property var userType: ""
 
     StackView{
         id:stack
@@ -57,6 +60,7 @@ Window {
         switch(code){
         case 1:stack.push(testPage); break;
         case 5:stack.push(accountInfoPage);break;
+        case 6:stack.push(editPage);break;
         }
     }
 
@@ -65,6 +69,7 @@ Window {
     Component {id:logPage; IntoLogin{}}
     Component {id:enterPage; EnterPage{}}
     Component {id: accountInfoPage; AccountInfoPage{}}
+    Component {id: editPage; EditPage{}}
 
     Timer{
         id:quitTimer

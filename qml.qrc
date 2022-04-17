@@ -58,6 +58,7 @@
         <file>qmls/Page/AccountInfoPage.qml</file>
         <file>qmls/Component/StackPageBase.qml</file>
         <file>qmls/Component/ListItemForUserInfo.qml</file>
+        <file>qmls/Page/EditPage.qml</file>
     </qresource>
     <qresource prefix="/qmls"/>
     <qresource prefix="/sqs" lang="qws"/>

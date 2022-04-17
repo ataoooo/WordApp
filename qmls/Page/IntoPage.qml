@@ -262,7 +262,8 @@ Rectangle{
         var uId = userId.recieveText();
         var upwd = userPsw.recieveText()
         var pwd =  myDB.findPwd(userId.recieveText());
-        root.userPhone = myDB.getPhone(uId)
+        root.userPhone = myDB.getPhone(uId);
+        root.userType = myDB.findType(uId);
         root.userName = uId
         root.userPwd = pwd
         console.log("userId is :", uId," - ",upwd," - ",pwd);

@@ -15,6 +15,8 @@ public:
     //---------------用户信息----------------
     //查询用户密码
     Q_INVOKABLE QString findPwd(QString id);
+    //查询用户类别
+    Q_INVOKABLE QString findType(QString id);
     //获取电话
     Q_INVOKABLE QString getPhone(QString id);
     //插入用户信息
@@ -23,6 +25,15 @@ public:
     Q_INVOKABLE bool findPhone(QString phone);
     //删除记录
     Q_INVOKABLE bool delRecord(QString context);
+
+    //更改密码
+    Q_INVOKABLE bool upGradePwd(QString id,QString pwd);
+    //更改电话
+    Q_INVOKABLE bool upGradePhone(QString id,QString phone);
+    //更改用户类别
+    Q_INVOKABLE bool upGradeType(QString id,QString uType);
+    //更改用户名
+    Q_INVOKABLE bool upGradeName(QString oldId,QString newId);
     //---------------用户信息----------------
 };
 

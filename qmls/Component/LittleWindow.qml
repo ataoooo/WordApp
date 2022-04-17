@@ -22,7 +22,7 @@ Item {
         modal: true
         closePolicy: Popup.NoAutoClose
         background: Rectangle{
-            color: "#EBAEC2"
+            color: "white"//"#EBAEC2"
             anchors.fill: parent
             radius: 5
         }
@@ -121,10 +121,6 @@ Item {
                 height: dp(6)
                 radius: 5
                 color: allColor
-//                anchors.bottom: parent.bottom
-//                anchors.bottomMargin: dp(2)
-//                anchors.left: parent.left
-//                anchors.leftMargin: (parent.width - okBtn.width) / 2
                 Text {
                     anchors.centerIn: parent
                     text: qsTr("取消")
@@ -139,6 +135,5 @@ Item {
                 }
             }
         }
-
     }
 }

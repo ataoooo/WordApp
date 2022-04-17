@@ -21,6 +21,8 @@ ComboBox {
     property real textLeftPadding: width * 0.3;
     property real beforeIndex: 0;
     property real itemHeight: 40
+    property var clickColor: "red"
+    property var mainColor: allColor
 
     delegate: ItemDelegate {
         width: combobox.width
@@ -56,7 +58,7 @@ ComboBox {
             context.lineTo(width, 0);
             context.lineTo(width / 2, height);
             context.closePath();
-            context.fillStyle = combobox.pressed ? "red": allColor;
+            context.fillStyle = combobox.pressed ? clickColor: mainColor;
             context.fill();
         }
     }
@@ -75,7 +77,7 @@ ComboBox {
     background: Rectangle {
         implicitWidth: parent.width;
         implicitHeight: parent.height;
-        border.color: allColor;
+        border.color: mainColor;
         border.width: combobox.visualFocus ? 2 : 1
         radius: combRadius
     }
