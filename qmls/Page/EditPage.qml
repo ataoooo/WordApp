@@ -39,6 +39,11 @@ Page {
                     var res = true;
                     switch(txtType){
                     case "密码":
+                        if(root.userPwd == rightEdit.text)
+                        {
+                            stack.pop();
+                            return;
+                        }
                         res = myDB.upGradePwd(root.userName,rightEdit.text);
                         if(res)
                         {
@@ -49,6 +54,11 @@ Page {
                             winError.visible = true;
                         break;
                     case "电话":
+                        if(root.userPhone == rightEdit.text)
+                        {
+                            stack.pop();
+                            return;
+                        }
                         res = myDB.upGradePwd(root.userName,rightEdit.text);
                         if(res)
                         {
@@ -59,6 +69,11 @@ Page {
                             winError.visible = true;
                         break;
                     case "身份":
+                        if(root.userType == combb.displayText)
+                        {
+                            stack.pop();
+                            return;
+                        }
                         res = myDB.upGradeType(root.userName,combb.currentText);
                         if(res)
                         {
@@ -69,6 +84,11 @@ Page {
                             winError.visible = true;
                         break;
                     case "名称":
+                        if(root.userName == rightEdit.text)
+                        {
+                            stack.pop();
+                            return;
+                        }
                         res = myDB.upGradeName(root.userName,rightEdit.text);
                         if(res)
                         {
