@@ -33,8 +33,15 @@ Rectangle{
             anchors.centerIn: parent
         }
         MouseArea{
+            anchors.fill: parent
             onClicked: {
-                //???咋搞类？wait
+                if(searchEd.text == "") return;
+                root.searchTxt = searchEd.text
+                console.log("aaaa:",stack.depth)
+                root.wordTxt = wordDB.searchTargetWord(searchTxt);
+                if(stack.depth > 1)
+                    root.pop()
+                root.pushStack(3)
             }
         }
     }
@@ -43,6 +50,7 @@ Rectangle{
     TextField{
         id:searchEd
         clip: false
+        focus: true
         height: parent.height
         //text: zonelist.currentIndex
         //输入字母以及空格
@@ -53,10 +61,10 @@ Rectangle{
             right: textRec.left
             rightMargin: dp(1)
         }
+        text: root.searchTxt
         background: Rectangle{
             color: "transparent"
         }
-        focus: true
         //监听键盘事件
         Keys.onReleased: {
             var tmp = wordDB.searchWord(searchEd.text)
@@ -115,8 +123,6 @@ Rectangle{
             }
         }
     }
-
-
 
 
 }

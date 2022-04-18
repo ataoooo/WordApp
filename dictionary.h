@@ -11,6 +11,7 @@ public:
 
     Q_INVOKABLE QVariantList searchWord(QString prefiex);
 
+    Q_INVOKABLE QVariantList searchTargetWord(QString word);
 private:
     bool connectDB();
 

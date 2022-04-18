@@ -71,7 +71,7 @@ Page {
                 height: parent.height;
                 onClicked:{
                     console.log("click ewm")
-                    //要做什么呢？？？？wait
+                    root.pushStack(2)
                 }
             }
         }

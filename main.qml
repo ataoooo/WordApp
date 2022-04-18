@@ -20,6 +20,10 @@ Window {
     property var userPhone: ""
     property var userType: ""
 
+    //
+    property var searchTxt: ""
+    property var wordTxt
+
     StackView{
         id:stack
         anchors.fill: parent
@@ -59,6 +63,8 @@ Window {
     function pushStack(code){
         switch(code){
         case 1:stack.push(testPage); break;
+        case 2:stack.push(adverPage); break;
+        case 3:stack.push(showWordPage);break;
         case 5:stack.push(accountInfoPage);break;
         case 6:stack.push(editPage);break;
         }
@@ -68,8 +74,10 @@ Window {
     Component {id:mainPage; IntoPage{}}
     Component {id:logPage; IntoLogin{}}
     Component {id:enterPage; EnterPage{}}
-    Component {id: accountInfoPage; AccountInfoPage{}}
-    Component {id: editPage; EditPage{}}
+    Component {id:accountInfoPage; AccountInfoPage{}}
+    Component {id:editPage; EditPage{}}
+    Component {id:adverPage; AdverPage{}}
+    Component {id:showWordPage; ShowWordPage{}}
 
     Timer{
         id:quitTimer
@@ -120,6 +128,5 @@ Window {
     function loginView(){
         page.sourceComponent = logPage
     }
-
 
 }

@@ -59,6 +59,9 @@
         <file>qmls/Component/StackPageBase.qml</file>
         <file>qmls/Component/ListItemForUserInfo.qml</file>
         <file>qmls/Page/EditPage.qml</file>
+        <file>qmls/Page/AdverPage.qml</file>
+        <file>assets/mdpi/adver.jpg</file>
+        <file>qmls/Page/ShowWordPage.qml</file>
     </qresource>
     <qresource prefix="/qmls"/>
     <qresource prefix="/sqs" lang="qws"/>

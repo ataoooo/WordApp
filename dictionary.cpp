@@ -6,6 +6,7 @@
 #include <QSqlError>
 #include <QFile>
 #include <QDebug>
+#include <QSqlRecord>
 Dictionary::Dictionary(QObject* parent) : QObject (parent){}
 
 bool Dictionary::connectDB()
@@ -17,13 +18,13 @@ bool Dictionary::connectDB()
         db = QSqlDatabase::addDatabase("QSQLITE");
 
 
-//    QFile file("/storage/emulated/0/data/lookup.db");
-//    if(!file.exists() || file.size() == 0)
-//    {
-//        QFile::copy("assets:/dbfile/lookup.db","/storage/emulated/0/data/lookup.db");
-//        file.setPermissions(QFile::ReadUser  | QFile::WriteUser);
-//    }
-//    db.setDatabaseName("/storage/emulated/0/data/lookup.db");
+    //    QFile file("/storage/emulated/0/data/lookup.db");
+    //    if(!file.exists() || file.size() == 0)
+    //    {
+    //        QFile::copy("assets:/dbfile/lookup.db","/storage/emulated/0/data/lookup.db");
+    //        file.setPermissions(QFile::ReadUser  | QFile::WriteUser);
+    //    }
+    //    db.setDatabaseName("/storage/emulated/0/data/lookup.db");
 
     db.setDatabaseName("./lookup.db");
     if(!db.open())
@@ -42,7 +43,7 @@ QVariantList Dictionary::searchWord(QString prefiex)
     }
     QSqlQuery query;
     //≤È—Ø
-    bool sqlRes = query.exec(QString("select word from dict_a_b"));
+    bool sqlRes = query.exec(QString("select word from allWords"));
     if(!sqlRes)
     {
         qDebug() << "error :" << query.lastError();
@@ -61,5 +62,42 @@ QVariantList Dictionary::searchWord(QString prefiex)
         else if( start ) break;
     }
     return  zoneIdList;
+}
+
+QVariantList Dictionary::searchTargetWord(QString word)
+{
+    if(connectDB()==false)
+    {
+        qDebug() << "connect db fail";
+        return QVariantList();
+    }
+    QSqlQuery query;
+    //≤È—Ø
+    qDebug() << "The word is = " << word;
+    bool sqlRes = query.exec(QString("select * from allWords where word = '%1'").arg(word));
+    if(!sqlRes)
+    {
+        qDebug() << "error :" << query.lastError();
+        return QVariantList();
+    }
+    QVariantList zoneIdList;
+    query.next();
+    for(int i = 0 ; i < query.record().count() ; ++ i)
+    {
+        qDebug() << "word context : = " << query.value(i).toString();
+        zoneIdList.push_back(query.value(i).toString());
+    }
+
+    //«∞◊∫¥ 
+    sqlRes = query.exec(QString("select * from prefixes where variant = '%1'").arg(word));
+    if(!sqlRes)
+    {
+        qDebug() << "error :" << query.lastError();
+        return QVariantList();
+    }
+    query.next();
+    zoneIdList.push_back(query.value(1).toString());
+
+    return zoneIdList;
 }
 
