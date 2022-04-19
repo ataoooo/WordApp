@@ -6,6 +6,7 @@
 #include <QSqlError>
 #include <QFile>
 #include <QDebug>
+#include <QSqlRecord>
 myDataBase::myDataBase(QObject* parent) : QObject (parent){}
 
 bool myDataBase::checkConnectDB(QString dbName)
@@ -65,6 +66,23 @@ QString myDataBase::getPhone(QString id)
     return uPhone;
 }
 
+int myDataBase::getUserSno(QString id)
+{
+    bool conRes = checkConnectDB("./userTable.db");
+    if( !conRes ) return -1;
+    QSqlQuery query;
+    bool res = query.exec(QString("select sno from usertable where userID = '%1'").arg(id));
+    if(!res)
+    {
+        qDebug() << "sql have error" << query.lastError();
+        return -1;
+    }
+    query.next();
+    int usno = query.value(0).toInt();
+    qDebug() << "The id is = " << usno;
+    return usno;
+}
+
 QString myDataBase::findType(QString id)
 {
     bool conRes = checkConnectDB("./userTable.db");
@@ -106,13 +124,20 @@ bool myDataBase::insertRecord(QString phoneNum,QString userType,QString userID,Q
     if( !conRes ) return false;
     QSqlQuery query;
     //²åÈë
-    bool sqlRes = query.exec(QString("insert into usertable values('%1','%2','%3','%4')").
-                             arg(userID).arg(userType).arg(pwd).arg(phoneNum));
+    bool sqlRes = query.exec(QString("insert into usertable values('%1','%2','%3','%4','%5')").
+                             arg(userID).arg(userType).arg(pwd).arg(phoneNum).arg(-1));
     if(!sqlRes)
     {
         qDebug() << "error :" << query.lastError();
         return false;
     }
+
+    //¸üÐÂsno
+    query.exec("select sno from usertable order by sno desc limit 1;");
+    query.next();
+    int tmpsno = query.value(0).toInt() + 1;
+    qDebug() << "The sno is = " << tmpsno;
+    query.exec(QString("update usertable set sno = '%1' where userID = '%2'").arg(tmpsno).arg(userID));
     return true;
 }
 

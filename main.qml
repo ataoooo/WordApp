@@ -19,6 +19,7 @@ Window {
     property var userPwd: ""
     property var userPhone: ""
     property var userType: ""
+    property var userSno: ""
 
     //
     property var searchTxt: ""
@@ -65,8 +66,10 @@ Window {
         case 1:stack.push(testPage); break;
         case 2:stack.push(adverPage); break;
         case 3:stack.push(showWordPage);break;
+        case 4:stack.push(editWordPage);break;
         case 5:stack.push(accountInfoPage);break;
         case 6:stack.push(editPage);break;
+        case 7:stack.push(shopView);break;
         }
     }
 
@@ -78,6 +81,8 @@ Window {
     Component {id:editPage; EditPage{}}
     Component {id:adverPage; AdverPage{}}
     Component {id:showWordPage; ShowWordPage{}}
+    Component {id:editWordPage; EditWordPage{}}
+    Component {id:shopView; ShopView{}}
 
     Timer{
         id:quitTimer
@@ -127,6 +132,29 @@ Window {
     //去往注册页面
     function loginView(){
         page.sourceComponent = logPage
+    }
+
+    function splitString(str){
+        if(str == "") return str;
+        str = str.substring(1,str.length - 1);
+        var slist = str.split(',');
+        var showstr = ""
+        for(var i = 0 ; i < 7 ; ++ i){
+            var tmplist = slist[i].split(':');
+            if(tmplist[1].length == 3) continue;
+            switch(tmplist[0]){
+            case '"word_third"':showstr += "第三人称形式: ";break;
+            case ' "word_done"':showstr += "过去分词形式: ";break;
+            case ' "word_pl"':showstr += "复数形式: ";break;
+            case ' "word_est"':showstr += "最高级形式: ";break;
+            case ' "word_ing"':showstr += "现在分词形式: ";break;
+            case ' "word_er"':continue;
+            case ' "word_past"':showstr += "过去式: ";break;
+            }
+            showstr += tmplist[1].substring(3,tmplist[1].length - 2);
+            showstr += "\n";
+        }
+        return showstr;
     }
 
 }

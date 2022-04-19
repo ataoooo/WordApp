@@ -31,5 +31,4 @@ Rectangle{
         }
     }
 
-
 }

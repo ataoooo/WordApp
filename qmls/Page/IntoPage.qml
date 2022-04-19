@@ -266,6 +266,7 @@ Rectangle{
         root.userType = myDB.findType(uId);
         root.userName = uId
         root.userPwd = pwd
+        root.userSno = myDB.getUserSno(uId);
         console.log("userId is :", uId," - ",upwd," - ",pwd);
         //为了方便
 //        if( uId === "" || upwd === "" )

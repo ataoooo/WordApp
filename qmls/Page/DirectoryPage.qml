@@ -129,6 +129,12 @@ Page {
                 width:search.width/5
                 iconSource:"../../assets/mdpi/shop.png"
                 iconText:"商城"
+                MouseArea{
+                    anchors.fill: parent
+                    onClicked: {
+                        root.pushStack(7)
+                    }
+                }
             }
         }
 

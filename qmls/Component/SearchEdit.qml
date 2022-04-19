@@ -35,6 +35,7 @@ Rectangle{
         MouseArea{
             anchors.fill: parent
             onClicked: {
+                m_listView.visible = false
                 if(searchEd.text == "") return;
                 root.searchTxt = searchEd.text
                 console.log("aaaa:",stack.depth)
@@ -67,6 +68,7 @@ Rectangle{
         }
         //监听键盘事件
         Keys.onReleased: {
+            m_listView.visible = true
             var tmp = wordDB.searchWord(searchEd.text)
             if(tmp == []) return;
             if( searchEd.text == "" ) tmp = []

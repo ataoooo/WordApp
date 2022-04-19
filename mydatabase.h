@@ -19,6 +19,8 @@ public:
     Q_INVOKABLE QString findType(QString id);
     //获取电话
     Q_INVOKABLE QString getPhone(QString id);
+    //获取唯一序列号
+    Q_INVOKABLE int getUserSno(QString id);
     //插入用户信息
     Q_INVOKABLE bool insertRecord(QString phoneNum,QString userType,QString userID,QString pwd);
     //查看号码是否被注册

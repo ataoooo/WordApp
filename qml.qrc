@@ -62,7 +62,15 @@
         <file>qmls/Page/AdverPage.qml</file>
         <file>assets/mdpi/adver.jpg</file>
         <file>qmls/Page/ShowWordPage.qml</file>
+        <file>assets/mdpi/searchFail.png</file>
+        <file>assets/mdpi/nosc.png</file>
+        <file>assets/mdpi/sc.png</file>
+        <file>qmls/Page/EditWordPage.qml</file>
+        <file>qmls/Component/EditWord.qml</file>
+        <file>qmls/Component/EditInputWord.qml</file>
+        <file>qmls/Page/ShopView.qml</file>
+        <file>assets/mdpi/shop.jpg</file>
     </qresource>
     <qresource prefix="/qmls"/>
-    <qresource prefix="/sqs" lang="qws"/>
+    <qresource lang="qws" prefix="/sqs"/>
 </RCC>

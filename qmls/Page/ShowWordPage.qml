@@ -1,6 +1,7 @@
 ﻿import QtQuick 2.0
 import QtQuick.Controls 2.5
 import "../Component"
+
 Page {
     id: page3
     anchors.fill: parent
@@ -9,8 +10,33 @@ Page {
     Rectangle{
         anchors.fill: parent
         z: 0
-        color: "white"
+        color: "#F6DAE3"
     }
+
+    //失败的图标显示
+    Rectangle{
+        id:failRec
+        visible: root.wordTxt[0] == ""
+        anchors.centerIn: parent
+        width: parent.width
+        color: "transparent"
+        height: parent.height / 3
+        Image {
+            id: failIcon
+            source: "../../assets/mdpi/searchFail.png"
+            fillMode: Image.PreserveAspectFit;
+            anchors.horizontalCenter: parent.horizontalCenter
+        }
+        Text {
+            text: "词典内暂未收录该单词.."
+            color: "#707070"
+            font.pixelSize: dp(5)
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.top: failIcon.bottom
+            anchors.topMargin: dp(3)
+        }
+    }
+
 
     ///整体作一个可滑动页面
     Flickable {
@@ -58,6 +84,7 @@ Page {
         }
         Column
         {
+            visible: !failRec.visible
             width: parent.width
             anchors{
                 top: search.bottom
@@ -69,7 +96,8 @@ Page {
             //音标
             Rectangle{
                 id:soundRec
-                width: parent.width - dp(5)
+                color: "transparent"
+                width: root.wordTxt[2] != "" ? parent.width - dp(5) : ""
                 height: dp(10)
                 Text {
                     text: root.wordTxt[2]
@@ -80,6 +108,7 @@ Page {
             Rectangle{
                 id:mainRec
                 width: parent.width - dp(5)
+                color: "transparent"
                 height: mainTxt.height
                 Text {
                     id:mainTxt
@@ -92,6 +121,7 @@ Page {
             //词根
             Rectangle{
                 width: parent.width - dp(5)
+                color: "transparent"
                 height: (root.wordTxt[9] != "") ? dp(10) : 0
                 Text {
                     visible: parent.height != 0
@@ -105,8 +135,10 @@ Page {
             //各种词性转化
             Rectangle{
                 width: parent.width - dp(5)
-                height: (splitString(root.wordTxt[7]) != "") ? dp(10) : 0
+                color: "transparent"
+                height: (splitString(root.wordTxt[7]) != "") ? txt.height : 0
                 Text {
+                    id:txt
                     visible: parent.height != 0
                     width: parent.width
                     text: splitString(root.wordTxt[7])
@@ -115,34 +147,105 @@ Page {
                 }
             }
 
+            Rectangle{
+                width: parent.width - dp(5)
+                color: "transparent"
+                height: ((reciveSentence(root.wordTxt[1])) != "") ? txt2.height : 0
+                Text {
+                    id:txt2
+                    width: parent.width
+                    text: reciveSentence(root.wordTxt[1])
+                    wrapMode: Text.Wrap
+                    font.pixelSize: dp(5)
+                }
+            }
         }
 
+        //收藏按钮
+        Image {
+            id:scIcon
+            source: isCollect() ? "../../assets/mdpi/sc.png" : "../../assets/mdpi/nosc.png"
+            visible: !failRec.visible
+            height: dp(6)
+            fillMode: Image.PreserveAspectFit
+            property bool issc: isCollect() ? true : false
+            anchors{
+                bottom: parent.bottom
+                bottomMargin: dp(8)
+                left: parent.left
+                leftMargin: dp(5)
+            }
+            MouseArea{
+                anchors.fill: parent
+                onClicked: {
+                    console.log("click the sc")
+                    scIcon.source = scIcon.issc ? "../../assets/mdpi/nosc.png" : "../../assets/mdpi/sc.png";
+                    scIcon.issc = !scIcon.issc
+                    if(!scIcon.issc){
+                        wordDB.cancelCollect(root.userSno,root.wordTxt[1]);
+                        root.showMsgHint("取消收藏")
+                    }
+                    else{
+                        wordDB.collectWord(root.userSno,root.wordTxt[1],root.wordTxt[2],root.wordTxt[3],root.wordTxt[4],
+                                           root.wordTxt[5],root.wordTxt[6],root.wordTxt[7],root.wordTxt[8])
+                        root.showMsgHint("收藏成功")
+                    }
+                }
+            }
+        }
 
+        //编辑按钮
+        Rectangle{
+            id:editBtn
+            visible: !failRec.visible
+            width: dp(76) * 0.37
+            height: dp(10)
+            radius: 5
+            color: allColor
+            anchors{
+                bottom: parent.bottom
+                bottomMargin: dp(5)
+                right: parent.right
+                rightMargin: dp(3)
+            }
+
+            Text {
+                anchors.centerIn: parent
+                text: qsTr("编辑单词")
+                color: "white"
+                font.pixelSize: parent.height * 0.5
+            }
+            MouseArea{
+                anchors.fill: parent
+                onClicked:{
+                    root.pushStack(4);
+                }
+            }
+        }
     }
 
 
-    function splitString(str){
-        if(str == "") return str;
-        str = str.substring(1,str.length - 1);
-        var slist = str.split(',');
-        var showstr = ""
-        for(var i = 0 ; i < 7 ; ++ i){
-            var tmplist = slist[i].split(':');
-            if(tmplist[1].length == 3) continue;
-            console.log("test == ",tmplist[0],tmplist[0].length)
-            switch(tmplist[0]){
-            case '"word_third"':showstr += "第三人称形式: ";break;
-            case ' "word_done"':showstr += "过去分词形式: ";break;
-            case ' "word_pl"':showstr += "复数形式: ";break;
-            case ' "word_est"':showstr += "最高级形式: ";break;
-            case ' "word_ing"':showstr += "现在分词形式: ";break;
-            case ' "word_er"':continue;
-            case ' "word_past"':showstr += "过去式: ";break;
-            }
-            showstr += tmplist[1].substring(3,tmplist[1].length - 2);
-            showstr += "\n";
+    //获取例句
+    function reciveSentence(str){
+        console.log("The target word  is = ",str)
+        var sen = wordDB.getSentence(str);
+        if(sen == "" ) return "";
+        console.log("aaaaaaaaaaaaaa\n",sen[0],'\n',sen[1],'\n',sen[2],'\n',sen[3])
+        var showStr = "例句：\n";
+        for(var i = 0 ; i < 4 ; i+=2)
+        {
+            showStr += sen[i];
+            showStr += '\n';
+            showStr += sen[i+1]
+            showStr += '\n\n';
+
         }
-        return showstr;
+        console.log("The sentence is = ",showStr)
+        return showStr;
+    }
+
+    function isCollect(){
+        return wordDB.isCollect(root.userSno,root.wordTxt[1]);
     }
 
 }
