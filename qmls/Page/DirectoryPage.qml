@@ -103,12 +103,6 @@ Page {
                 width:search.width/5
                 iconSource:"../../assets/mdpi/book.png"
                 iconText:"单词本"
-                MouseArea{
-                    anchors.fill: parent
-                    onClicked: {
-                        console.log("click the image")
-                    }
-                }
             }
             PngEdit{
                 width:search.width/5
@@ -121,9 +115,14 @@ Page {
                 iconText:"我的笔记"
             }
             PngEdit{
-                width:search.width/5
-                iconSource:"../../assets/mdpi/englishLevel .png"
-                iconText:"四六级"
+                width: search.width/5
+                iconSource:"../../assets/mdpi/import.png"
+                iconText:"导入单词"
+                MouseArea{
+                    anchors.fill: parent
+                    onClicked:{
+                        root.pushStack(8)}
+                }
             }
             PngEdit{
                 width:search.width/5
@@ -131,9 +130,7 @@ Page {
                 iconText:"商城"
                 MouseArea{
                     anchors.fill: parent
-                    onClicked: {
-                        root.pushStack(7)
-                    }
+                    onClicked: root.pushStack(7)
                 }
             }
         }
@@ -199,8 +196,6 @@ Page {
                 else swipeView.currentIndex = 0;
             }
         }
-
-
         //底部按键组布局
     }
 

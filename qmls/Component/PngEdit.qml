@@ -30,5 +30,4 @@ Rectangle{
             anchors.centerIn: parent
         }
     }
-
 }

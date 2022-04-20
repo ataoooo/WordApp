@@ -25,7 +25,11 @@ public:
     //取消收藏英语单词
     Q_INVOKABLE bool cancelCollect(QString bookname,QString word);
 
+    //是否收藏
     Q_INVOKABLE bool isCollect(QString bookname,QString word);
+
+    //导入单词
+    Q_INVOKABLE bool importWord(QString sno,QString word,QString mean);
 private:
     bool connectDB();
 
@@ -34,6 +38,9 @@ private:
 
     //收藏英语单词
     bool createCollectTable(int sno);
+
+    //导入的单词
+    bool createImportTable(int sno);
 };
 
 #endif // DICTIONARY_H

@@ -70,6 +70,7 @@ Window {
         case 5:stack.push(accountInfoPage);break;
         case 6:stack.push(editPage);break;
         case 7:stack.push(shopView);break;
+        case 8:stack.push(importWordPage);break;
         }
     }
 
@@ -83,6 +84,8 @@ Window {
     Component {id:showWordPage; ShowWordPage{}}
     Component {id:editWordPage; EditWordPage{}}
     Component {id:shopView; ShopView{}}
+    Component {id:importWordPage; ImportWordPage{}}
+
 
     Timer{
         id:quitTimer

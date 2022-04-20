@@ -88,7 +88,6 @@ Rectangle{
         source: isPsw ? "../../assets/mdpi/ic_eye_off1.png":""
         MouseArea{
             anchors.fill: parent
-
             onClicked: {
                 if(!parent.showpsw){
                     parent.showpsw = !parent.showpsw

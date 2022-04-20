@@ -35,7 +35,6 @@
         <file>assets/mdpi/phrase.png</file>
         <file>qmls/Component/PngEdit.qml</file>
         <file>assets/mdpi/noteBool.png</file>
-        <file>assets/mdpi/englishLevel .png</file>
         <file>assets/mdpi/shop.png</file>
         <file>assets/mdpi/ic_dictionary_color.png</file>
         <file>assets/mdpi/ic_dictionary_grey.png</file>
@@ -70,6 +69,10 @@
         <file>qmls/Component/EditInputWord.qml</file>
         <file>qmls/Page/ShopView.qml</file>
         <file>assets/mdpi/shop.jpg</file>
+        <file>assets/mdpi/import.png</file>
+        <file>qmls/Page/ImportWordPage.qml</file>
+        <file>qmls/Component/AddWordText.qml</file>
+        <file>qmls/Page/RemeberPage.qml</file>
     </qresource>
     <qresource prefix="/qmls"/>
     <qresource lang="qws" prefix="/sqs"/>

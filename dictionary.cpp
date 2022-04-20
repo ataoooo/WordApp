@@ -168,6 +168,25 @@ bool Dictionary::createEditBook(int sno)
     return true;
 }
 
+bool Dictionary::createImportTable(int sno)
+{
+    if(connectDB()==false)
+    {
+        qDebug() << "connect db fail";
+        return false;
+    }
+    QSqlQuery query;
+    QString tablename = "ImportTable" + QString::number(sno);
+    qDebug() << "The tablename is = " << tablename;
+    bool sqlRes = query.exec(QString("create table %1 (word text primary key,mean_cn text)").arg(tablename));
+    if(!sqlRes)
+    {
+        qDebug() << "error :" << query.lastError();
+        return false;
+    }
+    return true;
+}
+
 bool Dictionary::saveWordToBook(QString bookname,QString word,QString accent,QString mean_cn,int freq,
                                 int wordlength,int exID,QString tenses,QString voice){
     createEditBook(bookname.toInt());
@@ -236,4 +255,18 @@ bool Dictionary::isCollect(QString bookname,QString word)
     bool res = query.exec(QString("select word from %1 where word = '%2'").arg(tablename).arg(word));
     query.next();
     return query.value(0).toString() != "";
+}
+
+bool Dictionary::importWord(QString sno,QString word,QString mean){
+    createImportTable(sno.toInt());
+    QString tablename = "ImportTable" + sno;
+    //²åÈë
+    QSqlQuery query;
+    bool res = query.exec(QString("insert into %1 values('%2','%3')").arg(tablename).arg(word).arg(mean));
+    if(!res)
+    {
+        qDebug() << "insert error :" << query.lastError();
+        return false;
+    }
+    return true;
 }

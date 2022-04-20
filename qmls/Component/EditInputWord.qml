@@ -49,9 +49,6 @@ Rectangle{
             font{
                 pixelSize: dp(4)
             }
-            //截取超出部分
-            //clip: true
-            //默认Text.QtRendering看起来比较模糊
             renderType: Text.NativeRendering
             //文本换行，默认NoWrap
             wrapMode: TextEdit.Wrap
