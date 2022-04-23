@@ -213,6 +213,8 @@ Rectangle{
         else
         {
             console.log("login success")
+            //建立一张新的单词数据表
+            wordDB.createAllWordTable(myDB.getUserSno(uID));
             root.enterLogin()
         }
     }

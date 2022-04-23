@@ -20,6 +20,7 @@ Window {
     property var userPhone: ""
     property var userType: ""
     property var userSno: ""
+    property var tablename: ""
 
     //
     property var searchTxt: ""
@@ -85,7 +86,6 @@ Window {
     Component {id:editWordPage; EditWordPage{}}
     Component {id:shopView; ShopView{}}
     Component {id:importWordPage; ImportWordPage{}}
-
 
     Timer{
         id:quitTimer

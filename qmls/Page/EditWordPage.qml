@@ -121,18 +121,14 @@ Page{
     }
 
     function saveMessage(){
-        var cno = root.userSno;
         var word = root.wordTxt[1];
         var accent = soundRec.contexts;
         console.log("test accent = ",accent);
         var mean = wmean.contexts;
         console.log("test mean = ",mean);
-        var freq = root.wordTxt[4];
-        var wordlen = root.wordTxt[5];
-        var exID = root.wordTxt[6];
         var tenses = compareTenses()
-        var voice = root.wordTxt[8];
-        var res = wordDB.saveWordToBook(cno,word,accent,mean,freq,wordlen,exID,tenses,voice);
+        var origin = gen.contexts;
+        var res = wordDB.saveWordToBook(root.tablename,word,accent,mean,tenses,origin);
         return res;
     }
 
@@ -173,6 +169,7 @@ Page{
         if( cxEdit.contexts == "") return "";
         var showstr = "{"
         var typelist = cxEdit.contexts.split('\n');
+        var addx = false;
         for(var i = 0 ; i < 6 ; ++i)
         {
             console.log("aaaa: ",typelist[i]);
@@ -182,13 +179,18 @@ Page{
             case '过去分词形式':showstr += '"word_done": ';break;
             case '复数形式':showstr += '"word_pl": ';break;
             case '最高级形式':showstr += '"word_est": ';break;
-            case '现在分词形式':showstr += '"word_ing": ';break;
+            case '现在分词形式':showstr += '"word_ing": ';addx = true; break;
             case '过去式':showstr += '"word_past": ';break;
             }
             var tmpstr = tmplist[1].substring(1);
             showstr += (tmpstr != "" ?  '["' : '"');
             showstr += tmpstr;
             showstr += (tmpstr != "" ?  '"]' : '"');
+            if(addx)
+            {
+                showstr += ', "word_er": ""';
+            }
+
             if(i!=5)
                 showstr += ', ';
         }

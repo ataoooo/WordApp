@@ -73,6 +73,14 @@
         <file>qmls/Page/ImportWordPage.qml</file>
         <file>qmls/Component/AddWordText.qml</file>
         <file>qmls/Page/RemeberPage.qml</file>
+        <file>assets/mdpi/false.png</file>
+        <file>assets/mdpi/next.png</file>
+        <file>assets/mdpi/noshowanswer.png</file>
+        <file>assets/mdpi/prefer.png</file>
+        <file>assets/mdpi/right.png</file>
+        <file>assets/mdpi/showanser.png</file>
+        <file>assets/mdpi/start.png</file>
+        <file>assets/mdpi/stop.png</file>
     </qresource>
     <qresource prefix="/qmls"/>
     <qresource lang="qws" prefix="/sqs"/>

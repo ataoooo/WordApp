@@ -21,6 +21,7 @@ Rectangle{
 
         DirectoryPage{id:direPage}
         UserPage{id:userPage}
+        RemeberPage{id:remeberPage}
 
         states: [
             State {
@@ -33,7 +34,7 @@ Rectangle{
             },
             State {
                 name: "remember"
-                PropertyChanges {target: direPage;opacity:1}
+                PropertyChanges {target: remeberPage;opacity:1}
             },
             State {
                 name: "mine"
@@ -48,6 +49,7 @@ Rectangle{
         switch(tabView.state){
         case states[0]:direPage.opacity = 0; tabView.state = states[currentIndex];break;
 
+        case states[2]:remeberPage.opacity = 0;tabView.state = states[currentIndex];break;
         case states[3]:userPage.opacity = 0; tabView.state = states[currentIndex];break;
         }
     }

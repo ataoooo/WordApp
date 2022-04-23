@@ -39,7 +39,7 @@ Rectangle{
                 if(searchEd.text == "") return;
                 root.searchTxt = searchEd.text
                 console.log("aaaa:",stack.depth)
-                root.wordTxt = wordDB.searchTargetWord(searchTxt);
+                root.wordTxt = wordDB.searchTargetWord(root.tablename,searchTxt);
                 if(stack.depth > 1)
                     root.pop()
                 root.pushStack(3)
@@ -69,7 +69,7 @@ Rectangle{
         //监听键盘事件
         Keys.onReleased: {
             m_listView.visible = true
-            var tmp = wordDB.searchWord(searchEd.text)
+            var tmp = wordDB.searchWord(root.tablename,searchEd.text)
             if(tmp == []) return;
             if( searchEd.text == "" ) tmp = []
             m_listView.model = tmp

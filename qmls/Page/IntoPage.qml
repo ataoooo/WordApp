@@ -267,7 +267,8 @@ Rectangle{
         root.userName = uId
         root.userPwd = pwd
         root.userSno = myDB.getUserSno(uId);
-        console.log("userId is :", uId," - ",upwd," - ",pwd);
+        root.tablename = "allWords" + root.userSno
+        console.log("userId is :", uId," - ",upwd," - ",pwd,"-",tablename);
         //为了方便
 //        if( uId === "" || upwd === "" )
 //            return false;

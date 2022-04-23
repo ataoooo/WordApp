@@ -35,7 +35,7 @@ bool Dictionary::connectDB()
     return true;
 }
 
-QVariantList Dictionary::searchWord(QString prefiex)
+QVariantList Dictionary::searchWord(QString wordName,QString prefiex)
 {
     if(connectDB()==false)
     {
@@ -43,7 +43,7 @@ QVariantList Dictionary::searchWord(QString prefiex)
     }
     QSqlQuery query;
     //查询
-    bool sqlRes = query.exec(QString("select word from allWords"));
+    bool sqlRes = query.exec(QString("select word from '%1' order by word ASC").arg(wordName));
     if(!sqlRes)
     {
         qDebug() << "error :" << query.lastError();
@@ -64,7 +64,7 @@ QVariantList Dictionary::searchWord(QString prefiex)
     return  zoneIdList;
 }
 
-QVariantList Dictionary::searchTargetWord(QString word)
+QVariantList Dictionary::searchTargetWord(QString wordName, QString word)
 {
     if(connectDB()==false)
     {
@@ -74,7 +74,7 @@ QVariantList Dictionary::searchTargetWord(QString word)
     QSqlQuery query;
     //查询
     qDebug() << "The word is = " << word;
-    bool sqlRes = query.exec(QString("select * from allWords where word = '%1'").arg(word));
+    bool sqlRes = query.exec(QString("select * from '%1' where word = '%2'").arg(wordName).arg(word));
     if(!sqlRes)
     {
         qDebug() << "error :" << query.lastError();
@@ -86,14 +86,6 @@ QVariantList Dictionary::searchTargetWord(QString word)
     {
         qDebug() << "word context : = " << query.value(i).toString();
         zoneIdList.push_back(query.value(i).toString());
-    }
-
-    //前缀词
-    sqlRes = query.exec(QString("select * from prefixes where variant = '%1'").arg(word));
-    if(!sqlRes)
-    {
-        qDebug() << "error :" << query.lastError();
-        return QVariantList();
     }
     query.next();
     zoneIdList.push_back(query.value(1).toString());
@@ -149,23 +141,20 @@ bool Dictionary::createCollectTable(int sno)
     return true;
 }
 
-bool Dictionary::createEditBook(int sno)
+void Dictionary::createAllWordTable(QString sno)
 {
     if(connectDB()==false)
     {
         qDebug() << "connect db fail";
-        return false;
+        return;
     }
     QSqlQuery query;
-    QString tablename = "editTable" + QString::number(sno);
+    QString tablename = "allWords" + sno;
     qDebug() << "The tablename is = " << tablename;
-    bool sqlRes = query.exec(QString("create table %1 (word text primary key,accent text,mean_cn text,freq int,wordlength int,exID int,tenses text,voice text)").arg(tablename));
+    bool sqlRes = query.exec(QString("create table %1 as select * from allWords").arg(tablename));
     if(!sqlRes)
-    {
         qDebug() << "error :" << query.lastError();
-        return false;
-    }
-    return true;
+    return;
 }
 
 bool Dictionary::createImportTable(int sno)
@@ -187,18 +176,13 @@ bool Dictionary::createImportTable(int sno)
     return true;
 }
 
-bool Dictionary::saveWordToBook(QString bookname,QString word,QString accent,QString mean_cn,int freq,
-                                int wordlength,int exID,QString tenses,QString voice){
-    createEditBook(bookname.toInt());
+bool Dictionary::saveWordToBook(QString bookname,QString word,QString accent,QString mean_cn,
+                                QString tenses,QString origin){
     QSqlQuery query;
-    QString tablename = "editTable" + bookname;
-    //删除目标记录
-    bool res = query.exec(QString("delete from %1 where word = '%2'").arg(tablename).arg(word));
-    if(!res)
-        qDebug() << "delete error :" << query.lastError();
-    //插入
-    res = query.exec(QString("insert into %1 values('%2','%3','%4',%5,%6,%7,'%8','%9')")
-                     .arg(tablename).arg(word).arg(accent).arg(mean_cn).arg(freq).arg(wordlength).arg(exID).arg(tenses).arg(voice));
+    bool res = query.exec(QString("update '%1' set accent = '%2' where word = '%3'").arg(bookname).arg(accent).arg(word));
+    res = query.exec(QString("update '%1' set mean_cn = '%2' where word = '%3'").arg(bookname).arg(mean_cn).arg(word));
+    res = query.exec(QString("update '%1' set tenses = '%2' where word = '%3'").arg(bookname).arg(tenses).arg(word));
+    res = query.exec(QString("update '%1' set origin = '%2' where word = '%3'").arg(bookname).arg(origin).arg(word));
     if(!res)
     {
         qDebug() << "insert error :" << query.lastError();
@@ -207,24 +191,11 @@ bool Dictionary::saveWordToBook(QString bookname,QString word,QString accent,QSt
     return true;
 }
 
-bool Dictionary::collectWord(QString bookname,QString word,QString accent,QString mean_cn,int freq,
-                             int wordlength,int exID,QString tenses,QString voice)
+bool Dictionary::collectWord(QString bookname,QString word)
 {
-    createCollectTable(bookname.toInt());
     QSqlQuery query;
-    QString tablename = "collectTable" + bookname;
-    qDebug() << "The table name is = " << tablename;
-    qDebug() << word;
-    qDebug() << accent;
-    qDebug() << mean_cn;
-    qDebug() << freq;
-    qDebug() << wordlength;
-    qDebug() << exID;
-    qDebug() << tenses;
-    qDebug() << voice;
-    //插入
-    bool res = query.exec(QString("insert into %1 values('%2','%3','%4',%5,%6,%7,'%8','%9')")
-                     .arg(tablename).arg(word).arg(accent).arg(mean_cn).arg(freq).arg(wordlength).arg(exID).arg(tenses).arg(voice));
+    bool res = query.exec(QString("update '%1' set collect = 1 where word = '%3'")
+                     .arg(bookname).arg(word));
     if(!res)
     {
         qDebug() << "insert error :" << query.lastError();
@@ -235,11 +206,8 @@ bool Dictionary::collectWord(QString bookname,QString word,QString accent,QStrin
 
 bool Dictionary::cancelCollect(QString bookname,QString word)
 {
-    createCollectTable(bookname.toInt());
     QSqlQuery query;
-    QString tablename = "collectTable" + bookname;
-    //插入
-    bool res = query.exec(QString("delete from %1 where word = '%2'").arg(tablename).arg(word));
+    bool res = query.exec(QString("update %0 set collect = 0 where word = '%2'").arg(bookname).arg(word));
     if(!res)
     {
         qDebug() << "insert error :" << query.lastError();

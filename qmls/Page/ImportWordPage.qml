@@ -13,12 +13,58 @@ Page {
         color: "#F6DAE3"
     }
 
+    Image {
+        id:backico
+        source: "../../assets/mdpi/ic_arrow_back.png";
+        width: dp(8)
+        anchors{
+            left: parent.left;
+            leftMargin: dp(1);
+            top:parent.top
+            topMargin: dp(3)
+        }
+        fillMode: Image.PreserveAspectFit;
+        MouseArea {
+            anchors.fill: parent;
+            onClicked:{
+                root.searchTxt = "";
+                stack.pop();
+            }
+        }
+    }//退出按钮
+
+    //导入按钮
+    Rectangle{
+        anchors{
+            right: parent.right
+            rightMargin: dp(3)
+            verticalCenter: backico.verticalCenter
+        }
+        radius: dp(5)
+        width: dp(16)
+        color: allColor
+        height: dp(8)
+        Text {
+            text: "一键导入"
+            anchors.centerIn: parent
+            color: "white"
+        }
+        MouseArea{
+            anchors.fill:parent
+            onClicked: {
+                emitFun()
+                root.showMsgHint("导入成功")
+            }
+        }
+    }
+
     ///整体作一个可滑动页面
     Flickable {
         id: inner
         clip: true
         anchors{
-            top: parent.top
+            top: backico.bottom
+            topMargin: dp(3)
             horizontalCenter: parent.horizontalCenter
             bottom: parent.bottom
         }
@@ -30,50 +76,7 @@ Page {
         contentX: dp(0);
 
 
-        Image {
-            id:backico
-            source: "../../assets/mdpi/ic_arrow_back.png";
-            width: dp(8)
-            anchors{
-                left: parent.left;
-                leftMargin: dp(1);
-                top:parent.top
-                topMargin: dp(3)
-            }
-            fillMode: Image.PreserveAspectFit;
-            MouseArea {
-                anchors.fill: parent;
-                onClicked:{
-                    root.searchTxt = "";
-                    stack.pop();
-                }
-            }
-        }//退出按钮
 
-        //导入按钮
-        Rectangle{
-            anchors{
-                right: parent.right
-                rightMargin: dp(3)
-                verticalCenter: backico.verticalCenter
-            }
-            radius: dp(5)
-            width: dp(16)
-            color: allColor
-            height: dp(8)
-            Text {
-                text: "一键导入"
-                anchors.centerIn: parent
-                color: "white"
-            }
-            MouseArea{
-                anchors.fill:parent
-                onClicked: {
-                    emitFun()
-                    root.showMsgHint("导入成功")
-                }
-            }
-        }
 
         Rectangle{
             id:rec

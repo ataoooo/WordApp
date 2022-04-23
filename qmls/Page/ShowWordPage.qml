@@ -182,12 +182,12 @@ Page {
                     scIcon.source = scIcon.issc ? "../../assets/mdpi/nosc.png" : "../../assets/mdpi/sc.png";
                     scIcon.issc = !scIcon.issc
                     if(!scIcon.issc){
-                        wordDB.cancelCollect(root.userSno,root.wordTxt[1]);
+                        wordDB.cancelCollect(root.tablename,root.wordTxt[1]);
+                        root.wordTxt[10] = 0;
                         root.showMsgHint("取消收藏")
                     }
                     else{
-                        wordDB.collectWord(root.userSno,root.wordTxt[1],root.wordTxt[2],root.wordTxt[3],root.wordTxt[4],
-                                           root.wordTxt[5],root.wordTxt[6],root.wordTxt[7],root.wordTxt[8])
+                        wordDB.collectWord(root.tablename,root.wordTxt[1])
                         root.showMsgHint("收藏成功")
                     }
                 }
@@ -245,7 +245,8 @@ Page {
     }
 
     function isCollect(){
-        return wordDB.isCollect(root.userSno,root.wordTxt[1]);
+        console.log("is collect = ",root.wordTxt[10] == 0);
+        return root.wordTxt[10] != 0;
     }
 
 }
