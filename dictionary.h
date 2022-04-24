@@ -32,6 +32,9 @@ public:
 
     //导入单词
     Q_INVOKABLE bool importWord(QString sno,QString word,QString mean);
+
+    //选取需要背诵的单词
+    Q_INVOKABLE QVariantList rememberWord(QString tablename,int num);
 private:
     bool connectDB();
 

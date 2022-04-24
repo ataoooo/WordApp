@@ -8,7 +8,7 @@ Rectangle{
     property var currentIndex: 0
 
     //上层布局
-    Rectangle{
+    Rectangle {
         id:tabView
         anchors{
             bottom: tabBar.top

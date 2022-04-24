@@ -238,3 +238,28 @@ bool Dictionary::importWord(QString sno,QString word,QString mean){
     }
     return true;
 }
+
+QVariantList Dictionary::rememberWord(QString tablename,int num)
+{
+    if(connectDB()==false)
+    {
+        qDebug() << "connect db fail";
+        return QVariantList{};
+    }
+    QSqlQuery query;
+    qDebug() << "the num = " << num << "   and name is = " << tablename;
+    bool res = query.exec(QString("select * from '%1' limit 0,%2").arg(tablename).arg(num));
+    if(!res)
+    {
+        qDebug() << "select error : = " << query.lastError();
+        return QVariantList{};
+    }
+    qDebug() << "select success!";
+    QVariantList wordlst;
+    while(query.next())
+    {
+        QString tmp = "word:" + query.value(1).toString() + "-mean_cn:" + query.value(3).toString();
+        wordlst.push_back(tmp);
+    }
+    return wordlst;
+}
