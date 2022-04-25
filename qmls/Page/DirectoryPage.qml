@@ -103,6 +103,10 @@ Page {
                 width:search.width/5
                 iconSource:"../../assets/mdpi/book.png"
                 iconText:"单词本"
+                MouseArea{
+                    anchors.fill: parent
+                    onClicked: root.pushStack(9)
+                }
             }
             PngEdit{
                 width:search.width/5

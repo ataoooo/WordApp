@@ -263,3 +263,22 @@ QVariantList Dictionary::rememberWord(QString tablename,int num)
     }
     return wordlst;
 }
+
+QVariantList Dictionary::getAllWords(QString tablename){
+    if(connectDB() == false) return QVariantList{};
+    QSqlQuery query;
+    qDebug() << "The table name is = " << tablename;
+    bool res = query.exec(QString("select word,mean_cn from '%1'").arg(tablename));
+    if(!res)
+    {
+        qDebug() << "select error : = " << query.lastError();
+        return QVariantList{};
+    }
+    QVariantList wordlist;
+    while(query.next())
+    {
+        QString tmps = query.value(0).toString() + "\n" + query.value(1).toString();
+        wordlist.push_back(tmps);
+    }
+    return wordlist;
+}

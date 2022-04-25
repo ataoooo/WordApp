@@ -81,7 +81,20 @@
         <file>assets/mdpi/showanser.png</file>
         <file>assets/mdpi/start.png</file>
         <file>assets/mdpi/stop.png</file>
+        <file>qmls/Page/WordBooks.qml</file>
+        <file>assets/mdpi/bg_vip_top.png</file>
+        <file>qmls/Component/ListViewEx.qml</file>
+        <file>assets/mdpi/abc_btn_radio_to_on_mtrl_000.png</file>
+        <file>assets/mdpi/radiobtn_off.png</file>
+        <file>assets/mdpi/xlistview_arrow.png</file>
+        <file>assets/mdpi/ic_checked.png</file>
+        <file>qmls/Component/FlickableScrollBar.qml</file>
+        <file>qmls/Component/ScrollBar.qml</file>
+        <file>assets/mdpi/book_png.png</file>
+        <file>assets/mdpi/ic_ar_right.png</file>
+        <file>assets/mdpi/English_Book.png</file>
+        <file>qmls/Page/ShowDetailWord.qml</file>
     </qresource>
     <qresource prefix="/qmls"/>
-    <qresource lang="qws" prefix="/sqs"/>
+    <qresource prefix="/sqs" lang="qws"/>
 </RCC>

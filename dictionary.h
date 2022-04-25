@@ -35,6 +35,9 @@ public:
 
     //选取需要背诵的单词
     Q_INVOKABLE QVariantList rememberWord(QString tablename,int num);
+
+    //获取所有单词中英文
+    Q_INVOKABLE QVariantList getAllWords(QString tablename);
 private:
     bool connectDB();
 

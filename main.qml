@@ -22,9 +22,12 @@ Window {
     property var userSno: ""
     property var tablename: ""
 
-    //
+    //搜索
     property var searchTxt: ""
     property var wordTxt
+
+    //信号
+    signal pageTile(var mtitle);
 
     StackView{
         id:stack
@@ -72,6 +75,8 @@ Window {
         case 6:stack.push(editPage);break;
         case 7:stack.push(shopView);break;
         case 8:stack.push(importWordPage);break;
+        case 9:stack.push(wordBooks);break;
+        case 10:stack.push(showDetailWord);break;
         }
     }
 
@@ -86,6 +91,8 @@ Window {
     Component {id:editWordPage; EditWordPage{}}
     Component {id:shopView; ShopView{}}
     Component {id:importWordPage; ImportWordPage{}}
+    Component {id:wordBooks; WordBooks{}}
+    Component {id:showDetailWord; ShowDetailWord{}}
 
     Timer{
         id:quitTimer
