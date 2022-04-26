@@ -3,7 +3,7 @@ import "../Component"
 
 StackPageBase{
     id:page
-    _title:"我的单词本"
+    _title:"单词本"
     property var temp_qrmsg;
 
     ListViewEx{

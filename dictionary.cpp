@@ -282,3 +282,25 @@ QVariantList Dictionary::getAllWords(QString tablename){
     }
     return wordlist;
 }
+
+QVariantList Dictionary::getAllSentence(){
+    if(connectDB() == false) return QVariantList{};
+    QSqlQuery query;
+    QString tablename = "sentence";
+    qDebug() << "The table name is = " << tablename;
+    bool res = query.exec(QString("select * from '%1'").arg(tablename));
+    if(!res)
+    {
+        qDebug() << "select error : = " << query.lastError();
+        return QVariantList{};
+    }
+    QVariantList wordlist;
+    while(query.next())
+    {
+        //单词+句子1英中+句子二英中
+        QString tmps = query.value(0).toString() + "&" + query.value(3).toString() + "&" + query.value(4).toString()
+                + "&" + query.value(5).toString() + "&" + query.value(6).toString();
+        wordlist.push_back(tmps);
+    }
+    return wordlist;
+}

@@ -94,6 +94,8 @@
         <file>assets/mdpi/ic_ar_right.png</file>
         <file>assets/mdpi/English_Book.png</file>
         <file>qmls/Page/ShowDetailWord.qml</file>
+        <file>qmls/Page/ShowSentence.qml</file>
+        <file>assets/mdpi/icon_search1.png</file>
     </qresource>
     <qresource prefix="/qmls"/>
     <qresource prefix="/sqs" lang="qws"/>

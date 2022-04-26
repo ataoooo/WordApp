@@ -38,6 +38,9 @@ public:
 
     //获取所有单词中英文
     Q_INVOKABLE QVariantList getAllWords(QString tablename);
+
+    //获取所有句子
+    Q_INVOKABLE QVariantList getAllSentence();
 private:
     bool connectDB();
 

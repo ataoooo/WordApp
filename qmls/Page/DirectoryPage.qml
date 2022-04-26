@@ -112,6 +112,13 @@ Page {
                 width:search.width/5
                 iconSource:"../../assets/mdpi/phrase.png"
                 iconText:"例句"
+                MouseArea{
+                    anchors.fill: parent
+                    onClicked:{
+                        root.pushStack(11)
+                        root.getModel()
+                    }
+                }
             }
             PngEdit{
                 width:search.width/5

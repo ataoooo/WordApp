@@ -28,6 +28,7 @@ Window {
 
     //信号
     signal pageTile(var mtitle);
+    signal getModel();
 
     StackView{
         id:stack
@@ -77,6 +78,7 @@ Window {
         case 8:stack.push(importWordPage);break;
         case 9:stack.push(wordBooks);break;
         case 10:stack.push(showDetailWord);break;
+        case 11:stack.push(showSentence);break;
         }
     }
 
@@ -93,6 +95,7 @@ Window {
     Component {id:importWordPage; ImportWordPage{}}
     Component {id:wordBooks; WordBooks{}}
     Component {id:showDetailWord; ShowDetailWord{}}
+    Component {id:showSentence; ShowSentence{}}
 
     Timer{
         id:quitTimer

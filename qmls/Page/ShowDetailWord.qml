@@ -116,10 +116,8 @@ StackPageBase{
             MouseArea{
                 anchors.fill: parent
                 onClicked: {
-                    englishtxt.color = parent.color
                     englishtxt.text = getTxt(0,modelData)
                     englishxx.text = getTxt(0,modelData)
-                    chinesetxt.color = parent.color
                     chinesetxt.text = getTxt(1,modelData)
                     chinesexx.text = getTxt(1,modelData)
                 }
