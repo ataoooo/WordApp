@@ -195,7 +195,7 @@ bool Dictionary::collectWord(QString bookname,QString word)
 {
     QSqlQuery query;
     bool res = query.exec(QString("update '%1' set collect = 1 where word = '%3'")
-                     .arg(bookname).arg(word));
+                          .arg(bookname).arg(word));
     if(!res)
     {
         qDebug() << "insert error :" << query.lastError();
@@ -207,6 +207,7 @@ bool Dictionary::collectWord(QString bookname,QString word)
 bool Dictionary::cancelCollect(QString bookname,QString word)
 {
     QSqlQuery query;
+    qDebug() << "Table name is = " << bookname << "  and = " << word;
     bool res = query.exec(QString("update %0 set collect = 0 where word = '%2'").arg(bookname).arg(word));
     if(!res)
     {
@@ -223,6 +224,31 @@ bool Dictionary::isCollect(QString bookname,QString word)
     bool res = query.exec(QString("select word from %1 where word = '%2'").arg(tablename).arg(word));
     query.next();
     return query.value(0).toString() != "";
+}
+
+QVariantList Dictionary::collectWords(QString bookname)
+{
+    if(connectDB()==false)
+    {
+        qDebug() << "connect db fail";
+        return QVariantList{};
+    }
+    QString tableName = "allWords" + bookname;
+    qDebug() << "collect table is = " << tableName;
+    QSqlQuery query;
+    bool res = query.exec(QString("select word,mean_cn from %1 where collect = 1").arg(tableName));
+    if(!res)
+    {
+        qDebug() << "insert error :" << query.lastError();
+        return QVariantList{};
+    }
+    QVariantList wordlist;
+    while(query.next())
+    {
+        QString tmps = query.value(0).toString() + '&' + query.value(1).toString();
+        wordlist.push_back(tmps);
+    }
+    return wordlist;
 }
 
 bool Dictionary::importWord(QString sno,QString word,QString mean){

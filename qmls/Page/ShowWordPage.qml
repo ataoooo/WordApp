@@ -224,6 +224,13 @@ Page {
         }
     }
 
+    Connections{
+        target: search
+        onClickSearchBtn:{
+            scIcon.source=isCollect() ? "../../assets/mdpi/sc.png" : "../../assets/mdpi/nosc.png"
+        }
+    }
+
 
     //获取例句
     function reciveSentence(str){

@@ -12,6 +12,7 @@ Rectangle{
     }
     color: "white"
     property var singlewidth: 40
+    signal clickSearchBtn()
 
     //最右侧“搜索”文字
     Rectangle{
@@ -41,7 +42,10 @@ Rectangle{
                 console.log("aaaa:",stack.depth)
                 root.wordTxt = wordDB.searchTargetWord(root.tablename,searchTxt);
                 if(stack.depth > 1)
+                {
+                    clickSearchBtn()
                     root.pop()
+                }
                 root.pushStack(3)
             }
         }

@@ -96,6 +96,8 @@
         <file>qmls/Page/ShowDetailWord.qml</file>
         <file>qmls/Page/ShowSentence.qml</file>
         <file>assets/mdpi/icon_search1.png</file>
+        <file>assets/mdpi/collectPng.png</file>
+        <file>qmls/Page/ShowCollectWord.qml</file>
     </qresource>
     <qresource prefix="/qmls"/>
     <qresource prefix="/sqs" lang="qws"/>

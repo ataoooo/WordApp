@@ -79,6 +79,7 @@ Window {
         case 9:stack.push(wordBooks);break;
         case 10:stack.push(showDetailWord);break;
         case 11:stack.push(showSentence);break;
+        case 12:stack.push(showCollectWord);break;
         }
     }
 
@@ -96,6 +97,7 @@ Window {
     Component {id:wordBooks; WordBooks{}}
     Component {id:showDetailWord; ShowDetailWord{}}
     Component {id:showSentence; ShowSentence{}}
+    Component {id:showCollectWord; ShowCollectWord{}}
 
     Timer{
         id:quitTimer

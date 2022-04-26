@@ -30,6 +30,9 @@ public:
     //是否收藏
     Q_INVOKABLE bool isCollect(QString bookname,QString word);
 
+    //选取所有被收藏的单词
+    Q_INVOKABLE QVariantList collectWords(QString bookname);
+
     //导入单词
     Q_INVOKABLE bool importWord(QString sno,QString word,QString mean);
 

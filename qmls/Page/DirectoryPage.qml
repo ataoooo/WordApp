@@ -122,8 +122,14 @@ Page {
             }
             PngEdit{
                 width:search.width/5
-                iconSource:"../../assets/mdpi/noteBool.png"
-                iconText:"我的笔记"
+                iconSource:"../../assets/mdpi/collectPng.png"
+                iconText:"我的收藏"
+                MouseArea{
+                    anchors.fill: parent
+                    onClicked: {
+                        root.pushStack(12)
+                    }
+                }
             }
             PngEdit{
                 width: search.width/5

@@ -183,8 +183,6 @@ StackPageBase {
     }
 
     function getTxt(sno,str){
-        if(targetModel[1111111111111] == undefined)
-            console.log("aaaaaaaaaaaaaaa1111")
         var tmps = str.split('&')
         return tmps[sno]
     }
