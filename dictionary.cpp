@@ -451,3 +451,36 @@ void Dictionary::insertToRemember(int sno)
     qDebug() << "insert into success!";
     return;
 }
+
+void Dictionary::setDiffer(int sno,int wordNum,int diff)
+{
+    if(connectDB() == false) return;
+    qDebug() << "The upgrade information is = " << sno << "  and " << wordNum << " " << diff;
+    QSqlQuery query;
+    bool res = query.exec(QString("UPDATE rememberTable SET wordNum=%1,diff=%2 WHERE usersno=%3;").arg(wordNum).arg(diff).arg(sno));
+    if(!res)
+    {
+        qDebug() << "error is = " << query.lastError();
+        return;
+    }
+}
+
+QVariantList Dictionary::getDiffer(int sno)
+{
+    if(connectDB() == false) return QVariantList{};
+    QSqlQuery query;
+    qDebug() << "The sno is = " << sno;
+    bool res = query.exec(QString("select * from rememberTable WHERE usersno = %1;").arg(sno));
+    if(!res)
+    {
+        qDebug() << "error is = " << query.lastError();
+        return QVariantList{};
+    }
+    QVariantList info;
+    while(query.next())
+    {
+        info.push_back(query.value(1).toInt());
+        info.push_back(query.value(2).toInt());
+    }
+    return info;
+}

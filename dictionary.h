@@ -49,6 +49,10 @@ public:
     Q_INVOKABLE QVariantList getAllSentence();
 
     Q_INVOKABLE void insertToRemember(int sno);
+
+    Q_INVOKABLE void setDiffer(int sno,int wordNum,int diff);
+
+    Q_INVOKABLE QVariantList getDiffer(int sno);
 private:
     bool connectDB();
 

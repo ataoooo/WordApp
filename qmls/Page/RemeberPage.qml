@@ -8,10 +8,34 @@ Page {
     opacity: 0
     visible: opacity > 0
     property var currentWord: -1
-    property var wordNum;
+    property real wordNum: 10       //此次需背的新单词
     property var englishword:[]
     property var chinesemena:[]
+    property var tmpdiffer: 1
     property var mdifficulty: 1
+    property var merrorNum: 0       //上次错误的单词
+
+
+    //难度占比
+    property var diffratio: [[0.7,0.15,0.1,0.05],
+        [0.6,0.15,0.15,0.1],
+        [0.5,0.2,0.2,0.1],
+        [0.3,0.3,0.2,0.2],
+        [0.1,0.4,0.25,0.25],
+        [0.1,0.3,0.3,0.3],
+        [0.1,0.1,0.4,0.4]]
+
+    function getLevel(){
+        switch(root.userType){
+        case "小学生":return 0;
+        case "初中生":return 1;
+        case "高中生":return 2;
+        case "大学生":return 3;
+        case "研究生":
+        case "上班族":return 4;
+        }
+    }
+
     Rectangle{
         anchors.fill: parent
         z: 0
@@ -20,6 +44,14 @@ Page {
     //头部红色背景
     PageHeader{
         id:header
+    }
+
+    Component.onCompleted: {
+        console.log("The page is load!!!")
+        var lis = wordDB.getDiffer(root.userSno);
+        wordNum = lis[0]
+        mdifficulty = lis[1]
+        console.log("read from db is = " , wordNum , " and ",mdifficulty)
     }
 
     onVisibleChanged: {
@@ -144,6 +176,12 @@ Page {
             MouseArea{
                 anchors.fill: parent
                 onClicked: {
+                    page3.wordNum = setSp.value;
+                    mdifficulty = tmpdiffer;
+                    wordDB.setDiffer(root.userSno,setSp.value,mdifficulty);
+                    sRec.visible = false
+                    maskRec.visible = false
+                    root.showMsgHint("保存成功")
                 }
             }
         }
@@ -224,7 +262,7 @@ Page {
 
                     Image {
                         id: star1
-                        source: "../../assets/mdpi/diff_grey.png"
+                        source: mdifficulty > 0 ? "../../assets/mdpi/diff_red.png" : "../../assets/mdpi/diff_grey.png"
                         height: parent.height * 0.6
                         fillMode: Image.PreserveAspectFit
                         anchors{
@@ -238,13 +276,13 @@ Page {
                                 star2.source = "../../assets/mdpi/diff_grey.png"
                                 star3.source = "../../assets/mdpi/diff_grey.png"
                                 diffTxt.text = "简单"
-                                mdifficulty = 1;
+                                tmpdiffer = 1;
                             }
                         }
                     }
                     Image {
                         id: star2
-                        source: "../../assets/mdpi/diff_grey.png"
+                        source: mdifficulty > 1 ? "../../assets/mdpi/diff_red.png" : "../../assets/mdpi/diff_grey.png"
                         height: parent.height * 0.6
                         fillMode: Image.PreserveAspectFit
                         anchors{
@@ -258,13 +296,13 @@ Page {
                                 star1.source = "../../assets/mdpi/diff_red.png"
                                 star3.source = "../../assets/mdpi/diff_grey.png"
                                 diffTxt.text = "一般"
-                                mdifficulty = 2;
+                                tmpdiffer = 2;
                             }
                         }
                     }
                     Image {
                         id: star3
-                        source: "../../assets/mdpi/diff_grey.png"
+                        source: mdifficulty > 2 ? "../../assets/mdpi/diff_red.png" : "../../assets/mdpi/diff_grey.png"
                         height: parent.height * 0.6
                         fillMode: Image.PreserveAspectFit
                         anchors{
@@ -278,7 +316,7 @@ Page {
                                 star1.source = "../../assets/mdpi/diff_red.png"
                                 star2.source = "../../assets/mdpi/diff_red.png"
                                 diffTxt.text = "困难"
-                                mdifficulty = 3;
+                                tmpdiffer = 3;
                             }
                         }
                     }
@@ -302,8 +340,22 @@ Page {
             }
 
         }
-
-
+        onVisibleChanged: {
+            if(!visible)
+            {
+                setSp.value = wordNum
+                console.log("The mdifficult is = ",mdifficulty)
+                if(mdifficulty > 0) star1.source = "../../assets/mdpi/diff_red.png"
+                else star1.source = "../../assets/mdpi/diff_grey.png"
+                if(mdifficulty > 1) star2.source = "../../assets/mdpi/diff_red.png"
+                else star2.source = "../../assets/mdpi/diff_grey.png"
+                if(mdifficulty > 2) star3.source = "../../assets/mdpi/diff_red.png"
+                else star3.source = "../../assets/mdpi/diff_grey.png"
+                if(mdifficulty == 1) diffTxt.text ="简单";
+                else if(mdifficulty == 2) diffTxt.text ="一般"
+                else diffTxt.text = "困难"
+            }
+        }
 
     }
 
@@ -621,7 +673,7 @@ Page {
         running: false
         onTriggered: {
             showTxt(++currentWord)
-            if(currentWord == 9)
+            if(currentWord == wordNum + merrorNum)
             {
                 startBtn.source = "../../assets/mdpi/start.png"
                 setTime.stop()
@@ -629,15 +681,24 @@ Page {
         }
     }
 
-
+    //收集被测试单词
     function getTestWord()
     {
-        var res = wordDB.rememberWord(root.userSno,100,0.25,0.25,0.25,0.25);
-        for(var i = 0 ;i < 100 ; ++i)
+        var tmp = getLevel() + mdifficulty - 1;
+        var res = wordDB.rememberWord(root.userSno,page3.wordNum,diffratio[tmp][0],diffratio[tmp][1],diffratio[tmp][2],diffratio[tmp][3]);
+        console.log("The test number is = ",page3.wordNum)
+        for(var i = 0 ;i < page3.wordNum ; ++i)
         {
             var tmpWord = res[i].split('&');
             englishword.push(tmpWord[0]);
             chinesemena.push(tmpWord[1]);
+        }
+        //上一次错误单词
+        var tmpw = wordDB.lastErrorWord(root.userSno);
+        for( ; tmpw[merrorNum] != undefined ; ++merrorNum){
+            var tm = tmpw[merrorNum].split('&');
+            englishword.push(tm[0]);
+            chinesemena.push(tm[1]);
         }
 
     }
