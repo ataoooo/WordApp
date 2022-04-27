@@ -115,6 +115,7 @@ Window {
     }
 
     function logout(){
+        console.log("start to here!!!")
         page.sourceComponent = mainPage;
         showMsgHint("您已登出！")
     }

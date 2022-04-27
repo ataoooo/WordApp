@@ -83,6 +83,8 @@ Page{
                     case 0: //需要确认密码
                         maskRec.visible = true
                         confirmRec.visible = true
+                        break
+                    case 3 :root.logout();break;
                     }
                 }
             }
@@ -96,6 +98,14 @@ Page{
         anchors.fill: parent
         visible: false
         z:2
+        MouseArea{
+            anchors.fill: parent
+            onPressed: {
+                if(visible)
+                    mouse.accepted = true
+                else mouse.accepted = false
+            }
+        }
     }
 
     //确认密码框

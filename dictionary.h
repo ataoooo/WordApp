@@ -36,14 +36,19 @@ public:
     //导入单词
     Q_INVOKABLE bool importWord(QString sno,QString word,QString mean);
 
-    //选取需要背诵的单词
-    Q_INVOKABLE QVariantList rememberWord(QString tablename,int num);
+    //选取需要背诵的单词(单词本名，共个数，各等级个数)
+    Q_INVOKABLE QVariantList rememberWord(QString sno,int num,float lev1,float lev2,
+                                          float lev3,float lev4);
+    //上一次背错的单词
+    Q_INVOKABLE QVariantList lastErrorWord(QString sno);
 
     //获取所有单词中英文
     Q_INVOKABLE QVariantList getAllWords(QString tablename);
 
     //获取所有句子
     Q_INVOKABLE QVariantList getAllSentence();
+
+    Q_INVOKABLE void insertToRemember(int sno);
 private:
     bool connectDB();
 

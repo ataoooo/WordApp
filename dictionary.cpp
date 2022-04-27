@@ -7,6 +7,7 @@
 #include <QFile>
 #include <QDebug>
 #include <QSqlRecord>
+#include <ctime>
 Dictionary::Dictionary(QObject* parent) : QObject (parent){}
 
 bool Dictionary::connectDB()
@@ -265,29 +266,135 @@ bool Dictionary::importWord(QString sno,QString word,QString mean){
     return true;
 }
 
-QVariantList Dictionary::rememberWord(QString tablename,int num)
-{
+QVariantList Dictionary::lastErrorWord(QString sno){
     if(connectDB()==false)
     {
         qDebug() << "connect db fail";
         return QVariantList{};
     }
+    QString tablename = "allWords" + sno;
     QSqlQuery query;
-    qDebug() << "the num = " << num << "   and name is = " << tablename;
-    bool res = query.exec(QString("select * from '%1' limit 0,%2").arg(tablename).arg(num));
-    if(!res)
-    {
-        qDebug() << "select error : = " << query.lastError();
+    bool res = query.exec(QString("select word,mean_cn from '%1' where lastMistake = 1").arg(tablename));
+    if(!res){
+        qDebug() << "the sql is error" << query.lastError();
         return QVariantList{};
     }
-    qDebug() << "select success!";
-    QVariantList wordlst;
+    QVariantList wordlist;
     while(query.next())
     {
-        QString tmp = "word:" + query.value(1).toString() + "-mean_cn:" + query.value(3).toString();
-        wordlst.push_back(tmp);
+        QString tmps = query.value(0).toString() + '&' + query.value(1).toString();
+        wordlist.push_back(tmps);
     }
-    return wordlst;
+    qDebug() << "Last error num is = " << wordlist.size();
+    return wordlist;
+}
+
+QVariantList Dictionary::rememberWord(QString sno,int num,float lev1,float lev2,
+                                      float lev3,float lev4)
+{
+    srand(time(0));
+    if(connectDB()==false)
+    {
+        qDebug() << "connect db fail";
+        return QVariantList{};
+    }
+    QString tablename = "allWords" + sno;
+    QSqlQuery query;
+    qDebug() << "the num = " << num << "   and name is = " << tablename << " -1: " << lev1
+             << " -2: " << lev2 << " -3: " << lev3 << " -4: " << lev4;
+    QVariantList wordlist{};
+    int haveRem = 0;    //已经熟背的最多只占40%
+    int n = 0;          //其他词数
+    //------------------------------------筛选最难----------------------------
+    n = num * lev4;
+    qDebug() << "the result of n4 = " << n;
+    haveRem = n * 0.4;
+    n -= haveRem;
+    bool res = query.exec(QString("select * from '%1' where word_length between 30 and 40 "
+                                  "order by occurrence asc,freq desc,accuracy asc").arg(tablename));
+    if(!res)
+    {
+        qDebug() << "The lev4 is error"<< query.lastError();
+        return wordlist;
+    }
+    while(query.next()){
+        if(query.value(13).toInt() == 1) continue;
+        if(n == 0 && haveRem == 0) break;
+        if( haveRem == 0 && query.value(11).toInt() == 5 ) break;
+        if(query.value(11).toInt() == 5) --haveRem;
+        else if(n > 0) --n;
+        else --haveRem;
+        QString tmps = query.value(1).toString() + '&' + query.value(3).toString();
+        wordlist.insert(rand()%(wordlist.size() + 1),tmps);
+    }
+
+    //------------------------------------筛选较难----------------------------
+    n += haveRem;   //上一阶段难度所剩单词
+    n += num * lev3;
+    qDebug() << "the result of n3 = " << n;    haveRem = n * 0.4;
+    n -= haveRem;
+    res = query.exec(QString("select * from '%1' where word_length between 20 and 29 "
+                             "order by occurrence asc,freq desc,accuracy asc").arg(tablename));
+    if(!res)
+    {
+        qDebug() << "The lev3 is error"<< query.lastError();
+        return wordlist;
+    }
+    while(query.next()){
+        if(query.value(13).toInt() == 1) continue;
+        if(n == 0 && haveRem == 0) break;
+        if( haveRem == 0 && query.value(11).toInt() == 5 ) break;
+        if(query.value(11).toInt() == 5) --haveRem;
+        else if(n > 0) --n;
+        else --haveRem;
+        QString tmps = query.value(1).toString() + '&' + query.value(3).toString();
+        wordlist.insert(rand()%(wordlist.size() + 1),tmps);
+    }
+
+
+    //------------------------------------筛选较简单----------------------------
+    n += haveRem;   //上一阶段难度所剩单词
+    n += num * lev2;
+    qDebug() << "the result of n2 = " << n;    haveRem = n * 0.4;
+    n -= haveRem;
+    res = query.exec(QString("select * from '%1' where word_length between 10 and 19 "
+                             "order by occurrence asc,freq desc,accuracy asc").arg(tablename));
+    if(!res)
+    {
+        qDebug() << "The lev2 is error"<< query.lastError();
+        return wordlist;
+    }
+    while(query.next()){
+        if(query.value(13).toInt() == 1) continue;
+        if(n == 0 && haveRem == 0) break;
+        if( haveRem == 0 && query.value(11).toInt() == 5 ) break;
+        if(query.value(11).toInt() == 5) --haveRem;
+        else if(n > 0) --n;
+        else --haveRem;
+        QString tmps = query.value(1).toString() + '&' + query.value(3).toString();
+        wordlist.insert(rand()%(wordlist.size() + 1),tmps);
+    }
+
+    //------------------------------------筛选简单----------------------------
+    n = num - wordlist.size();
+    qDebug() << "the result of n1 = " << n;
+    res = query.exec(QString("select * from '%1' where word_length between 0 and 9 "
+                             "order by occurrence asc,freq desc,accuracy asc").arg(tablename));
+    if(!res)
+    {
+        qDebug() << "The lev2 is error"<< query.lastError();
+        return wordlist;
+    }
+    while(query.next()){
+        if(query.value(13).toInt() == 1) continue;
+        if(n == 0) break;
+        --n;
+        QString tmps = query.value(1).toString() + '&' + query.value(3).toString();
+        wordlist.insert(rand()%(wordlist.size() + 1),tmps);
+    }
+    qDebug() << "The number of word is = " << wordlist.size();
+
+    return wordlist;
 }
 
 QVariantList Dictionary::getAllWords(QString tablename){
@@ -329,4 +436,18 @@ QVariantList Dictionary::getAllSentence(){
         wordlist.push_back(tmps);
     }
     return wordlist;
+}
+
+void Dictionary::insertToRemember(int sno)
+{
+    if(connectDB() == false) return;
+    QSqlQuery query;
+    bool res = query.exec(QString("insert into rememberTable(usersno) values(%1)").arg(sno));
+    if(!res)
+    {
+        qDebug() << "insert into table error" << query.lastError();
+        return;
+    }
+    qDebug() << "insert into success!";
+    return;
 }
