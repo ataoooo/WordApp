@@ -283,8 +283,11 @@ QVariantList Dictionary::lastErrorWord(QString sno){
         return QVariantList{};
     }
     QVariantList wordlist;
+    int i = 0;
     while(query.next())
     {
+        if(i == 10) break;
+        ++i;
         QString tmps = query.value(0).toString() + '&' + query.value(1).toString();
         if(query.value(2).toInt() < 5)
         {

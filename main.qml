@@ -26,6 +26,9 @@ Window {
     property var searchTxt: ""
     property var wordTxt
 
+    //记忆策略下默写
+    property var writeWord: []
+
     //信号
     signal pageTile(var mtitle);
     signal getModel();

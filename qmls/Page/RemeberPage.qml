@@ -16,6 +16,8 @@ Page {
     property var merrorNum: 0       //上次错误的单词
     property var isGetWord: false
 
+    //编辑结束信号
+    signal endWrite()
 
     //难度占比
     property var diffratio: [[0.7,0.15,0.1,0.05],
@@ -62,6 +64,9 @@ Page {
             englishTxt.text = ""
             chineseTxt2.text = ""
             chineseTxt.text = ""
+            viewStatus(true)
+            startBtn.source = "../../assets/mdpi/start.png"
+            startBtn.istart = false
         }
     }
 
@@ -75,6 +80,10 @@ Page {
             verticalCenter: header.verticalCenter
         }
         onCurrentIndexChanged: {
+            currentWord = -1
+            englishTxt.text = ""
+            chineseTxt2.text = ""
+            chineseTxt.text = ""
             if(currentIndex == 0)
             {
                 switchAni.testt = true
@@ -361,12 +370,57 @@ Page {
 
     }
 
+    //微调控件
+    Text {
+        text: "设置单词间隔时间（单位秒）"
+        anchors{
+            bottom:sp.top
+            bottomMargin: dp(2)
+            horizontalCenter: sp.horizontalCenter
+        }
+    }
+    SpinBox{
+        id:sp
+        width: parent.width / 4
+        height: setRec.height
+        value: 5
+        stepSize: 5
+        from: 5
+        to: 60
+        anchors{
+            top: header.bottom
+            topMargin: dp(10)
+            left: parent.left
+            leftMargin: (parent.width - sp.width) / 2
+        }
+    }
+
+    Rectangle{
+        anchors.top: header.bottom;
+        anchors.bottom: sp.bottom
+        width: parent.width
+        color: "white"
+        visible: resultRec.visible
+        Text {
+            anchors.centerIn: parent
+            text: "点击关闭"
+            font.pixelSize: dp(4)
+        }
+        MouseArea{
+            anchors.fill: parent
+            onClicked: {
+                resultRec.visible = false
+            }
+        }
+    }
+
     ///整体作一个可滑动页面
     Flickable {
         id: inner
         clip: true
+
         anchors{
-            top: header.bottom
+            top: sp.bottom
             horizontalCenter: parent.horizontalCenter
             bottom: parent.bottom
         }
@@ -390,6 +444,72 @@ Page {
                 leftMargin: page3.width
             }
 
+
+
+            Rectangle
+            {
+                id:resultRec
+                visible: false
+                anchors.fill: parent
+                color: "#F1DDDD"
+                //结果显示界面
+                ListView
+                {
+                    id:resultList
+                    anchors.fill: parent
+                    spacing: 2
+                    model: ListModel{
+                        id:mymodel
+                    }
+                    delegate: Rectangle{
+                        z: 99
+                        height: dp(15)
+                        width: parent.width
+                        color:myanswer == trueanswer ? "#F1DDDD" : "yellow"
+                        Text {
+                            id: myanswerT
+                            text: myanswer
+                            height: parent.height * 0.2
+                            width: parent.width
+                            color: myanswerT.text == trueanswerT.text ? "green" : "red"
+                            anchors{
+                                left: parent.left
+                                leftMargin: dp(3)
+                                top: parent.top
+                                topMargin: dp(2)
+                            }
+                        }
+                        Text {
+                            id:trueanswerT
+                            text: trueanswer
+                            height:myanswerT.height
+                            width: myanswerT.width
+                            anchors{
+                                top: myanswerT.bottom
+                                topMargin: dp(1)
+                                left: parent.left
+                                leftMargin: dp(3)
+                            }
+                        }
+                        Text {
+                            id:chineT
+                            text: chine
+                            height:myanswerT.height
+                            width: myanswerT.width
+                            anchors{
+                                top: trueanswerT.bottom
+                                topMargin: dp(1)
+                                left: parent.left
+                                leftMargin: dp(3)
+                            }
+                        }
+                    }
+                }
+                z:97
+            }
+
+
+
             //开始测试按钮
             Rectangle{
                 id:startRec
@@ -401,7 +521,6 @@ Page {
                     top: parent.top
                     topMargin: dp(10)
                     horizontalCenter: parent.horizontalCenter
-                    //verticalCenter: parent.verticalCenter
                 }
                 Text {
                     anchors.centerIn: parent
@@ -412,8 +531,15 @@ Page {
                 MouseArea{
                     anchors.fill: parent
                     onClicked: {
-                        getTestWord()
+                        if(!isGetWord)
+                        {
+                            isGetWord = true
+                            getTestWord()
+                        }
+                        setTime.interval = sp.value * 1000
+                        showTxt(++currentWord)
                         setTime.start()
+                        viewStatus(false)
                     }
                 }
             }
@@ -434,7 +560,7 @@ Page {
                     width: parent.width
                     text: ""
                     font.pixelSize: dp(6)
-                    color: "red"
+                    color: "black"
                     wrapMode:Text.Wrap
                 }
             }
@@ -482,31 +608,6 @@ Page {
             font.pixelSize: dp(8)
         }
 
-        //微调控件
-        Text {
-            text: "设置单词间隔时间（单位秒）"
-            anchors{
-                bottom:sp.top
-                bottomMargin: dp(2)
-                horizontalCenter: sp.horizontalCenter
-            }
-        }
-        SpinBox{
-            id:sp
-            width: parent.width / 8
-            height: setRec.height
-            value: 5
-            stepSize: 5
-            from: 5
-            to: 60
-            anchors{
-                top: parent.top
-                topMargin: dp(10)
-                left: parent.left
-                leftMargin: (parent.width / 2 - sp.width) / 2
-            }
-        }
-
         Rectangle{
             id:sowRec
             x:0
@@ -515,7 +616,7 @@ Page {
             color: "white"
             anchors{
                 top: parent.top
-                topMargin: dp(25)
+                topMargin: dp(15)
                 left: parent.left
                 leftMargin: page3.width * 0.1
             }
@@ -579,7 +680,11 @@ Page {
                             setTime.start()
                             viewStatus(false)
                         }
-                        else setTime.stop()
+                        else
+                        {
+                            setTime.stop()
+                            viewStatus(true)
+                        }
 
                     }
                 }
@@ -687,7 +792,7 @@ Page {
             target: inner;
             property: "contentX";
             from: switchAni.testt ? parent.width : 0;
-            to:switchAni.testt ?  0 : parent.width;  //isImg：当前展示的页面是否为广告图片
+            to:switchAni.testt ?  0 : parent.width;
             duration: 150;
             easing.type: Easing.OutQuart;
         }
@@ -699,6 +804,8 @@ Page {
         repeat: true //是否重复定时，默认为false
         running: false
         onTriggered: {
+            if(combox.currentIndex == 1)
+                endWrite();
             showTxt(++currentWord)
             if(currentWord == wordNum + merrorNum - 1)
             {
@@ -711,8 +818,29 @@ Page {
                 chineseTxt2.text = "";
                 viewStatus(true)
                 currentWord = -1
+                if(combox.currentIndex == 1){
+                    getResult();
+                    resultRec.visible = true
+                }
             }
         }
+    }
+
+    onEndWrite:{
+        console.log("The current index is = ",currentWord,"  and  ",tFied.text)
+        root.writeWord.push(tFied.text);
+        if(tFied.text != englishword[currentWord])
+        {
+            wordDB.setLastMistake(root.userSno,englishword[currentWord],1)
+            wordDB.setAccuracy(root.userSno,englishword[currentWord],false)
+        }
+        else
+        {
+            wordDB.setLastMistake(root.userSno,englishword[currentWord],0)
+            wordDB.setAccuracy(root.userSno,englishword[currentWord],true)
+        }
+
+        tFied.text = ""
     }
 
     //收集被测试单词
@@ -739,8 +867,14 @@ Page {
     function showTxt(index)
     {
         if(index >= wordNum)
+        {
             englishTxt.color = "red"
-        else englishTxt.color = "black"
+            chineseTxt2.color = "red"
+        }
+        else {
+            englishTxt.color = "black"
+            chineseTxt2.color = "black"
+        }
         englishTxt.text = englishword[index];
         engxx.text = englishword[index];
         chineseTxt.text = chinesemena[index];
@@ -767,5 +901,15 @@ Page {
         combox.enabled = status;
         setRec.enabled = status
         setSpStatus(status)
+        startRec.enabled = status
+    }
+
+    function getResult(){
+        mymodel.clear();
+        for(var i = 0; i < wordNum + merrorNum ; ++i)
+        {
+            console.log("The result is = ",root.writeWord[i],"  and:",englishword[i]," and:",chinesemena[i])
+            mymodel.append({"myanswer":root.writeWord[i],"trueanswer":englishword[i],"chine":chinesemena[i]})
+        }
     }
 }

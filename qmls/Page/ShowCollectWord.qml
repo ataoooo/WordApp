@@ -32,7 +32,7 @@ StackPageBase{
                 memView.loadMore(this,memView.currentPage)
                 memView.onModelChanged()
             }
-            }
+        }
         delegate: Rectangle{
             id:meminfo
             height: dp(15)
