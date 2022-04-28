@@ -53,6 +53,12 @@ public:
     Q_INVOKABLE void setDiffer(int sno,int wordNum,int diff);
 
     Q_INVOKABLE QVariantList getDiffer(int sno);
+
+    //设置准确度
+    Q_INVOKABLE void setAccuracy(QString sno,QString word,int isTrue);
+
+    //设置此次正确度
+    Q_INVOKABLE void setLastMistake(QString sno,QString word,int notTrue);
 private:
     bool connectDB();
 

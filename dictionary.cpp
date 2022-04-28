@@ -223,6 +223,9 @@ bool Dictionary::isCollect(QString bookname,QString word)
     QString tablename = "collectTable" + bookname;
     QSqlQuery query;
     bool res = query.exec(QString("select word from %1 where word = '%2'").arg(tablename).arg(word));
+    if(!res){
+        qDebug() << "227 The error is = " << query.lastError();
+    }
     query.next();
     return query.value(0).toString() != "";
 }
@@ -273,8 +276,8 @@ QVariantList Dictionary::lastErrorWord(QString sno){
         return QVariantList{};
     }
     QString tablename = "allWords" + sno;
-    QSqlQuery query;
-    bool res = query.exec(QString("select word,mean_cn from '%1' where lastMistake = 1").arg(tablename));
+    QSqlQuery query,query1;
+    bool res = query.exec(QString("select word,mean_cn,occurrence from '%1' where lastMistake = 1").arg(tablename));
     if(!res){
         qDebug() << "the sql is error" << query.lastError();
         return QVariantList{};
@@ -283,6 +286,11 @@ QVariantList Dictionary::lastErrorWord(QString sno){
     while(query.next())
     {
         QString tmps = query.value(0).toString() + '&' + query.value(1).toString();
+        if(query.value(2).toInt() < 5)
+        {
+            qDebug() << "write the appear is = " << query.value(2).toInt();
+            query1.exec(QString("update '%1' set occurrence = %2 where word = '%3'").arg(tablename).arg(query.value(2).toInt() + 1).arg(query.value(0).toString()));
+        }
         wordlist.push_back(tmps);
     }
     qDebug() << "Last error num is = " << wordlist.size();
@@ -299,7 +307,7 @@ QVariantList Dictionary::rememberWord(QString sno,int num,float lev1,float lev2,
         return QVariantList{};
     }
     QString tablename = "allWords" + sno;
-    QSqlQuery query;
+    QSqlQuery query,query1;
     qDebug() << "the num = " << num << "   and name is = " << tablename << " -1: " << lev1
              << " -2: " << lev2 << " -3: " << lev3 << " -4: " << lev4;
     QVariantList wordlist{};
@@ -325,6 +333,9 @@ QVariantList Dictionary::rememberWord(QString sno,int num,float lev1,float lev2,
         else if(n > 0) --n;
         else --haveRem;
         QString tmps = query.value(1).toString() + '&' + query.value(3).toString();
+        //出现次数+1
+        if(query.value(12).toInt() < 5)
+            query1.exec(QString("update '%1' set occurrence = %2 where word = '%3'").arg(tablename).arg(query.value(12).toInt() + 1).arg(query.value(1).toString()));
         wordlist.insert(rand()%(wordlist.size() + 1),tmps);
     }
 
@@ -348,6 +359,8 @@ QVariantList Dictionary::rememberWord(QString sno,int num,float lev1,float lev2,
         else if(n > 0) --n;
         else --haveRem;
         QString tmps = query.value(1).toString() + '&' + query.value(3).toString();
+        if(query.value(12).toInt() < 5)
+            query1.exec(QString("update '%1' set occurrence = %2 where word = '%3'").arg(tablename).arg(query.value(12).toInt() + 1).arg(query.value(1).toString()));
         wordlist.insert(rand()%(wordlist.size() + 1),tmps);
     }
 
@@ -372,6 +385,8 @@ QVariantList Dictionary::rememberWord(QString sno,int num,float lev1,float lev2,
         else if(n > 0) --n;
         else --haveRem;
         QString tmps = query.value(1).toString() + '&' + query.value(3).toString();
+        if(query.value(12).toInt() < 5)
+            query1.exec(QString("update '%1' set occurrence = %2 where word = '%3'").arg(tablename).arg(query.value(12).toInt() + 1).arg(query.value(1).toString()));
         wordlist.insert(rand()%(wordlist.size() + 1),tmps);
     }
 
@@ -390,6 +405,8 @@ QVariantList Dictionary::rememberWord(QString sno,int num,float lev1,float lev2,
         if(n == 0) break;
         --n;
         QString tmps = query.value(1).toString() + '&' + query.value(3).toString();
+        if(query.value(12).toInt() < 5)
+            query1.exec(QString("update '%1' set occurrence = %2 where word = '%3'").arg(tablename).arg(query.value(12).toInt() + 1).arg(query.value(1).toString()));
         wordlist.insert(rand()%(wordlist.size() + 1),tmps);
     }
     qDebug() << "The number of word is = " << wordlist.size();
@@ -483,4 +500,40 @@ QVariantList Dictionary::getDiffer(int sno)
         info.push_back(query.value(2).toInt());
     }
     return info;
+}
+
+void Dictionary::setAccuracy(QString sno,QString word,int isTrue)
+{
+    if(connectDB() == false) return;
+    QSqlQuery query;
+    QString tablename = "allWords" + sno;
+    bool res = query.exec(QString("select accuracy from '%1' where word = '%2'").arg(tablename).arg(word));
+    if(!res)
+    {
+        qDebug() << "The error is = " << query.lastError();
+        return;
+    }
+    query.next();
+    int tmpn = query.value(0).toInt();
+    qDebug() << "The accuracy is = " << tmpn;
+    if((!isTrue && tmpn < 1) || (isTrue && tmpn > 4)) return;
+    if(isTrue) ++tmpn;
+    else  --tmpn;
+    res = query.exec(QString("update '%1' set accuracy = %2 where word = '%3'").arg(tablename).arg(tmpn).arg(word));
+    if(!res)
+    {
+        qDebug() << "The error is = " << query.lastError();
+    }
+}
+
+void Dictionary::setLastMistake(QString sno,QString word,int notTrue)
+{
+    if(connectDB() == false) return;
+    QSqlQuery query;
+    QString tablename = "allWords" + sno;
+    bool res = query.exec(QString("update '%1' set lastMistake = %2 where word = '%3'").arg(tablename).arg(notTrue).arg(word));
+    if(!res)
+    {
+        qDebug() << "The error is = " << query.lastError();
+    }
 }

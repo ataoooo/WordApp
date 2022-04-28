@@ -7,13 +7,14 @@ Page {
     anchors.fill: parent
     opacity: 0
     visible: opacity > 0
-    property var currentWord: -1
+    property var currentWord: 0
     property real wordNum: 10       //此次需背的新单词
     property var englishword:[]
     property var chinesemena:[]
     property var tmpdiffer: 1
     property var mdifficulty: 1
     property var merrorNum: 0       //上次错误的单词
+    property var isGetWord: false
 
 
     //难度占比
@@ -66,6 +67,7 @@ Page {
 
     //下拉框
     MyComboBox{
+        id:combox
         model: ["单词背诵","单词默写","单词填空"]
         anchors{
             left: parent.left
@@ -524,7 +526,7 @@ Page {
                 anchors.verticalCenter: parent.verticalCenter
                 text: ""
                 font.pixelSize: dp(8)
-                color: "red"
+                color: "black"
                 wrapMode:Text.Wrap
             }
         }
@@ -565,12 +567,19 @@ Page {
                         console.log("click the start..")
                         parent.source = parent.istart ? "../../assets/mdpi/start.png" : "../../assets/mdpi/stop.png"
                         parent.istart = !parent.istart
-
-
-
-                        setTime.interval = sp.value * 1000
-                        getTestWord()
-                        setTime.start()
+                        if(parent.istart)
+                        {
+                            setTime.interval = sp.value * 1000
+                            if(!isGetWord)
+                            {
+                                getTestWord()
+                                isGetWord = true
+                            }
+                            showTxt(++currentWord)
+                            setTime.start()
+                            viewStatus(false)
+                        }
+                        else setTime.stop()
 
                     }
                 }
@@ -605,6 +614,15 @@ Page {
                 source: "../../assets/mdpi/false.png"
                 width: dp(9.5)
                 fillMode:Image.PreserveAspectFit
+                MouseArea{
+                    anchors.fill: parent
+                    onClicked: {
+                        console.log("current word is = ",englishword[currentWord])
+                        wordDB.setLastMistake(root.userSno,englishword[currentWord],1)
+                        wordDB.setAccuracy(root.userSno,englishword[currentWord],false)
+                        root.showMsgHint("已标记")
+                    }
+                }
             }
 
             Image {
@@ -627,6 +645,15 @@ Page {
                 source: "../../assets/mdpi/right.png"
                 width: dp(9.5)
                 fillMode: Image.PreserveAspectFit
+                MouseArea{
+                    anchors.fill: parent
+                    onClicked: {
+                        console.log("current word is = ",englishword[currentWord])
+                        wordDB.setLastMistake(root.userSno,englishword[currentWord],0)
+                        wordDB.setAccuracy(root.userSno,englishword[currentWord],true)
+                        root.showMsgHint("已标记")
+                    }
+                }
             }
         }
 
@@ -647,8 +674,8 @@ Page {
                 anchors.centerIn: parent
                 width: parent.width
                 text: ""
-                font.pixelSize: dp(8)
-                color: "red"
+                font.pixelSize: dp(6)
+                color: "black"
                 wrapMode:Text.Wrap
             }
         }
@@ -673,10 +700,17 @@ Page {
         running: false
         onTriggered: {
             showTxt(++currentWord)
-            if(currentWord == wordNum + merrorNum)
+            if(currentWord == wordNum + merrorNum - 1)
             {
                 startBtn.source = "../../assets/mdpi/start.png"
+                startBtn.istart = false
                 setTime.stop()
+                englishTxt.text = "";
+                engxx.text = "";
+                chineseTxt.text = "";
+                chineseTxt2.text = "";
+                viewStatus(true)
+                currentWord = -1
             }
         }
     }
@@ -700,11 +734,13 @@ Page {
             englishword.push(tm[0]);
             chinesemena.push(tm[1]);
         }
-
     }
 
     function showTxt(index)
     {
+        if(index >= wordNum)
+            englishTxt.color = "red"
+        else englishTxt.color = "black"
         englishTxt.text = englishword[index];
         engxx.text = englishword[index];
         chineseTxt.text = chinesemena[index];
@@ -723,5 +759,13 @@ Page {
             sp.from = 5
             sp.to = 60
         }
+    }
+
+    //界面剩余按钮状态
+    function viewStatus(status)
+    {
+        combox.enabled = status;
+        setRec.enabled = status
+        setSpStatus(status)
     }
 }
