@@ -1,5 +1,6 @@
 ﻿import QtQuick 2.0
 import QtQuick.Controls 2.5
+import QtCharts 2.0
 import "../Component"
 Page {
     id: page
@@ -187,14 +188,7 @@ Page {
                 }
             }
         }
-        //滑动页下方指示符
-        //        PageIndicator {
-        //            id: indicator
-        //            count: swipeView.count
-        //            currentIndex: swipeView.currentIndex
-        //            anchors.bottom: swipeView.bottom
-        //            anchors.horizontalCenter: parent.horizontalCenter
-        //        }
+
         //定时器，触发广告位的自动切换
         Timer{
             id:countDown;
@@ -215,6 +209,30 @@ Page {
         }
         //底部按键组布局
     }
+
+
+    //添加饼状图分析
+    ChartView {
+        anchors.fill: parent
+        title: qsTr( "饼状图" )
+        titleColor: "black"
+        titleFont.bold: true
+        legend.alignment: Qt.AlignBottom		//图例的位置，就是饼状图下方的那五个词的位置
+        antialiasing: true						//抗锯齿
+
+        PieSeries {
+            id: pieSeries
+            //endAngle: 0
+
+            //value的值并不是百分比，而是你任意指定的值，指定值 / 所有值 = 百分比
+            PieSlice {  label: "富士康订单"; value: 32 }
+            PieSlice {  label: "大华订单"; value: 48 }
+            PieSlice {  label: "海康订单"; value: 72 }
+            PieSlice {  label: "慧视订单"; value: 61 }
+            PieSlice {  label: "其他订单"; value: 40 }
+        }
+    }
+
 
 
 

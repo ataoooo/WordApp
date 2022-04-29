@@ -56,6 +56,7 @@ Rectangle{
                 //只接受数字和字母
                 validator: RegExpValidator{regExp: /^\w*$/}
                 implicitHeight: height*1.5
+                text: config.getConfigBool("pwd/remeberMM",false) ? config.getConfigString("pwd/uid","") : ""
             }
             InputEdit{
                 id:userPsw
@@ -66,6 +67,7 @@ Rectangle{
                 validator: RegExpValidator{regExp: /^\w*$/}
                 echoMode: TextInput.Password
                 implicitHeight: height * 1.5
+                text: config.getConfigBool("pwd/remeberMM",false) ? config.getConfigString("pwd/upwd","") : ""
             }
         }
 
@@ -96,7 +98,12 @@ Rectangle{
                         var checkres = checkPwd();
                         console.log("The res = ",checkres)
                         if( checkres )
+                        {
                             root.enterMainView()
+                            config.setConfigBool("pwd/remeberMM",check.checked)
+                            config.setConfigString("pwd/upwd",userPsw.text)
+                            config.setConfigString("pwd/uid",userId.text)
+                        }
                         else
                             win.visible = true
                     }
@@ -137,13 +144,13 @@ Rectangle{
             //记住密码
             Rectangle{
                 id: check;
-                property bool checked: true;
+                property bool checked: config.getConfigBool("pwd/remeberMM",false)
                 height: forgetPsw.height;
                 width: checkImg.width + checkTxt.width;
                 color: "transparent";
                 Image {
                     id: checkImg;
-                    source: parent.checked? "../../assets/mdpi/radio_on.png":
+                    source: parent.checked ? "../../assets/mdpi/radio_on.png":
                                             "../../assets/mdpi/radio_off.png";
                     height: checkTxt.height;
                     fillMode: Image.PreserveAspectFit;
@@ -151,8 +158,6 @@ Rectangle{
                         anchors.fill: parent;
                         onClicked: {
                             check.checked = !check.checked;
-
-                            //记住密码的逻辑！！！？？？？？？wait
                         }
                     }
                     Rectangle {

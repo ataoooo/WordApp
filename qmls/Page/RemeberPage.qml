@@ -73,7 +73,7 @@ Page {
     //下拉框
     MyComboBox{
         id:combox
-        model: ["单词背诵","单词默写","单词填空"]
+        model: ["单词背诵","单词默写"]
         anchors{
             left: parent.left
             leftMargin: dp(3)

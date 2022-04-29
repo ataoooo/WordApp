@@ -1,4 +1,5 @@
 #include <QGuiApplication>
+#include <QApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlEngine>
 #include <QQmlContext>
@@ -11,6 +12,7 @@
 #include <QDir>
 #include <QDateTime>
 #include <QDebug>
+#include "config.h"
 //#include <QtAndroid>
 
 //检查安装程序是否授权读写权限
@@ -73,7 +75,7 @@ int main(int argc, char *argv[])
 
     qDebug() << "App begin";
 
-    QGuiApplication app(argc, argv);
+    QApplication app(argc, argv);
 //    //注册数据库交互类(一定要注意大写啊啊啊啊！！！)
 //    qmlRegisterType<myDataBase>("myDB", 1, 0, "MyDataBase");
     QQmlApplicationEngine engine;
@@ -82,6 +84,7 @@ int main(int argc, char *argv[])
     //导出属性
     engine.rootContext()->setContextProperty("myDB", new myDataBase);
     engine.rootContext()->setContextProperty("wordDB",new Dictionary);
+    engine.rootContext()->setContextProperty("config",new Config);
     QQmlComponent component(&engine,QUrl("qrc:/main.qml"));
     QObject* object = component.create();
     KeyFilter::getInstance()->setFilter(object);
