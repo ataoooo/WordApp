@@ -11,8 +11,11 @@ public:
     ~Config();
     Q_INVOKABLE void setConfigString(QString path,QString value);
     Q_INVOKABLE void setConfigBool(QString path,bool value);
+    Q_INVOKABLE void setConfigInt(QString path,int value);
     Q_INVOKABLE bool getConfigBool(QString path,bool res);
     Q_INVOKABLE QString getConfigString(QString path);
+    Q_INVOKABLE int getConfigInt(QString path);
+
 private:
     static QSettings* setting;
 

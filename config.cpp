@@ -22,6 +22,11 @@ void Config::setConfigBool(QString path,bool value)
     setting->setValue(path,value);
 }
 
+void Config::setConfigInt(QString path,int value)
+{
+    setting->setValue(path,value);
+}
+
 bool Config::getConfigBool(QString path,bool res)
 {
     return setting->value(path,res).toBool();
@@ -30,6 +35,11 @@ bool Config::getConfigBool(QString path,bool res)
 QString Config::getConfigString(QString path)
 {
     return setting->value(path,"").toString();
+}
+
+int Config::getConfigInt(QString path)
+{
+    return setting->value(path,-1).toInt();
 }
 
 Config::~Config()

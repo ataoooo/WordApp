@@ -15,6 +15,7 @@ Page {
     property var mdifficulty: 1
     property var merrorNum: 0       //上次错误的单词
     property var isGetWord: false
+    property var yesnum: 0
 
     //编辑结束信号
     signal endWrite()
@@ -536,6 +537,7 @@ Page {
                             isGetWord = true
                             getTestWord()
                         }
+                        yesnum = 0
                         setTime.interval = sp.value * 1000
                         showTxt(++currentWord)
                         setTime.start()
@@ -821,6 +823,11 @@ Page {
                 if(combox.currentIndex == 1){
                     getResult();
                     resultRec.visible = true
+
+                    //记录本次测试结果
+                    var currenTime = dateManager.getCurrenTime()
+                    console.log("current time is = ",currenTime);
+                    dateManager.insetRecord(root.userSno,currenTime,wordNum + merrorNum,yesnum)
                 }
             }
         }
@@ -836,6 +843,7 @@ Page {
         }
         else
         {
+            ++yesnum;
             wordDB.setLastMistake(root.userSno,englishword[currentWord],0)
             wordDB.setAccuracy(root.userSno,englishword[currentWord],true)
         }
@@ -908,7 +916,6 @@ Page {
         mymodel.clear();
         for(var i = 0; i < wordNum + merrorNum ; ++i)
         {
-            console.log("The result is = ",root.writeWord[i],"  and:",englishword[i]," and:",chinesemena[i])
             mymodel.append({"myanswer":root.writeWord[i],"trueanswer":englishword[i],"chine":chinesemena[i]})
         }
     }

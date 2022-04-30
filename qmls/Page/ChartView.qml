@@ -11,24 +11,26 @@ Page
     visible: opacity > 0
     enabled: visible
     property var bl: []
+    property var sp2data: []
+    property var topdot: 20
     background: Rectangle{
         anchors.fill: parent
         color: backcolor
     }
-
+    //添加饼状图分析
     Rectangle
     {
+        id:bztRec
         width: parent.width
         height: parent.height * 0.5
         color: "transparent"
         anchors.top: parent.top
-        //添加饼状图分析
         ChartView {
             id:chartPage
             anchors.fill: parent
             title: "单词记忆统计图"
             titleColor: "black"
-            titleFont.pixelSize: dp(10)
+            titleFont.pixelSize: dp(8)
             titleFont.bold: true
             legend.visible: false
             theme: ChartView.ChartThemeQt
@@ -37,10 +39,15 @@ Page
             PieSeries {
                 id: pieSeries
                 //value的值并不是百分比，而是你任意指定的值，指定值 / 所有值 = 百分比
-                PieSlice {id:p1;  label: "陌生:"; color: "#c6c6bc"; labelVisible: true}                    //0
-                PieSlice {id:p2;  label: "一般:"; color: "#e3ddbd"; labelVisible: true}                    //1-2
-                PieSlice {id:p3;  label: "熟悉:"; color: "#d3c2ba"; labelVisible: true}                    //2-4
-                PieSlice {id:p4;  label: "牢记:"; color: "#869f82"; labelVisible: true}                    //5
+                PieSlice {id:p1;  label: "陌生:"; color: "#e6a0c4"; labelVisible: true
+                    onClicked: labelVisible = !labelVisible
+                }                    //0
+                PieSlice {id:p2;  label: "一般:"; color: "#c6cdf7"; labelVisible: true
+                    onClicked: labelVisible = !labelVisible}                    //1-2
+                PieSlice {id:p3;  label: "熟悉:"; color: "#d8a499"; labelVisible: true
+                    onClicked: labelVisible = !labelVisible}                    //2-4
+                PieSlice {id:p4;  label: "牢记:"; color: "#7294d4"; labelVisible: true
+                    onClicked: labelVisible = !labelVisible}                    //5
             }
         }
         Row{
@@ -52,10 +59,10 @@ Page
             spacing: dp(3)
             Repeater{
                 model: ListModel{
-                    ListElement{recColor:"#c6c6bc";name:"陌生"}
-                    ListElement{recColor:"#e3ddbd";name:"一般"}
-                    ListElement{recColor:"#d3c2ba";name:"熟悉"}
-                    ListElement{recColor:"#869f82";name:"牢记"}
+                    ListElement{recColor:"#e6a0c4";name:"陌生"}
+                    ListElement{recColor:"#c6cdf7";name:"一般"}
+                    ListElement{recColor:"#d8a499";name:"熟悉"}
+                    ListElement{recColor:"#7294d4";name:"牢记"}
                 }
                 Rectangle{
                     color: "transparent"
@@ -84,9 +91,77 @@ Page
             }
         }
     }
+
+    //折线图分析
+    ChartView{
+        id:cp
+        width: parent.width
+        height: parent.height * 0.5
+        anchors.top: bztRec.bottom
+        backgroundColor: "transparent"
+        DateTimeAxis{
+            id:myDateTimeAxis
+            min:dateManager.getTime(-6)
+            max:dateManager.getTime(0)
+            tickCount: 7
+            labelsFont.pointSize: 9
+            labelsFont.bold: true
+            format: "MM-dd"
+        }
+
+        ValueAxis{
+            id:axisy
+            max:50;
+            min:0;
+        }
+        LineSeries {
+            id:sp
+            color: "#7ae677"
+            width: 2
+            name:"答题总数"
+            axisX: myDateTimeAxis
+            axisY: axisy
+        }
+        LineSeries {
+            id:sp2
+            color: "#dd3032"
+            width: 2
+            name:"正确题数"
+            axisX: myDateTimeAxis
+            axisY: axisy
+        }
+
+    }
+
+    function insertDateToSP(day)
+    {
+        sp.clear()
+        for(var i = 0 ; i < 7 ; ++i)
+        {
+            var tmp = dateManager.getNum(root.userSno,day + i - 6 , true);
+            topdot = topdot > tmp ? topdot : tmp;
+            sp.insert(i,dateManager.getTime(day + i - 6).getTime(),tmp);
+        }
+
+        sp2.clear()
+        for(var j = 0 ; j < 7 ; ++j)
+        {
+            var tmp2 = dateManager.getNum(root.userSno,day + j - 6 , false);
+            topdot = topdot > tmp2 ? topdot : tmp2;
+            sp2.insert(i,dateManager.getTime(day + j - 6).getTime(),tmp2);
+        }
+    }
+
+
     onVisibleChanged: {
         if(visible)
         {
+            //折线图
+            insertDateToSP(0)
+            axisy.max = topdot
+
+
+            //扇形图
             var tmp = wordDB.calculateWord(root.userSno);
             var sum = 0;
             for(var i = 0; i < 4; ++i)

@@ -15,6 +15,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         config.cpp \
+        datemanager.cpp \
         dictionary.cpp \
         keyfilter.cpp \
         main.cpp \
@@ -36,6 +37,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     config.h \
+    datemanager.h \
     dictionary.h \
     keyfilter.h \
     mydatabase.h

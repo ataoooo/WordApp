@@ -103,6 +103,15 @@ Rectangle{
                             config.setConfigBool("pwd/remeberMM",check.checked)
                             config.setConfigString("pwd/upwd",userPsw.text)
                             config.setConfigString("pwd/uid",userId.text)
+
+                            //检查配置项
+                            var confsno = config.getConfigInt("word/sno")
+                            console.log("config sno = ",confsno," and ",root.userSno)
+                            if(confsno != root.userSno){
+                                config.setConfigInt("word/sno",root.userSno)
+                                config.setConfigInt("word/num",0)
+                                config.setConfigInt("word/yes",0)
+                            }
                         }
                         else
                             win.visible = true

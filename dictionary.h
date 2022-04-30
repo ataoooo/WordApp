@@ -3,6 +3,7 @@
 
 #include<QObject>
 #include<QVariantList>
+#include <QDateTime>
 class Dictionary : public QObject
 {
     Q_OBJECT
@@ -61,6 +62,8 @@ public:
     Q_INVOKABLE void setLastMistake(QString sno,QString word,int notTrue);
 
     Q_INVOKABLE QVariantList calculateWord(QString sno);
+
+
 private:
     bool connectDB();
 

@@ -13,6 +13,7 @@
 #include <QDateTime>
 #include <QDebug>
 #include "config.h"
+#include "datemanager.h"
 //#include <QtAndroid>
 
 //检查安装程序是否授权读写权限
@@ -85,6 +86,8 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("myDB", new myDataBase);
     engine.rootContext()->setContextProperty("wordDB",new Dictionary);
     engine.rootContext()->setContextProperty("config",new Config);
+    engine.rootContext()->setContextProperty("dateManager",new DateManager);
+
     QQmlComponent component(&engine,QUrl("qrc:/main.qml"));
     QObject* object = component.create();
     KeyFilter::getInstance()->setFilter(object);

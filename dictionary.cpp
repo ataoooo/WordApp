@@ -8,6 +8,7 @@
 #include <QDebug>
 #include <QSqlRecord>
 #include <ctime>
+
 Dictionary::Dictionary(QObject* parent) : QObject (parent){}
 
 bool Dictionary::connectDB()
@@ -321,7 +322,7 @@ QVariantList Dictionary::rememberWord(QString sno,int num,float lev1,float lev2,
     qDebug() << "the result of n4 = " << n;
     haveRem = n * 0.4;
     n -= haveRem;
-    bool res = query.exec(QString("select * from '%1' where word_length between 30 and 40 "
+    bool res = query.exec(QString("select * from '%1' where word_length between 26 and 40 "
                                   "order by occurrence asc,freq desc,accuracy asc").arg(tablename));
     if(!res)
     {
@@ -347,7 +348,7 @@ QVariantList Dictionary::rememberWord(QString sno,int num,float lev1,float lev2,
     n += num * lev3;
     qDebug() << "the result of n3 = " << n;    haveRem = n * 0.4;
     n -= haveRem;
-    res = query.exec(QString("select * from '%1' where word_length between 20 and 29 "
+    res = query.exec(QString("select * from '%1' where word_length between 16 and 25 "
                              "order by occurrence asc,freq desc,accuracy asc").arg(tablename));
     if(!res)
     {
@@ -373,7 +374,7 @@ QVariantList Dictionary::rememberWord(QString sno,int num,float lev1,float lev2,
     n += num * lev2;
     qDebug() << "the result of n2 = " << n;    haveRem = n * 0.4;
     n -= haveRem;
-    res = query.exec(QString("select * from '%1' where word_length between 10 and 19 "
+    res = query.exec(QString("select * from '%1' where word_length between 6 and 15 "
                              "order by occurrence asc,freq desc,accuracy asc").arg(tablename));
     if(!res)
     {
@@ -396,7 +397,7 @@ QVariantList Dictionary::rememberWord(QString sno,int num,float lev1,float lev2,
     //------------------------------------É¸Ñ¡¼òµ¥----------------------------
     n = num - wordlist.size();
     qDebug() << "the result of n1 = " << n;
-    res = query.exec(QString("select * from '%1' where word_length between 0 and 9 "
+    res = query.exec(QString("select * from '%1' where word_length between 0 and 5 "
                              "order by occurrence asc,freq desc,accuracy asc").arg(tablename));
     if(!res)
     {
