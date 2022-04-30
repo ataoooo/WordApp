@@ -211,27 +211,9 @@ Page {
     }
 
 
-    //添加饼状图分析
-    ChartView {
-        anchors.fill: parent
-        title: qsTr( "饼状图" )
-        titleColor: "black"
-        titleFont.bold: true
-        legend.alignment: Qt.AlignBottom		//图例的位置，就是饼状图下方的那五个词的位置
-        antialiasing: true						//抗锯齿
 
-        PieSeries {
-            id: pieSeries
-            //endAngle: 0
 
-            //value的值并不是百分比，而是你任意指定的值，指定值 / 所有值 = 百分比
-            PieSlice {  label: "富士康订单"; value: 32 }
-            PieSlice {  label: "大华订单"; value: 48 }
-            PieSlice {  label: "海康订单"; value: 72 }
-            PieSlice {  label: "慧视订单"; value: 61 }
-            PieSlice {  label: "其他订单"; value: 40 }
-        }
-    }
+
 
 
 

@@ -22,6 +22,7 @@ Rectangle{
         DirectoryPage{id:direPage}
         UserPage{id:userPage}
         RemeberPage{id:remeberPage}
+        ChartView{id:chartView}
 
         states: [
             State {
@@ -29,8 +30,8 @@ Rectangle{
                 PropertyChanges {target: direPage;opacity:1}
             },
             State {
-                name: "study"
-                PropertyChanges {target: direPage;opacity:1}
+                name: "chart"
+                PropertyChanges {target: chartView;opacity:1}
             },
             State {
                 name: "remember"
@@ -44,11 +45,11 @@ Rectangle{
     }
 
     onCurrentIndexChanged: {
-        var states = ["dictionary","study","remember","mine"]
+        var states = ["dictionary","chart","remember","mine"]
         console.log("The current status is = ",tabView.states)
         switch(tabView.state){
         case states[0]:direPage.opacity = 0; tabView.state = states[currentIndex];break;
-
+        case states[1]:chartView.opacity = 0; tabView.state = states[currentIndex];break;
         case states[2]:remeberPage.opacity = 0;tabView.state = states[currentIndex];break;
         case states[3]:userPage.opacity = 0; tabView.state = states[currentIndex];break;
         }
@@ -79,7 +80,7 @@ Rectangle{
             spacing: dp(20)
             Repeater {
                 id: tabbtn;
-                model: [["dictionary", "词典"], ["study", "学习"],
+                model: [["dictionary", "词典"], ["chart", "统计"],
                     ["remember", "记忆"], ["mine", "我的"]] //记录source用
                 delegate: Image {
                     height: tabBar.height * 0.4;

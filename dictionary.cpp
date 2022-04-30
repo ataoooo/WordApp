@@ -540,3 +540,29 @@ void Dictionary::setLastMistake(QString sno,QString word,int notTrue)
         qDebug() << "The error is = " << query.lastError();
     }
 }
+
+QVariantList Dictionary::calculateWord(QString sno){
+    if(connectDB() == false) return QVariantList{};
+    QSqlQuery query;
+    QString tablename = "allWords" + sno;
+    bool res = query.exec(QString("select accuracy,occurrence from %1").arg(tablename));
+    if(!res)
+    {
+        qDebug() << "The error is = " << query.lastError();
+        return QVariantList{};
+    }
+    int a1(0),a2(0),a3(0),a4(0);
+    while(query.next()){
+        if(query.value(0).toInt() == 0 && query.value(1).toInt() > 0) ++a1;
+        else if(query.value(0).toInt() < 3 && query.value(0).toInt() > 0) ++a2;
+        else if(query.value(0).toInt() < 5 && query.value(0).toInt() > 2) ++a3;
+        else if(query.value(0).toInt() == 5) ++a4;
+    }
+    qDebug() << "The a1:::" << a1 << " " << a2 << " " << a3 << " " << a4;
+    QVariantList tmplis;
+    tmplis.push_back(a1);
+    tmplis.push_back(a2);
+    tmplis.push_back(a3);
+    tmplis.push_back(a4);
+    return tmplis;
+}

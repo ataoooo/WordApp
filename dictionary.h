@@ -59,6 +59,8 @@ public:
 
     //设置此次正确度
     Q_INVOKABLE void setLastMistake(QString sno,QString word,int notTrue);
+
+    Q_INVOKABLE QVariantList calculateWord(QString sno);
 private:
     bool connectDB();
 

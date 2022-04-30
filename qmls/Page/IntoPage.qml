@@ -290,7 +290,4 @@ Rectangle{
         onBtnClicked: win.visible = false
     }
 
-    //垃圾
-
-    //垃圾
 }

@@ -100,6 +100,9 @@
         <file>qmls/Page/ShowCollectWord.qml</file>
         <file>assets/mdpi/diff_grey.png</file>
         <file>assets/mdpi/diff_red.png</file>
+        <file>qmls/Page/ChartView.qml</file>
+        <file>assets/mdpi/ic_chart_color.png</file>
+        <file>assets/mdpi/ic_chart_grey.png</file>
     </qresource>
     <qresource prefix="/qmls"/>
     <qresource prefix="/sqs" lang="qws"/>
