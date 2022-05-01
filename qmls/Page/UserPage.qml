@@ -84,6 +84,8 @@ Page{
                         maskRec.visible = true
                         confirmRec.visible = true
                         break
+                    case 1:root.pushStack(13);break;
+                    case 2:root.pushStack(14);break;
                     case 3 :root.logout();break;
                     }
                 }

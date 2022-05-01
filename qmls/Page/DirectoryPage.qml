@@ -307,10 +307,6 @@ Page {
     }
 
 
-
-
-
-
     Component.onCompleted: {
         countDown.start();
         getTxtContext();

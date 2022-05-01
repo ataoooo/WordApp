@@ -83,6 +83,8 @@ Window {
         case 10:stack.push(showDetailWord);break;
         case 11:stack.push(showSentence);break;
         case 12:stack.push(showCollectWord);break;
+        case 13:stack.push(opinionsView);break;
+        case 14:stack.push(aboutUs);break;
         }
     }
 
@@ -101,6 +103,8 @@ Window {
     Component {id:showDetailWord; ShowDetailWord{}}
     Component {id:showSentence; ShowSentence{}}
     Component {id:showCollectWord; ShowCollectWord{}}
+    Component {id:opinionsView; OpinionsView{}}
+    Component {id:aboutUs; AboutUs{}}
 
     Timer{
         id:quitTimer
