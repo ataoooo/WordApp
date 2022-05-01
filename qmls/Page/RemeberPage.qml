@@ -447,8 +447,6 @@ Page {
                 leftMargin: page3.width
             }
 
-
-
             Rectangle
             {
                 id:resultRec
@@ -468,7 +466,7 @@ Page {
                         z: 99
                         height: dp(15)
                         width: parent.width
-                        color:myanswer == trueanswer ? "#F1DDDD" : "yellow"
+                        color:myanswer == trueanswer ? "#F1DDDD" : "#FFEFD5"
                         Text {
                             id: myanswerT
                             text: myanswer
@@ -547,12 +545,21 @@ Page {
                     }
                 }
             }
+
+            //只为计算长度
+            Text {
+                id: tmpt
+                text: chineseTxt2.text
+                font.pixelSize: dp(6)
+                visible: false
+            }
+
             //中文释义
             Rectangle{
                 id:chinesRec
                 width: page3.width * 0.8
                 height: parent.height * 0.15
-                color: "white"
+                color: "#FFF0F5"
                 anchors{
                     top: parent.top
                     topMargin: dp(35)
@@ -561,7 +568,7 @@ Page {
                 Text {
                     id:chineseTxt2
                     anchors.centerIn: parent
-                    width: parent.width
+                    width: tmpt.contentWidth > parent.width ? parent.width :tmpt.width
                     text: ""
                     font.pixelSize: dp(6)
                     color: "black"
@@ -617,7 +624,7 @@ Page {
             x:0
             width: page3.width * 0.8
             height: parent.height * 0.15
-            color: "white"
+            color: "#FFF0F5"
             anchors{
                 top: parent.top
                 topMargin: dp(15)
@@ -774,7 +781,7 @@ Page {
             visible: anserBtn.isshow
             width: page3.width * 0.8
             height: parent.height * 0.15
-            color: "white"
+            color: "#FFF0F5"
             anchors{
                 top: r2.bottom
                 topMargin: dp(10)
@@ -827,12 +834,12 @@ Page {
                 if(combox.currentIndex == 1){
                     getResult();
                     resultRec.visible = true
-
                     if(root.userSno == -1) return
                     //记录本次测试结果
                     var currenTime = dateManager.getCurrenTime()
                     console.log("current time is = ",currenTime);
                     dateManager.insetRecord(root.userSno,currenTime,wordNum + merrorNum,yesnum)
+                    root.finishTest()
                 }
             }
         }

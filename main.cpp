@@ -12,6 +12,7 @@
 #include <QDir>
 #include <QDateTime>
 #include <QDebug>
+#include <QIcon>
 #include "config.h"
 #include "datemanager.h"
 //#include <QtAndroid>
@@ -77,6 +78,10 @@ int main(int argc, char *argv[])
     qDebug() << "App begin";
 
     QApplication app(argc, argv);
+
+    //更换图标
+    app.setWindowIcon(QIcon(":/assets/mdpi/rabbitword.ico"));
+
 //    //注册数据库交互类(一定要注意大写啊啊啊啊！！！)
 //    qmlRegisterType<myDataBase>("myDB", 1, 0, "MyDataBase");
     QQmlApplicationEngine engine;

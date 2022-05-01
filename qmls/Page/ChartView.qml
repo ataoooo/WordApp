@@ -225,8 +225,8 @@ Page
             insertDateToSP(currentday)
             axisy.max = topdot
 
-
             //扇形图
+            bl = []
             var tmp = wordDB.calculateWord(root.userSno);
             var sum = 0;
             for(var i = 0; i < 4; ++i)
@@ -236,16 +236,16 @@ Page
                 console.log("The result is = ",bl[i])
             }
             p1.value = bl[0];
-            p1.label = "陌生:" + (bl[0]/sum).toFixed(4) * 100 + "%"
+            p1.label = "陌生:" + (bl[0]/sum * 100).toFixed(2) + "%"
             p1.labelVisible = p1.value != 0
             p2.value = bl[1];
-            p2.label = "一般:" + (bl[1]/sum).toFixed(4) * 100 + "%"
+            p2.label = "一般:" + (bl[1]/sum * 100).toFixed(2) + "%"
             p2.labelVisible = p2.value != 0
             p3.value = bl[2];
-            p3.label = "熟悉:" + (bl[2]/sum).toFixed(4) * 100 + "%"
+            p3.label = "熟悉:" + (bl[2]/sum * 100).toFixed(2) + "%"
             p3.labelVisible = p3.value != 0
             p3.value = bl[3];
-            p4.label = "牢记:" + (bl[3]/sum).toFixed(4) * 100 + "%"
+            p4.label = "牢记:" + (bl[3]/sum * 100).toFixed(2) + "%"
             p4.labelVisible = p4.value != 0
         }
     }

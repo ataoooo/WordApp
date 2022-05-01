@@ -32,6 +32,7 @@ Window {
     //信号
     signal pageTile(var mtitle);
     signal getModel();
+    signal finishTest();
 
     StackView{
         id:stack

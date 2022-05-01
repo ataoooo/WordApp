@@ -276,6 +276,7 @@ Rectangle{
     //检查登录密码
     function checkPwd()
     {
+        if(userId.text == "" || userPsw == "") return false;
         var uId = userId.recieveText();
         var upwd = userPsw.recieveText()
         var pwd =  myDB.findPwd(userId.recieveText());

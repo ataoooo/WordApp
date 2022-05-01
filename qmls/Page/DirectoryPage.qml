@@ -286,13 +286,21 @@ Page {
 
     }
 
+    Connections{
+        target: root
+        onFinishTest:{
+            console.log("get the finish signal")
+            getTxtContext()
+            txt2.text = txt()
+        }
+    }
 
     function txt()
     {
         var tmptxt = "今日已默写单词:" + sumw + "个\n\n默写正确单词个数:" + rightn + "个\n\n"
-        if( sumw > 0 && rightn / sumw >= 80 )
+        if( sumw > 0 && rightn / sumw >= 0.8 )
             tmptxt += "今日答题正确率较高，请继续保持哦！"
-        else if( sumw > 0 && rightn / sumw >= 60 )
+        else if( sumw > 0 && rightn / sumw >= 0.6 )
             tmptxt += "今日答题正确率一般，请再努力一点吧！"
         else
             tmptxt += "今日答题正确率较低，需要加吧劲哦！"

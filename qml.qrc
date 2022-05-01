@@ -108,6 +108,7 @@
         <file>assets/mdpi/readbook.png</file>
         <file>qmls/Page/OpinionsView.qml</file>
         <file>qmls/Page/AboutUs.qml</file>
+        <file>assets/mdpi/rabbitword.ico</file>
     </qresource>
     <qresource prefix="/qmls"/>
     <qresource prefix="/sqs" lang="qws"/>

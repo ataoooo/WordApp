@@ -96,7 +96,7 @@ void DateManager::insetRecord(int uson,QString date,int sum,int yesw)
     if(uo == uson)
     {
         qDebug() << "insert";
-        res = query.exec(QString("update dateTable set wordSum = %1,rightWord = %2 where usersno = %3").arg(n + sum).arg(ny + yesw).arg(uson));
+        res = query.exec(QString("update dateTable set wordSum = %1,rightWord = %2 where usersno = %3 and time = '%4'").arg(n + sum).arg(ny + yesw).arg(uson).arg(date));
         if(!res)
             qDebug() << "select 2error is = " << query.lastError();
         return;
