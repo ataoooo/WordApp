@@ -98,6 +98,16 @@ StackPageBase{
         }
         Component.onCompleted: memView.moveToHeader()
     }
+
+    Image {
+        id: img
+        visible: false
+        source: "../../assets/mdpi/noCollect.png"
+        width: parent.width
+        anchors.centerIn: parent
+        fillMode:Image.PreserveAspectFit
+    }
+
     function test(){
         modelis.clear()
         //获取所有的收藏的单词
@@ -108,6 +118,10 @@ StackPageBase{
             console.log("show sentence is = ",allWordsList[i])
             modelis.append({"word":splitword(0,allWordsList[i]),"chinese":splitword(1,allWordsList[i])})
             ++i;
+        }
+        if(i == 0){
+            memView.visible = false
+            img.visible = true
         }
     }
 

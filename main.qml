@@ -175,5 +175,4 @@ Window {
         }
         return showstr;
     }
-
 }

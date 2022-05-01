@@ -103,6 +103,9 @@
         <file>qmls/Page/ChartView.qml</file>
         <file>assets/mdpi/ic_chart_color.png</file>
         <file>assets/mdpi/ic_chart_grey.png</file>
+        <file>assets/mdpi/noCollect.png</file>
+        <file>assets/mdpi/backbook.png</file>
+        <file>assets/mdpi/readbook.png</file>
     </qresource>
     <qresource prefix="/qmls"/>
     <qresource prefix="/sqs" lang="qws"/>

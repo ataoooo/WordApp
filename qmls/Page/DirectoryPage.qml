@@ -11,6 +11,8 @@ Page {
     //仅当可见时启用页面操作
     enabled: visible
     property bool isReplace: false
+    property var sumw: 0
+    property var rightn: 0
     Rectangle{
         anchors.fill: parent
         z: 0
@@ -207,11 +209,102 @@ Page {
                 else swipeView.currentIndex = 0;
             }
         }
-        //底部按键组布局
+
+        //下半部分布局
+        Rectangle{
+            id:downRec
+            width: parent.width
+            height: dp(20)
+            anchors{
+                top: swipeView.bottom
+                bottom: parent.bottom
+            }
+            color: "#D6E9E2"
+
+            //暂无学习时显示
+            Rectangle{
+                id:nostudy
+                visible: sumw == 0
+                anchors.fill: parent
+                color: parent.color
+                Text {
+                    id: name
+                    width: contentWidth
+                    anchors{
+                        horizontalCenter: parent.horizontalCenter
+                        bottom: studyimg.top
+                        bottomMargin: dp(5)
+                        top: parent.top
+                        topMargin: dp(8)
+                    }
+                    font.pixelSize: dp(6)
+                    font.bold: true
+                    text: qsTr("今日还没有背单词哦！快去学习吧！")
+                }
+                Image {
+                    id: studyimg
+                    source: "../../assets/mdpi/readbook.png"
+                    width: parent.width * 0.45
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    anchors.bottom: parent.bottom
+                    anchors.bottomMargin: dp(5)
+                    fillMode: Image.PreserveAspectFit
+                }
+            }
+
+            Rectangle{
+                id:study
+                visible: !nostudy.visible
+                anchors.fill: parent
+                color: parent.color
+
+                Text {
+                    id: txt2
+                    width: contentWidth
+                    anchors{
+                        horizontalCenter: parent.horizontalCenter
+                        bottom: stuimg.top
+                        bottomMargin: dp(5)
+                        top: parent.top
+                        topMargin: dp(8)
+                    }
+                    font.pixelSize: dp(5)
+                    font.bold: true
+                    text: txt()
+                }
+                Image {
+                    id: stuimg
+                    source: "../../assets/mdpi/backbook.png"
+                    width: parent.width * 0.75
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    anchors.bottom: parent.bottom
+                    fillMode: Image.PreserveAspectFit
+                }
+            }
+
+        }
+
     }
 
 
+    function txt()
+    {
+        var tmptxt = "今日已默写单词:" + sumw + "个\n\n默写正确单词个数:" + rightn + "个\n\n"
+        if( sumw > 0 && rightn / sumw >= 80 )
+            tmptxt += "今日答题正确率较高，请继续保持哦！"
+        else if( sumw > 0 && rightn / sumw >= 60 )
+            tmptxt += "今日答题正确率一般，请再努力一点吧！"
+        else
+            tmptxt += "今日答题正确率较低，需要加吧劲哦！"
+        return tmptxt
+    }
 
+
+    function getTxtContext(){
+        sumw = dateManager.getNum(root.userSno,0,true)
+        rightn = dateManager.getNum(root.userSno,0,false)
+
+    }
 
 
 
@@ -220,6 +313,7 @@ Page {
 
     Component.onCompleted: {
         countDown.start();
+        getTxtContext();
     }
 
 
