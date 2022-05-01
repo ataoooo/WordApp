@@ -30,6 +30,7 @@ Page {
         [0.1,0.1,0.4,0.4]]
 
     function getLevel(){
+        if(root.userSno == -1) return 0
         switch(root.userType){
         case "小学生":return 0;
         case "初中生":return 1;
@@ -190,7 +191,8 @@ Page {
                 onClicked: {
                     page3.wordNum = setSp.value;
                     mdifficulty = tmpdiffer;
-                    wordDB.setDiffer(root.userSno,setSp.value,mdifficulty);
+                    if(root.userSno != -1)
+                        wordDB.setDiffer(root.userSno,setSp.value,mdifficulty);
                     sRec.visible = false
                     maskRec.visible = false
                     root.showMsgHint("保存成功")
@@ -724,6 +726,7 @@ Page {
                 MouseArea{
                     anchors.fill: parent
                     onClicked: {
+                        if(root.userSno == -1) return
                         console.log("current word is = ",englishword[currentWord])
                         wordDB.setLastMistake(root.userSno,englishword[currentWord],1)
                         wordDB.setAccuracy(root.userSno,englishword[currentWord],false)
@@ -755,6 +758,7 @@ Page {
                 MouseArea{
                     anchors.fill: parent
                     onClicked: {
+                        if(root.userSno == -1) return
                         console.log("current word is = ",englishword[currentWord])
                         wordDB.setLastMistake(root.userSno,englishword[currentWord],0)
                         wordDB.setAccuracy(root.userSno,englishword[currentWord],true)
@@ -824,6 +828,7 @@ Page {
                     getResult();
                     resultRec.visible = true
 
+                    if(root.userSno == -1) return
                     //记录本次测试结果
                     var currenTime = dateManager.getCurrenTime()
                     console.log("current time is = ",currenTime);
@@ -838,12 +843,20 @@ Page {
         root.writeWord.push(tFied.text);
         if(tFied.text != englishword[currentWord])
         {
+            if(root.userSno == -1){
+                tFied.text = ""
+                return
+            }
             wordDB.setLastMistake(root.userSno,englishword[currentWord],1)
             wordDB.setAccuracy(root.userSno,englishword[currentWord],false)
         }
         else
         {
             ++yesnum;
+            if(root.userSno == -1){
+                tFied.text = ""
+                return
+            }
             wordDB.setLastMistake(root.userSno,englishword[currentWord],0)
             wordDB.setAccuracy(root.userSno,englishword[currentWord],true)
         }
@@ -864,6 +877,7 @@ Page {
             chinesemena.push(tmpWord[1]);
         }
         //上一次错误单词
+        if(root.userSno == -1) return
         var tmpw = wordDB.lastErrorWord(root.userSno);
         for( ; tmpw[merrorNum] != undefined ; ++merrorNum){
             var tm = tmpw[merrorNum].split('&');

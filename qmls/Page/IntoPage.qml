@@ -229,7 +229,10 @@ Rectangle{
             MouseArea{
                 anchors.fill: parent
                 onClicked: {
-                    //???wait
+                    root.userSno = -1
+                    root.userName = "游客"
+                    root.tablename = "allWords"
+                    root.enterMainView()
                 }
             }
             Text {

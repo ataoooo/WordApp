@@ -311,6 +311,7 @@ QVariantList Dictionary::rememberWord(QString sno,int num,float lev1,float lev2,
         return QVariantList{};
     }
     QString tablename = "allWords" + sno;
+    if(sno == "-1") tablename = "allWords";
     QSqlQuery query,query1;
     qDebug() << "the num = " << num << "   and name is = " << tablename << " -1: " << lev1
              << " -2: " << lev2 << " -3: " << lev3 << " -4: " << lev4;
@@ -488,6 +489,10 @@ void Dictionary::setDiffer(int sno,int wordNum,int diff)
 
 QVariantList Dictionary::getDiffer(int sno)
 {
+    if(sno == -1)
+    {
+        return QVariantList{20,1};
+    }
     if(connectDB() == false) return QVariantList{};
     QSqlQuery query;
     qDebug() << "The sno is = " << sno;
@@ -546,6 +551,7 @@ QVariantList Dictionary::calculateWord(QString sno){
     if(connectDB() == false) return QVariantList{};
     QSqlQuery query;
     QString tablename = "allWords" + sno;
+    if(sno == "-1") tablename = "allWords";
     bool res = query.exec(QString("select accuracy,occurrence from %1").arg(tablename));
     if(!res)
     {
@@ -558,6 +564,10 @@ QVariantList Dictionary::calculateWord(QString sno){
         else if(query.value(0).toInt() < 3 && query.value(0).toInt() > 0) ++a2;
         else if(query.value(0).toInt() < 5 && query.value(0).toInt() > 2) ++a3;
         else if(query.value(0).toInt() == 5) ++a4;
+    }
+    if(sno == "-1")
+    {
+        a1 = 100;
     }
     qDebug() << "The a1:::" << a1 << " " << a2 << " " << a3 << " " << a4;
     QVariantList tmplis;

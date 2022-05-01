@@ -52,6 +52,11 @@ Page {
         MouseArea{
             anchors.fill:parent
             onClicked: {
+                if(root.userSno == -1)
+                {
+                    root.showMsgHint("游客身份无法导入")
+                    return
+                }
                 emitFun()
                 root.showMsgHint("导入成功")
             }

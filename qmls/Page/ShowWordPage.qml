@@ -165,7 +165,7 @@ Page {
         Image {
             id:scIcon
             source: isCollect() ? "../../assets/mdpi/sc.png" : "../../assets/mdpi/nosc.png"
-            visible: !failRec.visible
+            visible: !failRec.visible && root.userSno != -1
             height: dp(6)
             fillMode: Image.PreserveAspectFit
             property bool issc: isCollect() ? true : false
@@ -197,7 +197,7 @@ Page {
         //编辑按钮
         Rectangle{
             id:editBtn
-            visible: !failRec.visible
+            visible: !failRec.visible && root.userSno != -1
             width: dp(76) * 0.37
             height: dp(10)
             radius: 5

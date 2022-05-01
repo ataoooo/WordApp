@@ -81,6 +81,10 @@ Page{
                 onClicked: {
                     switch(index){
                     case 0: //需要确认密码
+                        if(root.userSno == -1){
+                            root.showMsgHint("游客身份不可修改")
+                            return
+                        }
                         maskRec.visible = true
                         confirmRec.visible = true
                         break
