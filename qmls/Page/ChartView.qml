@@ -11,8 +11,9 @@ Page
     visible: opacity > 0
     enabled: visible
     property var bl: []
-    property var sp2data: []
     property var topdot: 20
+    property var currentday: 0
+
     background: Rectangle{
         anchors.fill: parent
         color: backcolor
@@ -22,7 +23,7 @@ Page
     {
         id:bztRec
         width: parent.width
-        height: parent.height * 0.5
+        height: parent.height * 0.499
         color: "transparent"
         anchors.top: parent.top
         ChartView {
@@ -44,7 +45,7 @@ Page
                 }                    //0
                 PieSlice {id:p2;  label: "一般:"; color: "#c6cdf7"; labelVisible: true
                     onClicked: labelVisible = !labelVisible}                    //1-2
-                PieSlice {id:p3;  label: "熟悉:"; color: "#d8a499"; labelVisible: true
+                PieSlice {id:p3;  label: "熟悉:"; color: "#ffbb27"; labelVisible: true
                     onClicked: labelVisible = !labelVisible}                    //2-4
                 PieSlice {id:p4;  label: "牢记:"; color: "#7294d4"; labelVisible: true
                     onClicked: labelVisible = !labelVisible}                    //5
@@ -61,7 +62,7 @@ Page
                 model: ListModel{
                     ListElement{recColor:"#e6a0c4";name:"陌生"}
                     ListElement{recColor:"#c6cdf7";name:"一般"}
-                    ListElement{recColor:"#d8a499";name:"熟悉"}
+                    ListElement{recColor:"#ffbb27";name:"熟悉"}
                     ListElement{recColor:"#7294d4";name:"牢记"}
                 }
                 Rectangle{
@@ -92,13 +93,21 @@ Page
         }
     }
 
+    Rectangle{
+        id:tmprec
+        width: parent.width
+        height: dp(0.15)
+        anchors.top: bztRec.bottom
+    }
+
     //折线图分析
     ChartView{
         id:cp
         width: parent.width
-        height: parent.height * 0.5
-        anchors.top: bztRec.bottom
+        height: parent.height * 0.499
+        anchors.top: tmprec.bottom
         backgroundColor: "transparent"
+        title: "单词默写统计图"
         DateTimeAxis{
             id:myDateTimeAxis
             min:dateManager.getTime(-6)
@@ -130,11 +139,67 @@ Page
             axisX: myDateTimeAxis
             axisY: axisy
         }
+    }
 
+    //左箭头
+    Canvas{
+        id:canvasleft
+        height: dp(400)
+        width: dp(400)
+
+        onPaint: {
+            var ctx = canvasleft.getContext("2d")
+            //左箭头
+            ctx.moveTo(120,450)
+            ctx.lineTo(105,458)
+            ctx.lineTo(120,466)
+            //右箭头
+            ctx.moveTo(360,450)
+            ctx.lineTo(375,458)
+            ctx.lineTo(360,466)
+            ctx.lineWidth = 2;
+            ctx.strokeStyle = 'black';
+            ctx.stroke();
+        }
+        //左
+        Rectangle{
+            width: 20
+            height: 20
+            x: 105
+            y: 450
+            color: "transparent"
+            MouseArea{
+                anchors.fill: parent
+                onClicked: {
+                    currentday = currentday - 7
+                    insertDateToSP(currentday)
+                }
+            }
+        }
+        //右
+        Rectangle{
+            width: 20
+            height: 20
+            x: 360
+            y: 450
+            color: "transparent"
+            MouseArea{
+                anchors.fill: parent
+                onClicked: {
+                    if(currentday < 0)
+                    {
+                        currentday += 7
+                        insertDateToSP(currentday)
+                    }
+                }
+            }
+        }
     }
 
     function insertDateToSP(day)
     {
+        myDateTimeAxis.min = dateManager.getTime(day -6)
+        myDateTimeAxis.max = dateManager.getTime(day)
         sp.clear()
         for(var i = 0 ; i < 7 ; ++i)
         {
@@ -157,7 +222,7 @@ Page
         if(visible)
         {
             //折线图
-            insertDateToSP(0)
+            insertDateToSP(currentday)
             axisy.max = topdot
 
 

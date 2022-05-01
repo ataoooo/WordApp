@@ -165,7 +165,7 @@ Page {
                 Rectangle{
                     id:rec1
                     radius: 5
-                    color: "red"
+                    color: "#c6cdf7"
                     Text{
                         anchors.centerIn: parent
                         font.pixelSize: 50
@@ -178,7 +178,7 @@ Page {
                 Rectangle{
                     id:rec2
                     radius: 5
-                    color: "blue"
+                    color: "#e3ddbd"
                     Text{
                         anchors.centerIn: parent
                         text: "广告位招租"

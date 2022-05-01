@@ -43,7 +43,7 @@ Page {
     Rectangle{
         anchors.fill: parent
         z: 0
-        color: "#eeeeee"
+        color: "#eccfd7"
     }
     //头部红色背景
     PageHeader{
