@@ -206,7 +206,7 @@ Rectangle{
                 MouseArea{
                     anchors.fill: parent
                     onClicked: {
-                        //忘记密码的逻辑？？？wait
+                        root.showMsgHint("该功能暂未开放")
                     }
                 }
             }
@@ -266,6 +266,12 @@ Rectangle{
                 }
                 text: qsTr("联系客服")
                 color: allColor
+            }
+            MouseArea{
+                anchors.fill: parent
+                onClicked: {
+                    root.showMsgHint("该功能暂未开放")
+                }
             }
         }
     }

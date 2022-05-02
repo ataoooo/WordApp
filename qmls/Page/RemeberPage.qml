@@ -356,7 +356,7 @@ Page {
 
         }
         onVisibleChanged: {
-            if(!visible)
+            if(visible)
             {
                 setSp.value = wordNum
                 console.log("The mdifficult is = ",mdifficulty)
