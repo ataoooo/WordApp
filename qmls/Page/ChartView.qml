@@ -104,7 +104,7 @@ Page
     ChartView{
         id:cp
         width: parent.width
-        height: parent.height * 0.499
+        height: parent.height * 0.48
         anchors.top: tmprec.bottom
         backgroundColor: "transparent"
         title: "单词默写统计图"
@@ -236,16 +236,20 @@ Page
                 console.log("The result is = ",bl[i])
             }
             p1.value = bl[0];
-            p1.label = "陌生:" + (bl[0]/sum * 100).toFixed(2) + "%"
+            p1.label = (bl[0]/sum * 100).toFixed(2) + "%"
+            console.log("陌生:"  ,p1.label)
             p1.labelVisible = p1.value != 0
             p2.value = bl[1];
-            p2.label = "一般:" + (bl[1]/sum * 100).toFixed(2) + "%"
+            p2.label = (bl[1]/sum * 100).toFixed(2) + "%"
+            console.log("一般:"  ,p2.label,"and ", p2.value )
             p2.labelVisible = p2.value != 0
             p3.value = bl[2];
-            p3.label = "熟悉:" + (bl[2]/sum * 100).toFixed(2) + "%"
+            p3.label = (bl[2]/sum * 100).toFixed(2) + "%"
+            console.log("熟悉:"  ,p3.label,"and ",p3.value )
             p3.labelVisible = p3.value != 0
-            p3.value = bl[3];
-            p4.label = "牢记:" + (bl[3]/sum * 100).toFixed(2) + "%"
+            p4.value = bl[3];
+            p4.label = (bl[3]/sum * 100).toFixed(2) + "%"
+            console.log("牢记:"  ,p4.label )
             p4.labelVisible = p4.value != 0
         }
     }

@@ -260,8 +260,15 @@ bool Dictionary::importWord(QString sno,QString word,QString mean){
     createImportTable(sno.toInt());
     QString tablename = "ImportTable" + sno;
     //≤Â»Î
-    QSqlQuery query;
-    bool res = query.exec(QString("insert into %1 values('%2','%3')").arg(tablename).arg(word).arg(mean));
+    QSqlQuery query,query2;
+    bool res = query.exec(QString("select * from '%1'").arg(tablename));
+    if(!res) return false;
+    while(query.next())
+    {
+        res = query.exec(QString("update '%1' set mean_cn = '%2' where word = '%3'").arg(tablename).arg(mean).arg(word));
+        return res;
+    }
+    res = query.exec(QString("insert into %1 values('%2','%3')").arg(tablename).arg(word).arg(mean));
     if(!res)
     {
         qDebug() << "insert error :" << query.lastError();
@@ -324,7 +331,7 @@ QVariantList Dictionary::rememberWord(QString sno,int num,float lev1,float lev2,
     haveRem = n * 0.4;
     n -= haveRem;
     bool res = query.exec(QString("select * from '%1' where word_length between 26 and 40 "
-                                  "order by occurrence asc,freq desc,accuracy asc").arg(tablename));
+                                  "order by occurrence asc,freq asc,accuracy asc").arg(tablename));
     if(!res)
     {
         qDebug() << "The lev4 is error"<< query.lastError();
@@ -350,7 +357,7 @@ QVariantList Dictionary::rememberWord(QString sno,int num,float lev1,float lev2,
     qDebug() << "the result of n3 = " << n;    haveRem = n * 0.4;
     n -= haveRem;
     res = query.exec(QString("select * from '%1' where word_length between 16 and 25 "
-                             "order by occurrence asc,freq desc,accuracy asc").arg(tablename));
+                             "order by occurrence asc,freq asc,accuracy asc").arg(tablename));
     if(!res)
     {
         qDebug() << "The lev3 is error"<< query.lastError();
@@ -376,7 +383,7 @@ QVariantList Dictionary::rememberWord(QString sno,int num,float lev1,float lev2,
     qDebug() << "the result of n2 = " << n;    haveRem = n * 0.4;
     n -= haveRem;
     res = query.exec(QString("select * from '%1' where word_length between 6 and 15 "
-                             "order by occurrence asc,freq desc,accuracy asc").arg(tablename));
+                             "order by occurrence asc,freq asc,accuracy asc").arg(tablename));
     if(!res)
     {
         qDebug() << "The lev2 is error"<< query.lastError();
@@ -399,7 +406,7 @@ QVariantList Dictionary::rememberWord(QString sno,int num,float lev1,float lev2,
     n = num - wordlist.size();
     qDebug() << "the result of n1 = " << n;
     res = query.exec(QString("select * from '%1' where word_length between 0 and 5 "
-                             "order by occurrence asc,freq desc,accuracy asc").arg(tablename));
+                             "order by occurrence asc,freq asc,accuracy asc").arg(tablename));
     if(!res)
     {
         qDebug() << "The lev2 is error"<< query.lastError();

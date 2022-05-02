@@ -88,7 +88,8 @@ StackPageBase {
         }
         source: "../../assets/mdpi/bg_vip_top.png"
         width: dp(96)
-        fillMode: Image.PreserveAspectFit
+        height: eng1.height + eng2.height + ch1.height + ch2.height + dp(10)
+        //fillMode: Image.PreserveAspectFit
         Column{
             id:co
             spacing: dp(2)
@@ -103,27 +104,28 @@ StackPageBase {
                 id: eng1
                 width: parent.width
                 wrapMode: Text.Wrap
-                text: getTxt(1,targetModel[0])//qsTr("text1")
+                text: getTxt(1,targetModel[0])
 
             }
             Text {
                 id: ch1
                 width: parent.width
                 wrapMode: Text.Wrap
-                text: getTxt(2,targetModel[0])//qsTr("text2")
+                text: getTxt(2,targetModel[0])
             }
             //英语句子1
             Text {
                 id: eng2
                 width: parent.width
                 wrapMode: Text.Wrap
-                text: getTxt(3,targetModel[0])//qsTr("text3")
+                text: getTxt(3,targetModel[0])
             }
             Text {
                 id: ch2
                 width: parent.width
                 wrapMode: Text.Wrap
-                text: getTxt(4,targetModel[0])//qsTr("text4")
+                clip: true
+                text: getTxt(4,targetModel[0])
             }
         }
     }

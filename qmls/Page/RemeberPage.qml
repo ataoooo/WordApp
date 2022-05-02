@@ -196,6 +196,7 @@ Page {
                     sRec.visible = false
                     maskRec.visible = false
                     root.showMsgHint("保存成功")
+                    isGetWord = false
                 }
             }
         }
@@ -537,6 +538,7 @@ Page {
                             isGetWord = true
                             getTestWord()
                         }
+                        root.writeWord = []
                         yesnum = 0
                         setTime.interval = sp.value * 1000
                         showTxt(++currentWord)
@@ -558,7 +560,7 @@ Page {
             Rectangle{
                 id:chinesRec
                 width: page3.width * 0.8
-                height: parent.height * 0.15
+                height:chineseTxt2.height > parent.height * 0.15 ? chineseTxt2.height : parent.height * 0.15
                 color: "#FFF0F5"
                 anchors{
                     top: parent.top
@@ -780,7 +782,7 @@ Page {
             id:answerRec
             visible: anserBtn.isshow
             width: page3.width * 0.8
-            height: parent.height * 0.15
+            height: chineseTxt.height > parent.height * 0.15 ? chineseTxt.height : parent.height * 0.15
             color: "#FFF0F5"
             anchors{
                 top: r2.bottom
@@ -790,7 +792,7 @@ Page {
             Text {
                 id:chineseTxt
                 anchors.centerIn: parent
-                width: parent.width
+                width: tmpt.contentWidth > parent.width ? parent.width :tmpt.width
                 text: ""
                 font.pixelSize: dp(6)
                 color: "black"
@@ -819,8 +821,9 @@ Page {
         onTriggered: {
             if(combox.currentIndex == 1)
                 endWrite();
-            showTxt(++currentWord)
-            if(currentWord == wordNum + merrorNum - 1)
+            ++currentWord;
+            //结束
+            if(currentWord == wordNum + merrorNum)
             {
                 startBtn.source = "../../assets/mdpi/start.png"
                 startBtn.istart = false
@@ -842,6 +845,7 @@ Page {
                     root.finishTest()
                 }
             }
+            else showTxt(currentWord)
         }
     }
 
