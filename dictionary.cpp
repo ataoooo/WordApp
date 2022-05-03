@@ -257,19 +257,40 @@ QVariantList Dictionary::collectWords(QString bookname)
     return wordlist;
 }
 
+void Dictionary::deleteWord(QString sno,QString word)
+{
+    if(connectDB()==false)
+    {
+        qDebug() << "connect db fail";
+        return;
+    }
+    QSqlQuery query;
+    QString tablename = "ImportTable" + sno;
+    bool res = query.exec(QString("delete from '%1' where word = '%2'").arg(tablename).arg(word));
+    if(!res)
+    {
+        qDebug() << "The delete error is = " << query.lastError();
+    }
+}
+
 bool Dictionary::importWord(QString sno,QString word,QString mean){
     createImportTable(sno.toInt());
     QString tablename = "ImportTable" + sno;
     //²åÈë
+    qDebug() << "The get message is = " << word << " and " << mean;
     QSqlQuery query,query2;
-    bool res = query.exec(QString("select * from '%1'").arg(tablename));
+    bool res = query.exec(QString("select * from '%1' where word = '%2'").arg(tablename).arg(word));
     if(!res) return false;
-    while(query.next())
+    query.next();
+    QString tmpword = query.value(0).toString();
+    qDebug() << "The target word is = " << tmpword;
+    if(tmpword == word)
     {
         res = query.exec(QString("update '%1' set mean_cn = '%2' where word = '%3'").arg(tablename).arg(mean).arg(word));
         return res;
     }
-    res = query.exec(QString("insert into %1 values('%2','%3')").arg(tablename).arg(word).arg(mean));
+    qDebug() << "The table name is = " << tablename;
+    res = query.exec(QString("insert into '%1' values('%2','%3')").arg(tablename).arg(word).arg(mean));
     if(!res)
     {
         qDebug() << "insert error :" << query.lastError();

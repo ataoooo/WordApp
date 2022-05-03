@@ -110,6 +110,7 @@
         <file>qmls/Page/AboutUs.qml</file>
         <file>assets/mdpi/rabbitword.ico</file>
         <file>assets/dbfile/config.ini</file>
+        <file>assets/mdpi/del.png</file>
     </qresource>
     <qresource prefix="/qmls"/>
     <qresource prefix="/sqs" lang="qws"/>

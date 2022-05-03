@@ -5,6 +5,7 @@ StackPageBase{
     _title: ""
     property var titlename;
     property var targetModel;
+    property var delvisible: false
 
     Connections{
         target: root
@@ -14,9 +15,11 @@ StackPageBase{
             switch(page._title){
             case "英语词汇":
                 targetModel = wordDB.getAllWords("allWords" + root.userSno.toString());
+                delvisible = false
                 break;
             case "我的单词本":
                 targetModel = wordDB.getAllWords("ImportTable" + root.userSno.toString());
+                delvisible = true
                 break;
             }
         }
@@ -37,7 +40,7 @@ StackPageBase{
         }
         source: "../../assets/mdpi/bg_vip_top.png"
         width: dp(96)
-        height: englishtxt.height + chinesetxt.height + dp(10)
+        height: englishtxt.height + chinesetxt.height + dp(20)
         Column{
             id:co
             spacing: dp(8)
@@ -120,6 +123,26 @@ StackPageBase{
                     englishxx.text = getTxt(0,modelData)
                     chinesetxt.text = getTxt(1,modelData)
                     chinesexx.text = getTxt(1,modelData)
+                }
+            }
+            Image {
+                id: delimg
+                visible:delvisible
+                source: "../../assets/mdpi/del.png"
+                height: parent.height * 0.35
+                fillMode: Image.PreserveAspectFit
+                anchors{
+                    right: parent.right
+                    rightMargin: dp(1)
+                    verticalCenter: parent.verticalCenter
+                }
+                MouseArea{
+                    anchors.fill: parent
+                    onClicked: {
+                        wordDB.deleteWord(root.userSno,getTxt(0,modelData))
+                        root.showMsgHint("删除成功")
+                        targetModel = wordDB.getAllWords("ImportTable" + root.userSno.toString());
+                    }
                 }
             }
         }

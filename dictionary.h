@@ -37,6 +37,9 @@ public:
     //导入单词
     Q_INVOKABLE bool importWord(QString sno,QString word,QString mean);
 
+    //删除单词
+    Q_INVOKABLE void deleteWord(QString sno,QString word);
+
     //选取需要背诵的单词(单词本名，共个数，各等级个数)
     Q_INVOKABLE QVariantList rememberWord(QString sno,int num,float lev1,float lev2,
                                           float lev3,float lev4);
