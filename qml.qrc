@@ -109,6 +109,7 @@
         <file>qmls/Page/OpinionsView.qml</file>
         <file>qmls/Page/AboutUs.qml</file>
         <file>assets/mdpi/rabbitword.ico</file>
+        <file>assets/dbfile/config.ini</file>
     </qresource>
     <qresource prefix="/qmls"/>
     <qresource prefix="/sqs" lang="qws"/>

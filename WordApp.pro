@@ -1,5 +1,5 @@
-QT += quick sql charts
-#QT += quick sql androidextras
+#QT += quick sql charts
+QT += quick sql charts androidextras
 CONFIG += c++11
 
 # The following define makes your compiler emit warnings if you use
@@ -45,6 +45,7 @@ HEADERS += \
 android{
     data.files += android/userTable.db
     data.files += android/lookup.db
+    data.files += android/config.ini
     data.path = /assets/dbfile
     INSTALLS += data
 }

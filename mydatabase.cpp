@@ -16,14 +16,18 @@ bool myDataBase::checkConnectDB(QString dbName)
         db = QSqlDatabase::database("qt_sql_default_connection");
     else
         db = QSqlDatabase::addDatabase("QSQLITE");
-//    QFile file("/storage/emulated/0/data/userTable.db");
-//    if(!file.exists() || file.size() == 0)
-//    {
-//        QFile::copy("assets:/dbfile/userTable.db","/storage/emulated/0/data/userTable.db");
-//        file.setPermissions(QFile::ReadUser  | QFile::WriteUser);
-//    }
-//    db.setDatabaseName("/storage/emulated/0/data/userTable.db");
-    db.setDatabaseName(dbName);
+
+    //----------------复制文件至手机文件夹------------------
+    QFile file("/storage/emulated/0/data/userTable.db");
+    if(!file.exists() || file.size() == 0)
+    {
+        QFile::copy("assets:/dbfile/userTable.db","/storage/emulated/0/data/userTable.db");
+        file.setPermissions(QFile::ReadUser  | QFile::WriteUser);
+    }
+    db.setDatabaseName("/storage/emulated/0/data/userTable.db");
+    //----------------复制文件至手机文件夹------------------
+
+    //db.setDatabaseName(dbName);
     if(!db.open())
     {
         qDebug() << "fail to open DB";
@@ -124,8 +128,8 @@ bool myDataBase::insertRecord(QString phoneNum,QString userType,QString userID,Q
     if( !conRes ) return false;
     QSqlQuery query;
     //插入
-    bool sqlRes = query.exec(QString("insert into usertable values('%1','%2','%3','%4','%5')").
-                             arg(userID).arg(userType).arg(pwd).arg(phoneNum).arg(-1));
+    bool sqlRes = query.exec(QString("insert into usertable(userID,userType,userPwd,phoneNum) values('%1','%2','%3','%4')").
+                             arg(userID).arg(userType).arg(pwd).arg(phoneNum));
     if(!sqlRes)
     {
         qDebug() << "error :" << query.lastError();

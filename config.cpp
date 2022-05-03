@@ -1,15 +1,18 @@
 #include "config.h"
+#include <QFile>
 QSettings* Config::setting = nullptr;
 Config::Config(QObject* parent) : QObject (parent)
 {
-    //    QFile file("/storage/emulated/0/data/config.ini");
-    //    if(!file.exists() || file.size() == 0)
-    //    {
-    //        QFile::copy("assets:/dbfile/config.ini","/storage/emulated/0/data/config.ini");
-    //        file.setPermissions(QFile::ReadUser  | QFile::WriteUser);
-    //    }
-    //    db.setDatabaseName("/storage/emulated/0/data/config.ini");
-    setting = new QSettings("./config.ini",QSettings::IniFormat);
+    //----------------复制文件至手机文件夹------------------
+    QFile file("/storage/emulated/0/data/config.ini");
+    if(!file.exists() || file.size() == 0)
+    {
+        QFile::copy("assets:/dbfile/config.ini","/storage/emulated/0/data/config.ini");
+        file.setPermissions(QFile::ReadUser  | QFile::WriteUser);
+    }
+    //----------------复制文件至手机文件夹------------------
+    QString filename = "/storage/emulated/0/data/config.ini";
+    setting = new QSettings("filename",QSettings::IniFormat);
 }
 
 void Config::setConfigString(QString path,QString value)

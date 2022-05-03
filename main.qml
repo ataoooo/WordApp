@@ -47,14 +47,18 @@ Window {
     Connections{
         target: keyFilter
         onSig_KeyBackPress:{
+            //若statck不在根节点就pop不标记接收到back信号
             if(stack.depth > 1)
                 stack.pop();
+            //第一次接收到back
             else if(!_quit)
             {
+                //启动一个定时器，在定时器结束后没收再次收到的back信号九江back标记初始化
                 quitTimer.start();
                 _quit = true;
                 root.showMsgHint("再次点击返回键退出")
             }
+            //在一定时间没连续收到back信号
             else if(_quit)
             {
                 Qt.quit();

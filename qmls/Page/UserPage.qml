@@ -70,7 +70,7 @@ Page{
             id:listItems
             model:  [["../../assets/mdpi/ic_xgmm.png", "修改信息", 1, dp(10)],
                 ["../../assets/mdpi/ic_yjfk.png", "意见反馈", 1, dp(10)],
-                ["../../assets/mdpi/ic_about_us.png", " 关于我们", 4, dp(10)],
+                ["../../assets/mdpi/ic_about_us.png", "关于我们", 4, dp(10)],
                 ["../../assets/mdpi/icon_swich.png", "退出登录", 0, dp(10)]
             ];
             delegate: ListItem{
