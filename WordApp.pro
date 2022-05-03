@@ -51,3 +51,10 @@ android{
 }
 
     ANDROID_PACKAGE_SOURCE_DIR = $$PWD/android
+
+DISTFILES += \
+    androidsource/AndroidManifest.xml \
+    androidsource/ico/rabbit.png \
+    androidsource/ico/rabitbig.png \
+    androidsource/ico/rabitmid.png
+ANDROID_PACKAGE_SOURCE_DIR = $$PWD/androidsource
