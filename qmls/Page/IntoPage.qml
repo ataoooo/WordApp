@@ -50,7 +50,7 @@ Rectangle{
             InputEdit{
                 id:userId
                 width: parent.width
-                height: dp(7.5)
+                height: dp(8)
                 icon: "../../assets/mdpi/ic_login_user.png"
                 placeholderText: "请输入用户帐号"
                 //只接受数字和字母
@@ -61,7 +61,7 @@ Rectangle{
             InputEdit{
                 id:userPsw
                 width: parent.width
-                height: dp(7.5)
+                height: dp(8)
                 icon:"../../assets/mdpi/ic_login_psw.png"
                 placeholderText: "请输入密码"
                 validator: RegExpValidator{regExp: /^\w*$/}

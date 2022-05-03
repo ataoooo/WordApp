@@ -37,7 +37,7 @@ StackPageBase{
         }
         source: "../../assets/mdpi/bg_vip_top.png"
         width: dp(96)
-        fillMode: Image.PreserveAspectFit
+        height: englishtxt.height + chinesetxt.height + dp(10)
         Column{
             id:co
             spacing: dp(8)

@@ -7,7 +7,7 @@ Page {
     anchors.fill: parent
     opacity: 0
     visible: opacity > 0
-    property var currentWord: 0
+    property var currentWord: -1
     property real wordNum: 10       //此次需背的新单词
     property var englishword:[]
     property var chinesemena:[]
@@ -385,7 +385,7 @@ Page {
     }
     SpinBox{
         id:sp
-        width: parent.width / 4
+        width: parent.width * 0.4
         height: setRec.height
         value: 5
         stepSize: 5
@@ -589,8 +589,8 @@ Page {
                     color: "transparent"
                 }
                 anchors{
-                    top: parent.top
-                    topMargin: dp(90)
+                    top: chinesRec.bottom
+                    topMargin: dp(5)
                     horizontalCenter: parent.horizontalCenter
                 }
             }
@@ -823,7 +823,7 @@ Page {
                 endWrite();
             ++currentWord;
             //结束
-            if(currentWord == wordNum + merrorNum)
+            if(currentWord >= wordNum + merrorNum)
             {
                 startBtn.source = "../../assets/mdpi/start.png"
                 startBtn.istart = false
@@ -879,6 +879,10 @@ Page {
     function getTestWord()
     {
         var tmp = getLevel() + mdifficulty - 1;
+        englishword = []
+        chinesemena = []
+        currentWord = -1
+        merrorNum = 0
         var res = wordDB.rememberWord(root.userSno,page3.wordNum,diffratio[tmp][0],diffratio[tmp][1],diffratio[tmp][2],diffratio[tmp][3]);
         console.log("The test number is = ",page3.wordNum)
         for(var i = 0 ;i < page3.wordNum ; ++i)

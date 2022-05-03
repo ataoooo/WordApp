@@ -88,7 +88,7 @@ Rectangle{
                 id:userId
                 isMust:true
                 width: parent.width
-                height: dp(7.5)
+                height: dp(8)
                 icon: "../../assets/mdpi/ic_login_user.png"
                 placeholderText: "请输入用户帐号（必填）"
                 //只接受数字和字母
@@ -100,7 +100,7 @@ Rectangle{
                 id:userPhone
                 isMust:true
                 width: parent.width
-                height: dp(7.5)
+                height: dp(8)
                 icon: "../../assets/mdpi/phone.png"
                 placeholderText: "请输入注册手机（必填）"
                 //只接受固定数字排布且长度限制为11
@@ -111,7 +111,7 @@ Rectangle{
                 id:userPsw
                 isMust:true
                 width: parent.width
-                height: dp(7.5)
+                height: dp(8)
                 icon:"../../assets/mdpi/ic_login_psw.png"
                 placeholderText: "请设置密码（必填）"
                 validator: RegExpValidator{regExp: /^\w{30}$/}
@@ -122,7 +122,7 @@ Rectangle{
                 id:conFirmPsw
                 isMust:true
                 width: parent.width
-                height: dp(7.5)
+                height: dp(8)
                 icon:"../../assets/mdpi/pwd.png"
                 placeholderText: "请确认密码（必填）"
                 validator: RegExpValidator{regExp: /^\w*$/}

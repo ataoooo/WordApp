@@ -150,23 +150,23 @@ Page
         onPaint: {
             var ctx = canvasleft.getContext("2d")
             //左箭头
-            ctx.moveTo(120,450)
-            ctx.lineTo(105,458)
-            ctx.lineTo(120,466)
+            ctx.moveTo(cp.x + dp(26),cp.y + dp(14.5))
+            ctx.lineTo(cp.x + dp(22.5),cp.y + dp(16))
+            ctx.lineTo(cp.x + dp(26),cp.y + dp(17.5))
             //右箭头
-            ctx.moveTo(360,450)
-            ctx.lineTo(375,458)
-            ctx.lineTo(360,466)
+            ctx.moveTo(cp.x + dp(75),cp.y + dp(14.5))
+            ctx.lineTo(cp.x + dp(78.5),cp.y + dp(16))
+            ctx.lineTo(cp.x + dp(75),cp.y + dp(17.5))
             ctx.lineWidth = 2;
             ctx.strokeStyle = 'black';
             ctx.stroke();
         }
         //左
         Rectangle{
-            width: 20
-            height: 20
-            x: 105
-            y: 450
+            width: dp(4)
+            height: dp(4)
+            x: cp.x + dp(22.5)
+            y: cp.y + dp(14.5)
             color: "transparent"
             MouseArea{
                 anchors.fill: parent
@@ -178,10 +178,10 @@ Page
         }
         //右
         Rectangle{
-            width: 20
-            height: 20
-            x: 360
-            y: 450
+            width: dp(4)
+            height: dp(4)
+            x: cp.x + dp(75)
+            y: cp.y + dp(14.5)
             color: "transparent"
             MouseArea{
                 anchors.fill: parent

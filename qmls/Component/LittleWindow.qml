@@ -46,7 +46,6 @@ Item {
                 color: "transparent"
             }
             width: parent.width - img.width
-            height: dp(13)
             anchors.left: img.right
             anchors.top: img.top
             font: {

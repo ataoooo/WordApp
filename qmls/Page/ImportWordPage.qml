@@ -41,7 +41,7 @@ Page {
             verticalCenter: backico.verticalCenter
         }
         radius: dp(5)
-        width: dp(16)
+        width: dp(20)
         color: allColor
         height: dp(8)
         Text {
