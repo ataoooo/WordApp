@@ -90,6 +90,7 @@ Window {
         case 12:stack.push(showCollectWord);break;
         case 13:stack.push(opinionsView);break;
         case 14:stack.push(aboutUs);break;
+        case 15:stack.push(phoneLogin);break;
         }
     }
 
@@ -110,6 +111,7 @@ Window {
     Component {id:showCollectWord; ShowCollectWord{}}
     Component {id:opinionsView; OpinionsView{}}
     Component {id:aboutUs; AboutUs{}}
+    Component {id:phoneLogin; PhoneLogin{}}
 
     Timer{
         id:quitTimer

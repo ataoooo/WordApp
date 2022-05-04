@@ -62,9 +62,9 @@ Rectangle{
                 id:userPsw
                 width: parent.width
                 height: dp(8)
-                icon:"../../assets/mdpi/ic_login_psw.png"
                 placeholderText: "请输入密码"
                 validator: RegExpValidator{regExp: /^\w*$/}
+                icon:"../../assets/mdpi/ic_login_psw.png"
                 echoMode: TextInput.Password
                 implicitHeight: height * 1.5
                 text: config.getConfigBool("pwd/remeberMM",false) ? config.getConfigString("pwd/upwd","") : ""
@@ -197,7 +197,7 @@ Rectangle{
             }
             Text {
                 id: forgetPsw;
-                text: "忘记密码";
+                text: "手机号登录";
                 color: allColor;
                 font{
                     pixelSize: dp(4);
@@ -206,7 +206,7 @@ Rectangle{
                 MouseArea{
                     anchors.fill: parent
                     onClicked: {
-                        root.showMsgHint("该功能暂未开放")
+                        root.pushStack(15)
                     }
                 }
             }

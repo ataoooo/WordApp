@@ -36,6 +36,12 @@ public:
     Q_INVOKABLE bool upGradeType(QString id,QString uType);
     //更改用户名
     Q_INVOKABLE bool upGradeName(QString oldId,QString newId);
+
+    //根据电话号码返回用户id
+    Q_INVOKABLE QString getUserID(QString phone);
+
+    //根据电话获取密码
+    Q_INVOKABLE QString getMM(QString phone);
     //---------------用户信息----------------
 };
 

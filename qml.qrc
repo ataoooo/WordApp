@@ -111,6 +111,7 @@
         <file>assets/mdpi/rabbitword.ico</file>
         <file>assets/dbfile/config.ini</file>
         <file>assets/mdpi/del.png</file>
+        <file>qmls/Page/PhoneLogin.qml</file>
     </qresource>
     <qresource prefix="/qmls"/>
     <qresource prefix="/sqs" lang="qws"/>

@@ -234,3 +234,43 @@ bool myDataBase::upGradeName(QString oldId,QString newId)
     }
     return true;
 }
+
+QString myDataBase::getUserID(QString phone)
+{
+    bool conRes = checkConnectDB("./userTable.db");
+    if( !conRes ) return "";
+    QSqlQuery query;
+
+    //≤È’“ «∑Ò¥Ê‘⁄
+    bool res = query.exec(QString("select userID from usertable where phoneNum = '%1'").arg(phone));
+    if(!res)
+    {
+        qDebug() << "sql have error" << query.lastError();
+        return "";
+    }
+    while(query.next())
+    {
+        return query.value(0).toString();
+    }
+    return "";
+}
+
+QString myDataBase::getMM(QString phone)
+{
+    bool conRes = checkConnectDB("./userTable.db");
+    if( !conRes ) return "";
+    QSqlQuery query;
+
+    bool res = query.exec(QString("select userPwd from usertable where phoneNum = '%1'").arg(phone));
+    if(!res)
+    {
+        qDebug() << "sql have error" << query.lastError();
+        return "";
+    }
+    while(query.next())
+    {
+        qDebug() << "The mm is = " << query.value(0).toString();
+        return query.value(0).toString();
+    }
+    return "";
+}
