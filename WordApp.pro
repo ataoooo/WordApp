@@ -1,5 +1,5 @@
-#QT += quick sql charts
-QT += quick sql charts androidextras
+QT += quick sql charts
+#QT += quick sql charts androidextras
 CONFIG += c++11
 
 # The following define makes your compiler emit warnings if you use

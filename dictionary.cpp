@@ -20,16 +20,16 @@ bool Dictionary::connectDB()
         db = QSqlDatabase::addDatabase("QSQLITE");
 
     //----------------复制文件至手机文件夹------------------
-    QFile file("/storage/emulated/0/data/lookup.db");
-    if(!file.exists() || file.size() == 0)
-    {
-        QFile::copy("assets:/dbfile/lookup.db","/storage/emulated/0/data/lookup.db");
-        file.setPermissions(QFile::ReadUser  | QFile::WriteUser);
-    }
-    db.setDatabaseName("/storage/emulated/0/data/lookup.db");
+//    QFile file("/storage/emulated/0/data/lookup.db");
+//    if(!file.exists() || file.size() == 0)
+//    {
+//        QFile::copy("assets:/dbfile/lookup.db","/storage/emulated/0/data/lookup.db");
+//        file.setPermissions(QFile::ReadUser  | QFile::WriteUser);
+//    }
+//    db.setDatabaseName("/storage/emulated/0/data/lookup.db");
     //----------------复制文件至手机文件夹------------------
 
-    //db.setDatabaseName("./lookup.db");
+    db.setDatabaseName("./lookup.db");
     if(!db.open())
     {
         qDebug() << "fail to open DB";

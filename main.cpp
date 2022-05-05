@@ -15,20 +15,20 @@
 #include <QIcon>
 #include "config.h"
 #include "datemanager.h"
-#include <QtAndroid>
+//#include <QtAndroid>
 
 //检查安装程序是否授权读写权限
-bool checkPermission() {
-    QtAndroid::PermissionResult r = QtAndroid::checkPermission("android.permission.WRITE_EXTERNAL_STORAGE");
-    if(r == QtAndroid::PermissionResult::Denied) {
-        QtAndroid::requestPermissionsSync( QStringList() << "android.permission.WRITE_EXTERNAL_STORAGE" );
-        r = QtAndroid::checkPermission("android.permission.WRITE_EXTERNAL_STORAGE");
-        if(r == QtAndroid::PermissionResult::Denied) {
-             return false;
-        }
-   }
-   return true;
-}
+//bool checkPermission() {
+//    QtAndroid::PermissionResult r = QtAndroid::checkPermission("android.permission.WRITE_EXTERNAL_STORAGE");
+//    if(r == QtAndroid::PermissionResult::Denied) {
+//        QtAndroid::requestPermissionsSync( QStringList() << "android.permission.WRITE_EXTERNAL_STORAGE" );
+//        r = QtAndroid::checkPermission("android.permission.WRITE_EXTERNAL_STORAGE");
+//        if(r == QtAndroid::PermissionResult::Denied) {
+//             return false;
+//        }
+//   }
+//   return true;
+//}
 //日志
 std::ofstream g_OutputDebug;
 void outputMessage(QtMsgType type, const QMessageLogContext &context, const QString &msg)
@@ -64,7 +64,7 @@ void outputMessage(QtMsgType type, const QMessageLogContext &context, const QStr
 
 int main(int argc, char *argv[])
 {
-    checkPermission();
+//    checkPermission();
     //日志输出
     QString logPath = "./log";
     QDir dir;
@@ -82,7 +82,7 @@ int main(int argc, char *argv[])
     //更换图标
     app.setWindowIcon(QIcon(":/assets/mdpi/rabbitword.ico"));
 
-//    //注册数据库交互类(一定要注意大写啊啊啊啊！！！)
+//    //注册数据库交互类(一定要注意大写！！！)
 //    qmlRegisterType<myDataBase>("myDB", 1, 0, "MyDataBase");
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextProperty("keyFilter", KeyFilter::getInstance());

@@ -18,16 +18,16 @@ bool myDataBase::checkConnectDB(QString dbName)
         db = QSqlDatabase::addDatabase("QSQLITE");
 
     //----------------复制文件至手机文件夹------------------
-    QFile file("/storage/emulated/0/data/userTable.db");
-    if(!file.exists() || file.size() == 0)
-    {
-        QFile::copy("assets:/dbfile/userTable.db","/storage/emulated/0/data/userTable.db");
-        file.setPermissions(QFile::ReadUser  | QFile::WriteUser);
-    }
-    db.setDatabaseName("/storage/emulated/0/data/userTable.db");
+//    QFile file("/storage/emulated/0/data/userTable.db");
+//    if(!file.exists() || file.size() == 0)
+//    {
+//        QFile::copy("assets:/dbfile/userTable.db","/storage/emulated/0/data/userTable.db");
+//        file.setPermissions(QFile::ReadUser  | QFile::WriteUser);
+//    }
+//    db.setDatabaseName("/storage/emulated/0/data/userTable.db");
     //----------------复制文件至手机文件夹------------------
 
-    //db.setDatabaseName(dbName);
+    db.setDatabaseName(dbName);
     if(!db.open())
     {
         qDebug() << "fail to open DB";

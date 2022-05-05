@@ -4,15 +4,15 @@ QSettings* Config::setting = nullptr;
 Config::Config(QObject* parent) : QObject (parent)
 {
     //----------------复制文件至手机文件夹------------------
-    QFile file("/storage/emulated/0/data/config.ini");
-    if(!file.exists() || file.size() == 0)
-    {
-        QFile::copy("assets:/dbfile/config.ini","/storage/emulated/0/data/config.ini");
-        file.setPermissions(QFile::ReadUser  | QFile::WriteUser);
-    }
+//    QFile file("/storage/emulated/0/data/config.ini");
+//    if(!file.exists() || file.size() == 0)
+//    {
+//        QFile::copy("assets:/dbfile/config.ini","/storage/emulated/0/data/config.ini");
+//        file.setPermissions(QFile::ReadUser  | QFile::WriteUser);
+//    }
     //----------------复制文件至手机文件夹------------------
-    QString filename = "/storage/emulated/0/data/config.ini";
-//    QString filename = "./config.ini";
+//    QString filename = "/storage/emulated/0/data/config.ini";
+    QString filename = "./config.ini";
     setting = new QSettings("filename",QSettings::IniFormat);
 }
 
