@@ -15,6 +15,7 @@
 #include <QIcon>
 #include "config.h"
 #include "datemanager.h"
+#include "networkcpp.h"
 //#include <QtAndroid>
 
 //检查安装程序是否授权读写权限
@@ -64,7 +65,7 @@ void outputMessage(QtMsgType type, const QMessageLogContext &context, const QStr
 
 int main(int argc, char *argv[])
 {
-//    checkPermission();
+    //    checkPermission();
     //日志输出
     QString logPath = "./log";
     QDir dir;
@@ -82,8 +83,8 @@ int main(int argc, char *argv[])
     //更换图标
     app.setWindowIcon(QIcon(":/assets/mdpi/rabbitword.ico"));
 
-//    //注册数据库交互类(一定要注意大写！！！)
-//    qmlRegisterType<myDataBase>("myDB", 1, 0, "MyDataBase");
+    //    //注册数据库交互类(一定要注意大写！！！)
+    //    qmlRegisterType<myDataBase>("myDB", 1, 0, "MyDataBase");
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextProperty("keyFilter", KeyFilter::getInstance());
 
@@ -92,6 +93,7 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("wordDB",new Dictionary);
     engine.rootContext()->setContextProperty("config",new Config);
     engine.rootContext()->setContextProperty("dateManager",new DateManager);
+    engine.rootContext()->setContextProperty("network",new Networkcpp);
 
     QQmlComponent component(&engine,QUrl("qrc:/main.qml"));
     QObject* object = component.create();

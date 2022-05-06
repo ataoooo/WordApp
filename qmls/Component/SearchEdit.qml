@@ -41,6 +41,8 @@ Rectangle{
                 root.searchTxt = searchEd.text
                 console.log("aaaa:",stack.depth)
                 root.wordTxt = wordDB.searchTargetWord(root.tablename,searchTxt);
+                //获取在线信息
+                network.reciveWebMess(root.wordTxt[1])
                 if(stack.depth > 1)
                 {
                     clickSearchBtn()

@@ -82,6 +82,7 @@ Page {
             width: parent.width * 0.95
             z:99
         }
+
         Column
         {
             visible: !failRec.visible
@@ -94,15 +95,39 @@ Page {
             }
             spacing: dp(5)
             //音标
-            Rectangle{
-                id:soundRec
-                color: "transparent"
-                width: root.wordTxt[2] != "" ? parent.width - dp(5) : ""
-                height: dp(10)
-                Text {
-                    text: root.wordTxt[2]
-                    font.pixelSize: dp(5)
+            Row
+            {
+                spacing: dp(3)
+                Rectangle{
+                    id:soundRec
+                    color: "transparent"
+                    width: root.wordTxt[2] != "" ? ib.contentWidth : ""
+                    height: dp(10)
+                    Text {
+                        id:ib
+                        width: contentWidth
+                        text: root.wordTxt[2]
+                        font.pixelSize: dp(5)
+                    }
+                    Image {
+                        id: voiceImg
+                        source: "../../assets/mdpi/sound.png"
+                        anchors{
+                            left:ib.right
+                            leftMargin: dp(5)
+                        }
+                        height: dp(6)
+                        fillMode: Image.PreserveAspectFit
+                        MouseArea{
+                            anchors.fill: parent
+                            onClicked: {
+                                console.log("click the sound image")
+                                network.speakWord()
+                            }
+                        }
+                    }
                 }
+
             }
             //中文翻译
             Rectangle{
@@ -247,7 +272,6 @@ Page {
             showStr += '\n\n';
 
         }
-        console.log("The sentence is = ",showStr)
         return showStr;
     }
 

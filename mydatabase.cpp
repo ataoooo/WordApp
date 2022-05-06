@@ -18,13 +18,13 @@ bool myDataBase::checkConnectDB(QString dbName)
         db = QSqlDatabase::addDatabase("QSQLITE");
 
     //----------------复制文件至手机文件夹------------------
-//    QFile file("/storage/emulated/0/data/userTable.db");
-//    if(!file.exists() || file.size() == 0)
-//    {
-//        QFile::copy("assets:/dbfile/userTable.db","/storage/emulated/0/data/userTable.db");
-//        file.setPermissions(QFile::ReadUser  | QFile::WriteUser);
-//    }
-//    db.setDatabaseName("/storage/emulated/0/data/userTable.db");
+    //    QFile file("/storage/emulated/0/data/userTable.db");
+    //    if(!file.exists() || file.size() == 0)
+    //    {
+    //        QFile::copy("assets:/dbfile/userTable.db","/storage/emulated/0/data/userTable.db");
+    //        file.setPermissions(QFile::ReadUser  | QFile::WriteUser);
+    //    }
+    //    db.setDatabaseName("/storage/emulated/0/data/userTable.db");
     //----------------复制文件至手机文件夹------------------
 
     db.setDatabaseName(dbName);
@@ -273,4 +273,15 @@ QString myDataBase::getMM(QString phone)
         return query.value(0).toString();
     }
     return "";
+}
+
+#include <QMediaPlayer>
+void myDataBase::test()
+{
+    QMediaPlayer* player = new QMediaPlayer;
+
+    connect(player, SIGNAL(positionChanged(qint64)), this, SLOT(positionChanged(qint64)));
+    player->setMedia(QUrl::fromLocalFile("http://res.iciba.com/resource/amp3/oxford/0/c8/78/c878f20b9201f73a1e43c9f83f5cc5d3.mp3"));
+    player->setVolume(50);
+    player->play();
 }

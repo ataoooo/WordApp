@@ -43,6 +43,8 @@ public:
     //根据电话获取密码
     Q_INVOKABLE QString getMM(QString phone);
     //---------------用户信息----------------
+
+    Q_INVOKABLE void test();
 };
 
 #endif // MYDATABASE_H
