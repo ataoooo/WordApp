@@ -173,6 +173,7 @@ Page
                 onClicked: {
                     currentday = currentday - 7
                     insertDateToSP(currentday)
+                    axisy.max = topdot
                 }
             }
         }
@@ -190,6 +191,7 @@ Page
                     {
                         currentday += 7
                         insertDateToSP(currentday)
+                        axisy.max = topdot
                     }
                 }
             }

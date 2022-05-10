@@ -15,6 +15,7 @@
 #include <QIcon>
 #include "config.h"
 #include "datemanager.h"
+#include "networkcpp.h"
 #include <QtAndroid>
 
 //检查安装程序是否授权读写权限
@@ -66,7 +67,7 @@ int main(int argc, char *argv[])
 {
     checkPermission();
     //日志输出
-    QString logPath = "./log";
+    QString logPath = "/storage/emulated/0/data/TRlog";
     QDir dir;
     if(!dir.exists(logPath))
         dir.mkdir(logPath);
@@ -92,6 +93,7 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("wordDB",new Dictionary);
     engine.rootContext()->setContextProperty("config",new Config);
     engine.rootContext()->setContextProperty("dateManager",new DateManager);
+    engine.rootContext()->setContextProperty("network",new Networkcpp);
 
     QQmlComponent component(&engine,QUrl("qrc:/main.qml"));
     QObject* object = component.create();

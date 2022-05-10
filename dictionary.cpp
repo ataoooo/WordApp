@@ -69,10 +69,13 @@ QVariantList Dictionary::searchWord(QString wordName,QString prefiex)
 
 QVariantList Dictionary::searchTargetWord(QString wordName, QString word)
 {
+    QVariantList zoneIdList;
     if(connectDB()==false)
     {
         qDebug() << "connect db fail";
-        return QVariantList();
+        zoneIdList.push_back("");
+        zoneIdList.push_back("");
+        return zoneIdList;
     }
     QSqlQuery query;
     //²éÑ¯
@@ -81,9 +84,11 @@ QVariantList Dictionary::searchTargetWord(QString wordName, QString word)
     if(!sqlRes)
     {
         qDebug() << "error :" << query.lastError();
-        return QVariantList();
+        zoneIdList.push_back("");
+        zoneIdList.push_back("");
+        return zoneIdList;
     }
-    QVariantList zoneIdList;
+
     query.next();
     for(int i = 0 ; i < query.record().count() ; ++ i)
     {

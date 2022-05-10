@@ -1,5 +1,5 @@
 #QT += quick sql charts
-QT += quick sql charts androidextras
+QT += quick sql charts multimedia network androidextras
 CONFIG += c++11
 
 # The following define makes your compiler emit warnings if you use
@@ -19,7 +19,8 @@ SOURCES += \
         dictionary.cpp \
         keyfilter.cpp \
         main.cpp \
-        mydatabase.cpp
+        mydatabase.cpp \
+        networkcpp.cpp
 
 RESOURCES += \
     qml.qrc
@@ -40,7 +41,8 @@ HEADERS += \
     datemanager.h \
     dictionary.h \
     keyfilter.h \
-    mydatabase.h
+    mydatabase.h \
+    networkcpp.h
 
 android{
     data.files += android/userTable.db

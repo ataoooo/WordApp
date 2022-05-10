@@ -13,10 +13,62 @@ Page {
         color: "#F6DAE3"
     }
 
+
+    //在线句子显示
+        Rectangle{
+            id:onlineShow
+            visible: !failRec.visible && root.wordTxt[0] == ""
+            width: parent.width
+            color: "transparent"
+            anchors.top: parent.top
+            anchors.topMargin: dp(25)
+            height: parent.height / 2
+            Rectangle{
+                id:showonline
+                color: "transparent"
+                height: dp(5)
+                width: txtonline.contentWidth
+                anchors{
+                    top: parent.top
+                    topMargin: dp(5)
+                    left: parent.left
+                    leftMargin: dp(5)
+                }
+                Text {
+                    id: txtonline
+                    text: qsTr("在线")
+                    font.pixelSize: dp(4)
+                    font.bold: true
+                    anchors.centerIn: parent
+                }
+            }
+            Rectangle{
+                anchors{
+                    left: parent.left
+                    leftMargin: dp(5)
+                    top: showonline.bottom
+                    topMargin: dp(3)
+                }
+                color: "transparent"
+                width: parent.width - dp(10)
+                height: parent.height / 2
+                Text {
+                    id: onlineTxt
+                    width: parent.width
+                    clip: true
+                    wrapMode: Text.Wrap
+                    font.pixelSize: dp(5)
+                    text: root.onlineChinese
+                }
+            }
+        }
+
+
+
     //失败的图标显示
     Rectangle{
         id:failRec
-        visible: root.wordTxt[0] == ""
+        visible: root.wordTxt[0] == "" && root.onlineChinese == ""
         anchors.centerIn: parent
         width: parent.width
         color: "transparent"
@@ -122,7 +174,7 @@ Page {
             Rectangle{
                 width: parent.width - dp(5)
                 color: "transparent"
-                height: (root.wordTxt[9] != "") ? dp(10) : 0
+                height: (root.wordTxt[9] != "" && root.wordTxt[1] != "") ? dp(10) : 0
                 Text {
                     visible: parent.height != 0
                     width: parent.width
@@ -165,7 +217,7 @@ Page {
         Image {
             id:scIcon
             source: isCollect() ? "../../assets/mdpi/sc.png" : "../../assets/mdpi/nosc.png"
-            visible: !failRec.visible && root.userSno != -1
+            visible: !failRec.visible && root.userSno != -1 && root.wordTxt[1] != ""
             height: dp(6)
             fillMode: Image.PreserveAspectFit
             property bool issc: isCollect() ? true : false
@@ -197,7 +249,7 @@ Page {
         //编辑按钮
         Rectangle{
             id:editBtn
-            visible: !failRec.visible && root.userSno != -1
+            visible: !failRec.visible && root.userSno != -1 && root.wordTxt[1] != ""
             width: dp(76) * 0.37
             height: dp(10)
             radius: 5
