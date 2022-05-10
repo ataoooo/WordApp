@@ -17,6 +17,7 @@ public:
     //获取发声
     Q_INVOKABLE void reciveWebMess(QString word);
     Q_INVOKABLE void speakWord();
+    Q_INVOKABLE QString getMean();
 private Q_SLOTS:
     void slot_replayFinished(QNetworkReply *reply);
 private:

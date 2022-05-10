@@ -173,6 +173,7 @@ Page
                 onClicked: {
                     currentday = currentday - 7
                     insertDateToSP(currentday)
+                    axisy.max = topdot
                 }
             }
         }
@@ -190,6 +191,7 @@ Page
                     {
                         currentday += 7
                         insertDateToSP(currentday)
+                        axisy.max = topdot
                     }
                 }
             }
@@ -207,6 +209,7 @@ Page
             topdot = topdot > tmp ? topdot : tmp;
             sp.insert(i,dateManager.getTime(day + i - 6).getTime(),tmp);
         }
+        console.log("The max top value is = ",topdot)
 
         sp2.clear()
         for(var j = 0 ; j < 7 ; ++j)

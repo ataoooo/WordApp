@@ -25,6 +25,7 @@ Window {
     //搜索
     property var searchTxt: ""
     property var wordTxt
+    property var onlineChinese: ""
 
     //记忆策略下默写
     property var writeWord: []

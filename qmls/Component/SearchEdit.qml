@@ -42,7 +42,15 @@ Rectangle{
                 console.log("aaaa:",stack.depth)
                 root.wordTxt = wordDB.searchTargetWord(root.tablename,searchTxt);
                 //获取在线信息
-                network.reciveWebMess(root.wordTxt[1])
+                console.log("really??? = ",root.wordTxt[1])
+                if(root.wordTxt[1] != "")
+                 network.reciveWebMess(root.wordTxt[1])
+                else
+                {
+                    console.log("The edit is = ",searchEd.text)
+                    network.reciveWebMess(searchEd.text)
+                    root.onlineChinese = network.getMean()
+                }
                 if(stack.depth > 1)
                 {
                     clickSearchBtn()
@@ -61,7 +69,7 @@ Rectangle{
         height: parent.height
         //text: zonelist.currentIndex
         //输入字母以及空格
-        validator: RegExpValidator {regExp: /^[A-Za-z\s]*$/}
+        validator: RegExpValidator {regExp: /^[A-Za-z,.!-?'\s]*$/}
         anchors{
             verticalCenter: parent.verticalCenter
             left: parent.left
