@@ -16,6 +16,7 @@
 #include "config.h"
 #include "datemanager.h"
 #include "networkcpp.h"
+#include <QTimer>
 #include <QtAndroid>
 
 //检查安装程序是否授权读写权限
@@ -79,6 +80,11 @@ int main(int argc, char *argv[])
     qDebug() << "App begin";
 
     QApplication app(argc, argv);
+
+    //启动页面定时消失
+    QTimer::singleShot(3000,NULL,[=](){
+        QtAndroid::hideSplashScreen(500);
+    });
 
     //更换图标
     app.setWindowIcon(QIcon(":/assets/mdpi/rabbitword.ico"));
