@@ -373,7 +373,7 @@ QVariantList Dictionary::rememberWord(QString sno,int num,float lev1,float lev2,
         else --haveRem;
         QString tmps = query.value(1).toString() + '&' + query.value(3).toString();
         //出现次数+1
-        if(query.value(12).toInt() < 5)
+        if(sno != -1 && query.value(12).toInt() < 5)
             query1.exec(QString("update '%1' set occurrence = %2 where word = '%3'").arg(tablename).arg(query.value(12).toInt() + 1).arg(query.value(1).toString()));
         wordlist.insert(rand()%(wordlist.size() + 1),tmps);
     }
@@ -398,7 +398,7 @@ QVariantList Dictionary::rememberWord(QString sno,int num,float lev1,float lev2,
         else if(n > 0) --n;
         else --haveRem;
         QString tmps = query.value(1).toString() + '&' + query.value(3).toString();
-        if(query.value(12).toInt() < 5)
+        if(sno != -1 && query.value(12).toInt() < 5)
             query1.exec(QString("update '%1' set occurrence = %2 where word = '%3'").arg(tablename).arg(query.value(12).toInt() + 1).arg(query.value(1).toString()));
         wordlist.insert(rand()%(wordlist.size() + 1),tmps);
     }
@@ -424,7 +424,7 @@ QVariantList Dictionary::rememberWord(QString sno,int num,float lev1,float lev2,
         else if(n > 0) --n;
         else --haveRem;
         QString tmps = query.value(1).toString() + '&' + query.value(3).toString();
-        if(query.value(12).toInt() < 5)
+        if(sno != -1 && query.value(12).toInt() < 5)
             query1.exec(QString("update '%1' set occurrence = %2 where word = '%3'").arg(tablename).arg(query.value(12).toInt() + 1).arg(query.value(1).toString()));
         wordlist.insert(rand()%(wordlist.size() + 1),tmps);
     }
@@ -444,7 +444,7 @@ QVariantList Dictionary::rememberWord(QString sno,int num,float lev1,float lev2,
         if(n == 0) break;
         --n;
         QString tmps = query.value(1).toString() + '&' + query.value(3).toString();
-        if(query.value(12).toInt() < 5)
+        if(sno != -1 && query.value(12).toInt() < 5)
             query1.exec(QString("update '%1' set occurrence = %2 where word = '%3'").arg(tablename).arg(query.value(12).toInt() + 1).arg(query.value(1).toString()));
         wordlist.insert(rand()%(wordlist.size() + 1),tmps);
     }

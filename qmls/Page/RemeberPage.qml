@@ -647,7 +647,7 @@ Page {
 
         Row{
             id:r1
-            width: sowRec.width * 0.6
+            width: dp(40)
             anchors{
                 top: sowRec.bottom
                 topMargin: dp(3)
@@ -719,7 +719,7 @@ Page {
 
         Row{
             id:r2
-            width: sowRec.width * 0.6
+            width: dp(39)
             anchors{
                 top: r1.bottom
                 topMargin: dp(3)
@@ -735,7 +735,7 @@ Page {
                 MouseArea{
                     anchors.fill: parent
                     onClicked: {
-                        if(root.userSno == -1) return
+                        if(root.userSno == -1 || englishTxt.text == "") return
                         console.log("current word is = ",englishword[currentWord])
                         wordDB.setLastMistake(root.userSno,englishword[currentWord],1)
                         wordDB.setAccuracy(root.userSno,englishword[currentWord],false)
@@ -767,7 +767,7 @@ Page {
                 MouseArea{
                     anchors.fill: parent
                     onClicked: {
-                        if(root.userSno == -1) return
+                        if(root.userSno == -1 || englishTxt.text == "") return
                         console.log("current word is = ",englishword[currentWord])
                         wordDB.setLastMistake(root.userSno,englishword[currentWord],0)
                         wordDB.setAccuracy(root.userSno,englishword[currentWord],true)
