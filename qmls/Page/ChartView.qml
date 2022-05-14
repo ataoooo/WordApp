@@ -203,6 +203,7 @@ Page
         myDateTimeAxis.min = dateManager.getTime(day -6)
         myDateTimeAxis.max = dateManager.getTime(day)
         sp.clear()
+        topdot = 20
         for(var i = 0 ; i < 7 ; ++i)
         {
             var tmp = dateManager.getNum(root.userSno,day + i - 6 , true);
