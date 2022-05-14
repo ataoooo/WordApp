@@ -148,11 +148,10 @@ Page {
             Row
             {
                 spacing: dp(3)
-                visible: root.wordTxt[1] != ""
                 Rectangle{
                     id:soundRec
                     color: "transparent"
-                    width: root.wordTxt[2] != "" ? ib.contentWidth : ""
+                    width: root.wordTxt[2] != "" ? ib.contentWidth : voiceImg.width
                     height: dp(10)
                     Text {
                         id:ib
