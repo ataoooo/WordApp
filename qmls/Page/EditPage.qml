@@ -35,6 +35,12 @@ Page {
             MouseArea{
                 anchors.fill: parent
                 onClicked: {
+                    if(rightEdit.text == "")
+                    {
+                        winError.rectext = "请输入修改内容!"
+                        winError.visible = true;
+                        return
+                    }
                     var txtType = root.userKey.substring(2,4);
                     var res = true;
                     switch(txtType){
@@ -59,14 +65,24 @@ Page {
                             stack.pop();
                             return;
                         }
-                        res = myDB.upGradePwd(root.userName,rightEdit.text);
+                        if(rightEdit.text.length != 11)
+                        {
+                            rightEdit.text = root.userPhone
+                            winError.rectext = "请输入正确手机号"
+                            winError.visible = true;
+                            break
+                        }
+                        res = myDB.upGradePhone(root.userName,rightEdit.text);
                         if(res)
                         {
                             root.userPhone = rightEdit.text;
                             successUpGrade();
                         }
                         else
+                        {
+                            winError.rectext = "修改失败！手机号已注册！"
                             winError.visible = true;
+                        }
                         break;
                     case "身份":
                         if(root.userType == combb.displayText)

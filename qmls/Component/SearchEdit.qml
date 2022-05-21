@@ -14,6 +14,10 @@ Rectangle{
     property var singlewidth: 40
     signal clickSearchBtn()
 
+    onVisibleChanged: {
+        if(visible) m_listView.visible = false
+    }
+
     Connections{
         target: root
         onHaveEdit:{
@@ -60,7 +64,7 @@ Rectangle{
                 //获取在线信息
                 console.log("really??? = ",root.wordTxt[1])
                 if(root.wordTxt[1] != "")
-                 network.reciveWebMess(root.wordTxt[1])
+                    network.reciveWebMess(root.wordTxt[1])
                 else
                 {
                     console.log("The edit is = ",searchEd.text)
@@ -98,11 +102,18 @@ Rectangle{
         }
         //监听键盘事件
         Keys.onReleased: {
-            m_listView.visible = true
+            if( searchEd.text == "" ){
+                m_listView.visible = false
+                return
+            }
             var tmp = wordDB.searchWord(root.tablename,searchEd.text)
-            if(tmp == []) return;
-            if( searchEd.text == "" ) tmp = []
+            if(tmp == [])
+            {
+                m_listView.visible = false
+                return;
+            }
             m_listView.model = tmp
+            m_listView.visible = true
         }
     }
 
@@ -110,7 +121,7 @@ Rectangle{
     ListView {
         id : m_listView
         width: searchEd.width
-
+        visible: false
         anchors{
             top: searchEd.bottom
             left: parent.left
