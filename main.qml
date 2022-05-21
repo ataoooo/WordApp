@@ -34,6 +34,7 @@ Window {
     signal pageTile(var mtitle);
     signal getModel();
     signal finishTest();
+    signal haveEdit();
 
     StackView{
         id:stack
@@ -54,7 +55,7 @@ Window {
             //第一次接收到back
             else if(!_quit)
             {
-                //启动一个定时器，在定时器结束后没收再次收到的back信号九江back标记初始化
+                //启动一个定时器，在定时器结束后没收再次收到的back信号就将back标记初始化
                 quitTimer.start();
                 _quit = true;
                 root.showMsgHint("再次点击返回键退出")

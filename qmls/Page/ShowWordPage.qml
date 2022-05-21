@@ -161,6 +161,7 @@ Page {
                     }
                     Image {
                         id: voiceImg
+                        visible: !onlineShow.visible
                         source: "../../assets/mdpi/sound.png"
                         anchors{
                             left:ib.right
