@@ -115,7 +115,7 @@ Page{
         EditInputWord{
             id:cxEdit
             width: parent.width - dp(5)
-            height: dp(40)
+            height: dp(45)
             leftTxt: "词 性:"
             rightTxt: splitStr(root.wordTxt[7])
         }

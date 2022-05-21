@@ -67,8 +67,8 @@ void outputMessage(QtMsgType type, const QMessageLogContext &context, const QStr
 int main(int argc, char *argv[])
 {
     checkPermission();
-    //日志输出
-    QString logPath = "/storage/emulated/0/data/TRlog";
+    //日志输出(手机端正确路径应为 /storage/emulated/0/data/TRlog)
+    QString logPath = "cancelshow/storage/emulated/0/data/TRlog";   //已关闭日志
     QDir dir;
     if(!dir.exists(logPath))
         dir.mkdir(logPath);

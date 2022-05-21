@@ -180,6 +180,21 @@ bool myDataBase::upGradePhone(QString id,QString phone)
     bool conRes = checkConnectDB("./userTable.db");
     if( !conRes ) return false;
     QSqlQuery query;
+
+    //查找是否存在
+    bool res = query.exec(QString("select PhoneNum from usertable where PhoneNum = '%1'").arg(phone));
+    if(!res)
+    {
+        qDebug() << "sql have error" << query.lastError();
+        return false;
+    }
+    query.next();
+    //存在了
+    if(query.value(0).toString() != ""){
+        qDebug() << "The name is esit = " << phone;
+        return false;
+    }
+
     //更新
     bool sqlRes = query.exec(QString("update usertable set PhoneNum = '%1' where userID = '%2'").arg(phone).arg(id));
     if(!sqlRes)

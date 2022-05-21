@@ -35,7 +35,7 @@ StackPageBase{
         }
         delegate: Rectangle{
             id:meminfo
-            height: dp(15)
+            height: (chine.contentHeight + englis.contentHeight > dp(15)) ? chine.contentHeight + englis.contentHeight + dp(3) : dp(15)
             color: "#F1DDDD"
             width: dp(100)
             //左端显示单词
@@ -75,7 +75,7 @@ StackPageBase{
                     verticalCenter: parent.verticalCenter
                 }
                 source: "../../assets/mdpi/sc.png"
-                height: parent.height * 0.4
+                height: dp(15) * 0.4
                 fillMode: Image.PreserveAspectFit
                 MouseArea{
                     anchors.fill: parent
