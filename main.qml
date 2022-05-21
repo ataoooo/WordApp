@@ -34,6 +34,7 @@ Window {
     signal pageTile(var mtitle);
     signal getModel();
     signal finishTest();
+    signal haveEdit();
 
     StackView{
         id:stack

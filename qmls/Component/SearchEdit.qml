@@ -14,6 +14,22 @@ Rectangle{
     property var singlewidth: 40
     signal clickSearchBtn()
 
+    Connections{
+        target: root
+        onHaveEdit:{
+            m_listView.visible = false
+            if(searchEd.text == "") return;
+            root.searchTxt = searchEd.text
+            root.wordTxt = wordDB.searchTargetWord(root.tablename,searchTxt);
+            if(stack.depth > 1)
+            {
+                clickSearchBtn()
+                root.pop()
+            }
+            root.pushStack(3)
+        }
+    }
+
     //最右侧“搜索”文字
     Rectangle{
         id:textRec

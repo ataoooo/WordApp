@@ -36,6 +36,7 @@ Page{
                if(res)
                {
                    stack.pop();
+                   root.haveEdit()
                    showMsgHint("编辑成功!")
                }
                else showMsgHint("编辑失败!")
