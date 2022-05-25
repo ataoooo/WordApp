@@ -14,7 +14,7 @@ StackPageBase{
             page._title = mtitle
             switch(page._title){
             case "英语词汇":
-                targetModel = wordDB.getAllWords("allWords" + root.userSno.toString());
+                targetModel = wordDB.getAllWords("allWords" + (root.userSno == -1 ? "" : root.userSno.toString()));
                 delvisible = false
                 break;
             case "我的单词本":

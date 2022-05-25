@@ -465,13 +465,13 @@ Page {
                     }
                     delegate: Rectangle{
                         z: 99
-                        height: dp(15)
+                        height: (myanswerT.height + trueanswerT.height + chineT.height + dp(10) > dp(15)) ? myanswerT.height + trueanswerT.height + chineT.height + dp(10) : dp(15)
                         width: parent.width
                         color:myanswer == trueanswer ? "#F1DDDD" : "#FFEFD5"
                         Text {
                             id: myanswerT
                             text: myanswer
-                            height: parent.height * 0.2
+                            wrapMode: Text.Wrap
                             width: parent.width
                             color: myanswerT.text == trueanswerT.text ? "green" : "red"
                             anchors{
@@ -484,7 +484,7 @@ Page {
                         Text {
                             id:trueanswerT
                             text: trueanswer
-                            height:myanswerT.height
+                            wrapMode: Text.Wrap
                             width: myanswerT.width
                             anchors{
                                 top: myanswerT.bottom
@@ -496,7 +496,7 @@ Page {
                         Text {
                             id:chineT
                             text: chine
-                            height:myanswerT.height
+                            wrapMode: Text.Wrap
                             width: myanswerT.width
                             anchors{
                                 top: trueanswerT.bottom
