@@ -46,6 +46,7 @@ StackPageBase {
                     root.showMsgHint("请输入内容")
                     return
                 }
+                textarea.text = ""
                 root.showMsgHint("提交成功")
             }
         }

@@ -161,7 +161,7 @@ Page {
                     }
                     Image {
                         id: voiceImg
-                        visible: !onlineShow.visible
+                        visible: !onlineShow.visible && false
                         source: "../../assets/mdpi/sound.png"
                         anchors{
                             left:ib.right
@@ -254,6 +254,7 @@ Page {
             MouseArea{
                 anchors.fill: parent
                 onClicked: {
+                    scIcon.issc = isCollect();
                     console.log("click the sc")
                     scIcon.source = scIcon.issc ? "../../assets/mdpi/nosc.png" : "../../assets/mdpi/sc.png";
                     scIcon.issc = !scIcon.issc
@@ -264,6 +265,7 @@ Page {
                     }
                     else{
                         wordDB.collectWord(root.tablename,root.wordTxt[1])
+                        root.wordTxt[10] = 1
                         root.showMsgHint("收藏成功")
                     }
                 }
