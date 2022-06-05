@@ -1,0 +1,182 @@
+Debug:  F:() L:(0) 	(2022-05-27 20:59:14) 	App begin
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 20:59:15) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 20:59:15) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 20:59:15) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:() L:(0) 	(2022-05-27 20:59:16) 	The password is =  "123456"
+Debug:  F:() L:(0) 	(2022-05-27 20:59:16) 	The id is =  "18036196029"
+Debug:  F:() L:(0) 	(2022-05-27 20:59:16) 	The id is =  "大学生"
+Debug:  F:() L:(0) 	(2022-05-27 20:59:16) 	The id is =  1
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(295) 	(2022-05-27 20:59:16) 	userId is : 20182621  -  123456  -  123456 - allWords1
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(99) 	(2022-05-27 20:59:16) 	The res =  true
+Warning:  F:(qrc:/qmls/Page/EnterPage.qml) L:(59) 	(2022-05-27 20:59:16) 	qrc:/qmls/Page/EnterPage.qml:59:5: QML Rectangle: Cannot anchor a vertical edge to a horizontal edge.
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 20:59:16) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(55) 	(2022-05-27 20:59:16) 	The page is load!!!
+Debug:  F:() L:(0) 	(2022-05-27 20:59:16) 	The sno is =  1
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(59) 	(2022-05-27 20:59:16) 	read from db is =  2  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:16) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:16) 	The result of it is =  39  and  25
+Debug:  F:() L:(0) 	(2022-05-27 20:59:16) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:16) 	The result of it is =  39  and  25
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-27 20:59:16) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 20:59:16) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(109) 	(2022-05-27 20:59:16) 	config sno =  1  and  1
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 20:59:17) 	The current status is =  [object Object]
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	the time is =  "2022-05-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	The result of it is =  50  and  33
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	the time is =  "2022-05-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	The result of it is =  50  and  42
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	the time is =  "2022-05-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	the time is =  "2022-05-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	The result of it is =  30  and  24
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	the time is =  "2022-05-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	The result of it is =  60  and  42
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	The result of it is =  50  and  23
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	The result of it is =  39  and  25
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-27 20:59:17) 	The max top value is =  60
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	the time is =  "2022-05-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	The result of it is =  50  and  33
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	the time is =  "2022-05-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	The result of it is =  50  and  42
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	the time is =  "2022-05-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	the time is =  "2022-05-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	The result of it is =  30  and  24
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	the time is =  "2022-05-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	The result of it is =  60  and  42
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	The result of it is =  50  and  23
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	The result of it is =  39  and  25
+Debug:  F:() L:(0) 	(2022-05-27 20:59:17) 	The a1::: 83   0   0   54
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 20:59:17) 	The result is =  83
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 20:59:17) 	The result is =  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 20:59:17) 	The result is =  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 20:59:17) 	The result is =  54
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(244) 	(2022-05-27 20:59:17) 	陌生: 60.58%
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(248) 	(2022-05-27 20:59:17) 	一般: 0.00% and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(252) 	(2022-05-27 20:59:17) 	熟悉: 0.00% and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(256) 	(2022-05-27 20:59:17) 	牢记: 39.42%
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 20:59:17) 	The current index is =  1
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 20:59:22) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 20:59:22) 	The current index is =  3
+Debug:  F:(qrc:/main.qml) L:(134) 	(2022-05-27 20:59:24) 	start to here!!!
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 20:59:24) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 20:59:24) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 20:59:24) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Page/EnterPage.qml) L:(59) 	(2022-05-27 20:59:25) 	qrc:/qmls/Page/EnterPage.qml:59:5: QML Rectangle: Cannot anchor a vertical edge to a horizontal edge.
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 20:59:25) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(55) 	(2022-05-27 20:59:25) 	The page is load!!!
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(59) 	(2022-05-27 20:59:25) 	read from db is =  20  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:25) 	the time is =  "2022-05-27"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:25) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 20:59:25) 	the time is =  "2022-05-27"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:25) 	The result of it is =  0  and  0
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-27 20:59:25) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 20:59:25) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 20:59:27) 	The current status is =  [object Object]
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	the time is =  "2022-05-21"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	the time is =  "2022-05-22"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	the time is =  "2022-05-23"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	the time is =  "2022-05-24"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	the time is =  "2022-05-25"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	the time is =  "2022-05-26"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	the time is =  "2022-05-27"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	The result of it is =  0  and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-27 20:59:27) 	The max top value is =  20
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	the time is =  "2022-05-21"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	the time is =  "2022-05-22"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	the time is =  "2022-05-23"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	the time is =  "2022-05-24"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	the time is =  "2022-05-25"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	the time is =  "2022-05-26"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	the time is =  "2022-05-27"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 20:59:27) 	The a1::: 0   0   0   0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 20:59:27) 	The result is =  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 20:59:27) 	The result is =  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 20:59:27) 	The result is =  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 20:59:27) 	The result is =  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(244) 	(2022-05-27 20:59:27) 	陌生: NaN%
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(248) 	(2022-05-27 20:59:27) 	一般: NaN% and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(252) 	(2022-05-27 20:59:27) 	熟悉: NaN% and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(256) 	(2022-05-27 20:59:27) 	牢记: NaN%
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 20:59:27) 	The current index is =  1
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 20:59:36) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 20:59:36) 	The current index is =  3
+Debug:  F:(qrc:/main.qml) L:(134) 	(2022-05-27 20:59:44) 	start to here!!!
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 20:59:44) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 20:59:44) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 20:59:44) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:() L:(0) 	(2022-05-27 20:59:45) 	The password is =  "123456"
+Debug:  F:() L:(0) 	(2022-05-27 20:59:45) 	The id is =  "18036196029"
+Debug:  F:() L:(0) 	(2022-05-27 20:59:45) 	The id is =  "大学生"
+Debug:  F:() L:(0) 	(2022-05-27 20:59:45) 	The id is =  1
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(295) 	(2022-05-27 20:59:45) 	userId is : 20182621  -  123456  -  123456 - allWords1
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(99) 	(2022-05-27 20:59:45) 	The res =  true
+Warning:  F:(qrc:/qmls/Page/EnterPage.qml) L:(59) 	(2022-05-27 20:59:45) 	qrc:/qmls/Page/EnterPage.qml:59:5: QML Rectangle: Cannot anchor a vertical edge to a horizontal edge.
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 20:59:45) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(55) 	(2022-05-27 20:59:45) 	The page is load!!!
+Debug:  F:() L:(0) 	(2022-05-27 20:59:45) 	The sno is =  1
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(59) 	(2022-05-27 20:59:45) 	read from db is =  2  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:45) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:45) 	The result of it is =  39  and  25
+Debug:  F:() L:(0) 	(2022-05-27 20:59:45) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:45) 	The result of it is =  39  and  25
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-27 20:59:45) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 20:59:45) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(109) 	(2022-05-27 20:59:45) 	config sno =  1  and  1
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 20:59:46) 	The current status is =  [object Object]
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	the time is =  "2022-05-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	The result of it is =  50  and  33
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	the time is =  "2022-05-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	The result of it is =  50  and  42
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	the time is =  "2022-05-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	the time is =  "2022-05-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	The result of it is =  30  and  24
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	the time is =  "2022-05-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	The result of it is =  60  and  42
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	The result of it is =  50  and  23
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	The result of it is =  39  and  25
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-27 20:59:46) 	The max top value is =  60
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	the time is =  "2022-05-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	The result of it is =  50  and  33
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	the time is =  "2022-05-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	The result of it is =  50  and  42
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	the time is =  "2022-05-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	the time is =  "2022-05-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	The result of it is =  30  and  24
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	the time is =  "2022-05-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	The result of it is =  60  and  42
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	The result of it is =  50  and  23
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	The result of it is =  39  and  25
+Debug:  F:() L:(0) 	(2022-05-27 20:59:46) 	The a1::: 83   0   0   54
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 20:59:46) 	The result is =  83
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 20:59:46) 	The result is =  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 20:59:46) 	The result is =  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 20:59:46) 	The result is =  54
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(244) 	(2022-05-27 20:59:46) 	陌生: 60.58%
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(248) 	(2022-05-27 20:59:46) 	一般: 0.00% and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(252) 	(2022-05-27 20:59:46) 	熟悉: 0.00% and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(256) 	(2022-05-27 20:59:46) 	牢记: 39.42%
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 20:59:46) 	The current index is =  1

@@ -1,0 +1,724 @@
+Debug:  F:() L:(0) 	(2022-05-26 23:56:26) 	App begin
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:56:27) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:56:27) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-26 23:56:27) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:() L:(0) 	(2022-05-26 23:56:29) 	The password is =  "123456"
+Debug:  F:() L:(0) 	(2022-05-26 23:56:29) 	The id is =  "18036196029"
+Debug:  F:() L:(0) 	(2022-05-26 23:56:29) 	The id is =  "大学生"
+Debug:  F:() L:(0) 	(2022-05-26 23:56:29) 	The id is =  1
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(295) 	(2022-05-26 23:56:29) 	userId is : 20182621  -  123456  -  123456 - allWords1
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(99) 	(2022-05-26 23:56:29) 	The res =  true
+Warning:  F:(qrc:/qmls/Page/EnterPage.qml) L:(59) 	(2022-05-26 23:56:29) 	qrc:/qmls/Page/EnterPage.qml:59:5: QML Rectangle: Cannot anchor a vertical edge to a horizontal edge.
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-26 23:56:29) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(55) 	(2022-05-26 23:56:29) 	The page is load!!!
+Debug:  F:() L:(0) 	(2022-05-26 23:56:29) 	The sno is =  1
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(59) 	(2022-05-26 23:56:29) 	read from db is =  10  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:29) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:29) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:29) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:29) 	The result of it is =  0  and  0
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-26 23:56:29) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-26 23:56:29) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(109) 	(2022-05-26 23:56:29) 	config sno =  1  and  1
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-26 23:56:30) 	The current status is =  [object Object]
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	the time is =  "2022-05-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	The result of it is =  50  and  33
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	the time is =  "2022-05-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	The result of it is =  50  and  42
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	the time is =  "2022-05-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	the time is =  "2022-05-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	The result of it is =  30  and  24
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	the time is =  "2022-05-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	The result of it is =  60  and  42
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	The result of it is =  50  and  23
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	The result of it is =  0  and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-26 23:56:30) 	The max top value is =  60
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	the time is =  "2022-05-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	The result of it is =  50  and  33
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	the time is =  "2022-05-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	The result of it is =  50  and  42
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	the time is =  "2022-05-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	the time is =  "2022-05-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	The result of it is =  30  and  24
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	the time is =  "2022-05-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	The result of it is =  60  and  42
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	The result of it is =  50  and  23
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:30) 	The a1::: 34   14   0   0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-26 23:56:30) 	The result is =  34
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-26 23:56:30) 	The result is =  14
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-26 23:56:30) 	The result is =  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-26 23:56:30) 	The result is =  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(244) 	(2022-05-26 23:56:30) 	陌生: 70.83%
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(248) 	(2022-05-26 23:56:30) 	一般: 29.17% and  14
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(252) 	(2022-05-26 23:56:30) 	熟悉: 0.00% and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(256) 	(2022-05-26 23:56:30) 	牢记: 0.00%
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-26 23:56:30) 	The current index is =  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-14"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-15"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-16"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  20  and  14
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-17"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-18"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  40  and  34
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-19"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-20"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  60  and  47
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-26 23:56:36) 	The max top value is =  60
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-14"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-15"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-16"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  20  and  14
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-17"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-18"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  40  and  34
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-19"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-20"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  60  and  47
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-07"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-08"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-09"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-10"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-11"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-12"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  20  and  9
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-13"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  30  and  18
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-26 23:56:36) 	The max top value is =  30
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-07"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-08"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-09"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-10"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-11"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-12"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  20  and  9
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	the time is =  "2022-05-13"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:36) 	The result of it is =  30  and  18
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	the time is =  "2022-05-14"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	the time is =  "2022-05-15"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	the time is =  "2022-05-16"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	The result of it is =  20  and  14
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	the time is =  "2022-05-17"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	the time is =  "2022-05-18"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	The result of it is =  40  and  34
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	the time is =  "2022-05-19"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	the time is =  "2022-05-20"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	The result of it is =  60  and  47
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-26 23:56:38) 	The max top value is =  60
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	the time is =  "2022-05-14"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	the time is =  "2022-05-15"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	the time is =  "2022-05-16"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	The result of it is =  20  and  14
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	the time is =  "2022-05-17"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	the time is =  "2022-05-18"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	The result of it is =  40  and  34
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	the time is =  "2022-05-19"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	the time is =  "2022-05-20"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:38) 	The result of it is =  60  and  47
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	the time is =  "2022-05-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	The result of it is =  50  and  33
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	the time is =  "2022-05-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	The result of it is =  50  and  42
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	the time is =  "2022-05-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	the time is =  "2022-05-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	The result of it is =  30  and  24
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	the time is =  "2022-05-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	The result of it is =  60  and  42
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	The result of it is =  50  and  23
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	The result of it is =  0  and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-26 23:56:41) 	The max top value is =  60
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	the time is =  "2022-05-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	The result of it is =  50  and  33
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	the time is =  "2022-05-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	The result of it is =  50  and  42
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	the time is =  "2022-05-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	the time is =  "2022-05-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	The result of it is =  30  and  24
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	the time is =  "2022-05-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	The result of it is =  60  and  42
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	The result of it is =  50  and  23
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:41) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-14"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-15"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-16"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  20  and  14
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-17"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-18"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  40  and  34
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-19"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-20"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  60  and  47
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-26 23:56:43) 	The max top value is =  60
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-14"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-15"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-16"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  20  and  14
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-17"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-18"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  40  and  34
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-19"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-20"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  60  and  47
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-07"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-08"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-09"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-10"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-11"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-12"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  20  and  9
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-13"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  30  and  18
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-26 23:56:43) 	The max top value is =  30
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-07"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-08"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-09"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-10"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-11"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-12"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  20  and  9
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	the time is =  "2022-05-13"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:43) 	The result of it is =  30  and  18
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	the time is =  "2022-04-30"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	the time is =  "2022-05-01"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	the time is =  "2022-05-02"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	the time is =  "2022-05-03"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	the time is =  "2022-05-04"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	the time is =  "2022-05-05"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	the time is =  "2022-05-06"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	The result of it is =  0  and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-26 23:56:44) 	The max top value is =  20
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	the time is =  "2022-04-30"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	the time is =  "2022-05-01"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	the time is =  "2022-05-02"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	the time is =  "2022-05-03"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	the time is =  "2022-05-04"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	the time is =  "2022-05-05"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	the time is =  "2022-05-06"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:44) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-28"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-29"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-26 23:56:45) 	The max top value is =  20
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-28"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-29"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-16"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-17"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-18"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-19"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-20"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-26 23:56:45) 	The max top value is =  20
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-16"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-17"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-18"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-19"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-20"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-09"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-10"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-11"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-12"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-13"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-14"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-15"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-26 23:56:45) 	The max top value is =  20
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-09"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-10"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-11"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-12"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-13"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-14"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-15"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-02"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-03"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-04"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-05"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-06"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-07"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-08"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-26 23:56:45) 	The max top value is =  20
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-02"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-03"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-04"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-05"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-06"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-07"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	the time is =  "2022-04-08"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:45) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	the time is =  "2022-04-09"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	the time is =  "2022-04-10"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	the time is =  "2022-04-11"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	the time is =  "2022-04-12"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	the time is =  "2022-04-13"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	the time is =  "2022-04-14"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	the time is =  "2022-04-15"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	The result of it is =  0  and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-26 23:56:46) 	The max top value is =  20
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	the time is =  "2022-04-09"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	the time is =  "2022-04-10"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	the time is =  "2022-04-11"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	the time is =  "2022-04-12"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	the time is =  "2022-04-13"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	the time is =  "2022-04-14"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	the time is =  "2022-04-15"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:46) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-16"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-17"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-18"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-19"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-20"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-26 23:56:47) 	The max top value is =  20
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-16"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-17"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-18"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-19"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-20"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-28"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-29"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-26 23:56:47) 	The max top value is =  20
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-28"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-29"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-30"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-01"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-02"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-03"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-04"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-05"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-06"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-26 23:56:47) 	The max top value is =  20
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-04-30"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-01"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-02"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-03"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-04"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-05"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-06"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-07"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-08"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-09"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-10"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-11"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-12"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  20  and  9
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-13"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  30  and  18
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-26 23:56:47) 	The max top value is =  30
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-07"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-08"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-09"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-10"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-11"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-12"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  20  and  9
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	the time is =  "2022-05-13"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:47) 	The result of it is =  30  and  18
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-14"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-15"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-16"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  20  and  14
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-17"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-18"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  40  and  34
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-19"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-20"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  60  and  47
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-26 23:56:48) 	The max top value is =  60
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-14"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-15"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-16"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  20  and  14
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-17"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-18"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  40  and  34
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-19"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-20"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  60  and  47
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  50  and  33
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  50  and  42
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  30  and  24
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  60  and  42
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  50  and  23
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  0  and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-26 23:56:48) 	The max top value is =  60
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  50  and  33
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  50  and  42
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  30  and  24
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  60  and  42
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  50  and  23
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:56:48) 	The result of it is =  0  and  0
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-26 23:56:53) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-26 23:56:53) 	The current index is =  0
+Debug:  F:(qrc:/qmls/Page/WordBooks.qml) L:(24) 	(2022-05-26 23:56:54) 	load
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(63) 	(2022-05-26 23:56:56) 	qrc:/qmls/Page/ShowDetailWord.qml:63:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(74) 	(2022-05-26 23:56:56) 	qrc:/qmls/Page/ShowDetailWord.qml:74:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(65) 	(2022-05-26 23:56:56) 	qrc:/qmls/Page/ShowDetailWord.qml:65: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(76) 	(2022-05-26 23:56:56) 	qrc:/qmls/Page/ShowDetailWord.qml:76: TypeError: Cannot read property '0' of undefined
+Debug:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(13) 	(2022-05-26 23:56:56) 	The title is =  错题本
+Debug:  F:() L:(0) 	(2022-05-26 23:56:56) 	The table name is =  "allWords1"
+Debug:  F:(qrc:/qmls/Page/WordBooks.qml) L:(78) 	(2022-05-26 23:56:56) 	The book name is =  错题本
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(63) 	(2022-05-26 23:57:06) 	qrc:/qmls/Page/ShowDetailWord.qml:63:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(74) 	(2022-05-26 23:57:06) 	qrc:/qmls/Page/ShowDetailWord.qml:74:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(65) 	(2022-05-26 23:57:06) 	qrc:/qmls/Page/ShowDetailWord.qml:65: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(76) 	(2022-05-26 23:57:06) 	qrc:/qmls/Page/ShowDetailWord.qml:76: TypeError: Cannot read property '0' of undefined
+Debug:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(13) 	(2022-05-26 23:57:06) 	The title is =  英语词汇
+Debug:  F:() L:(0) 	(2022-05-26 23:57:06) 	The table name is =  "allWords1"
+Debug:  F:(qrc:/qmls/Page/WordBooks.qml) L:(78) 	(2022-05-26 23:57:06) 	The book name is =  英语词汇
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(63) 	(2022-05-26 23:57:13) 	qrc:/qmls/Page/ShowDetailWord.qml:63:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(74) 	(2022-05-26 23:57:13) 	qrc:/qmls/Page/ShowDetailWord.qml:74:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(65) 	(2022-05-26 23:57:13) 	qrc:/qmls/Page/ShowDetailWord.qml:65: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(76) 	(2022-05-26 23:57:13) 	qrc:/qmls/Page/ShowDetailWord.qml:76: TypeError: Cannot read property '0' of undefined
+Debug:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(13) 	(2022-05-26 23:57:13) 	The title is =  我的单词本
+Debug:  F:() L:(0) 	(2022-05-26 23:57:13) 	The table name is =  "ImportTable1"
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(156) 	(2022-05-26 23:57:13) 	qrc:/qmls/Page/ShowDetailWord.qml:156: TypeError: Type error
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(156) 	(2022-05-26 23:57:13) 	qrc:/qmls/Page/ShowDetailWord.qml:156: TypeError: Type error
+Debug:  F:(qrc:/qmls/Page/WordBooks.qml) L:(78) 	(2022-05-26 23:57:13) 	The book name is =  我的单词本
+Warning:  F:(qrc:/qmls/Page/ImportWordPage.qml) L:(86) 	(2022-05-26 23:57:17) 	qrc:/qmls/Page/ImportWordPage.qml:86:9: QML Rectangle: Cannot anchor to an item that isn't a parent or sibling.
+Warning:  F:(qrc:/main.qml) L:(109) 	(2022-05-26 23:57:17) 	qrc:/main.qml:109:35: QML ImportWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-26 23:57:45) 	aaaaaaaa: 1
+Debug:  F:() L:(0) 	(2022-05-26 23:57:45) 	The tablename is =  "ImportTable1"
+Debug:  F:() L:(0) 	(2022-05-26 23:57:45) 	error : QSqlError("1", "Unable to execute statement", "table ImportTable1 already exists")
+Debug:  F:() L:(0) 	(2022-05-26 23:57:45) 	The get message is =  "spring"  and  "春天"
+Warning:  F:() L:(0) 	(2022-05-26 23:57:45) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-26 23:57:45) 	The target word is =  ""
+Debug:  F:() L:(0) 	(2022-05-26 23:57:45) 	The table name is =  "ImportTable1"
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-26 23:57:45) 	aaaaaaaa: 1
+Debug:  F:() L:(0) 	(2022-05-26 23:57:45) 	The tablename is =  "ImportTable1"
+Debug:  F:() L:(0) 	(2022-05-26 23:57:45) 	error : QSqlError("1", "Unable to execute statement", "table ImportTable1 already exists")
+Debug:  F:() L:(0) 	(2022-05-26 23:57:45) 	The get message is =  "summer"  and  "夏天"
+Warning:  F:() L:(0) 	(2022-05-26 23:57:45) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-26 23:57:45) 	The target word is =  ""
+Debug:  F:() L:(0) 	(2022-05-26 23:57:45) 	The table name is =  "ImportTable1"
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-26 23:57:45) 	aaaaaaaa: 1
+Debug:  F:() L:(0) 	(2022-05-26 23:57:45) 	The tablename is =  "ImportTable1"
+Debug:  F:() L:(0) 	(2022-05-26 23:57:45) 	error : QSqlError("1", "Unable to execute statement", "table ImportTable1 already exists")
+Debug:  F:() L:(0) 	(2022-05-26 23:57:45) 	The get message is =  "autumn"  and  "秋天"
+Warning:  F:() L:(0) 	(2022-05-26 23:57:45) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-26 23:57:45) 	The target word is =  ""
+Debug:  F:() L:(0) 	(2022-05-26 23:57:45) 	The table name is =  "ImportTable1"
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-26 23:57:45) 	aaaaaaaa: 1
+Debug:  F:() L:(0) 	(2022-05-26 23:57:45) 	The tablename is =  "ImportTable1"
+Debug:  F:() L:(0) 	(2022-05-26 23:57:45) 	error : QSqlError("1", "Unable to execute statement", "table ImportTable1 already exists")
+Debug:  F:() L:(0) 	(2022-05-26 23:57:45) 	The get message is =  "winter"  and  "冬天"
+Warning:  F:() L:(0) 	(2022-05-26 23:57:45) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-26 23:57:45) 	The target word is =  ""
+Debug:  F:() L:(0) 	(2022-05-26 23:57:45) 	The table name is =  "ImportTable1"
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-26 23:57:45) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-26 23:57:45) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-26 23:57:45) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-26 23:57:45) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-26 23:57:45) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-26 23:57:45) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-26 23:57:45) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-26 23:57:45) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-26 23:57:45) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-26 23:57:45) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-26 23:57:45) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-26 23:57:45) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-26 23:57:45) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-26 23:57:45) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-26 23:57:45) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-26 23:57:45) 	aaaaaaaa: 1
+Warning:  F:(qrc:/main.qml) L:(109) 	(2022-05-26 23:57:48) 	qrc:/main.qml:109:35: QML ImportWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:(qrc:/qmls/Page/WordBooks.qml) L:(24) 	(2022-05-26 23:57:50) 	load
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(63) 	(2022-05-26 23:57:50) 	qrc:/qmls/Page/ShowDetailWord.qml:63:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(74) 	(2022-05-26 23:57:50) 	qrc:/qmls/Page/ShowDetailWord.qml:74:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(65) 	(2022-05-26 23:57:50) 	qrc:/qmls/Page/ShowDetailWord.qml:65: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(76) 	(2022-05-26 23:57:50) 	qrc:/qmls/Page/ShowDetailWord.qml:76: TypeError: Cannot read property '0' of undefined
+Debug:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(13) 	(2022-05-26 23:57:50) 	The title is =  我的单词本
+Debug:  F:() L:(0) 	(2022-05-26 23:57:51) 	The table name is =  "ImportTable1"
+Debug:  F:(qrc:/qmls/Page/WordBooks.qml) L:(78) 	(2022-05-26 23:57:51) 	The book name is =  我的单词本
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(63) 	(2022-05-26 23:57:54) 	qrc:/qmls/Page/ShowDetailWord.qml:63:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(74) 	(2022-05-26 23:57:54) 	qrc:/qmls/Page/ShowDetailWord.qml:74:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(65) 	(2022-05-26 23:57:54) 	qrc:/qmls/Page/ShowDetailWord.qml:65: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(76) 	(2022-05-26 23:57:54) 	qrc:/qmls/Page/ShowDetailWord.qml:76: TypeError: Cannot read property '0' of undefined
+Debug:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(13) 	(2022-05-26 23:57:54) 	The title is =  我的单词本
+Debug:  F:() L:(0) 	(2022-05-26 23:57:54) 	The table name is =  "ImportTable1"
+Debug:  F:(qrc:/qmls/Page/WordBooks.qml) L:(78) 	(2022-05-26 23:57:54) 	The book name is =  我的单词本
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(63) 	(2022-05-26 23:57:59) 	qrc:/qmls/Page/ShowDetailWord.qml:63:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(74) 	(2022-05-26 23:57:59) 	qrc:/qmls/Page/ShowDetailWord.qml:74:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(65) 	(2022-05-26 23:57:59) 	qrc:/qmls/Page/ShowDetailWord.qml:65: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(76) 	(2022-05-26 23:57:59) 	qrc:/qmls/Page/ShowDetailWord.qml:76: TypeError: Cannot read property '0' of undefined
+Debug:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(13) 	(2022-05-26 23:57:59) 	The title is =  英语词汇
+Debug:  F:() L:(0) 	(2022-05-26 23:57:59) 	The table name is =  "allWords1"
+Debug:  F:(qrc:/qmls/Page/WordBooks.qml) L:(78) 	(2022-05-26 23:57:59) 	The book name is =  英语词汇
+Debug:  F:(qrc:/qmls/Page/DirectoryPage.qml) L:(76) 	(2022-05-26 23:58:09) 	click ewm
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-26 23:58:11) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-26 23:58:11) 	The current index is =  3
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-26 23:58:12) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-26 23:58:12) 	The current index is =  2
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-26 23:58:13) 	The current status is =  [object Object]
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	the time is =  "2022-05-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	The result of it is =  50  and  33
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	the time is =  "2022-05-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	The result of it is =  50  and  42
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	the time is =  "2022-05-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	the time is =  "2022-05-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	The result of it is =  30  and  24
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	the time is =  "2022-05-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	The result of it is =  60  and  42
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	The result of it is =  50  and  23
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	The result of it is =  0  and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-26 23:58:13) 	The max top value is =  60
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	the time is =  "2022-05-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	The result of it is =  50  and  33
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	the time is =  "2022-05-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	The result of it is =  50  and  42
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	the time is =  "2022-05-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	the time is =  "2022-05-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	The result of it is =  30  and  24
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	the time is =  "2022-05-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	The result of it is =  60  and  42
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	The result of it is =  50  and  23
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:58:13) 	The a1::: 34   14   0   0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-26 23:58:13) 	The result is =  34
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-26 23:58:13) 	The result is =  14
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-26 23:58:13) 	The result is =  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-26 23:58:13) 	The result is =  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(244) 	(2022-05-26 23:58:13) 	陌生: 70.83%
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(248) 	(2022-05-26 23:58:13) 	一般: 29.17% and  14
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(252) 	(2022-05-26 23:58:13) 	熟悉: 0.00% and  0
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(256) 	(2022-05-26 23:58:13) 	牢记: 0.00%
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-26 23:58:13) 	The current index is =  1

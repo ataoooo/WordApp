@@ -1,0 +1,601 @@
+Debug:  F:() L:(0) 	(2022-05-27 18:31:51) 	App begin
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 18:31:52) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 18:31:52) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 18:31:52) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Page/EnterPage.qml) L:(59) 	(2022-05-27 18:31:57) 	qrc:/qmls/Page/EnterPage.qml:59:5: QML Rectangle: Cannot anchor a vertical edge to a horizontal edge.
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:31:57) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(55) 	(2022-05-27 18:31:57) 	The page is load!!!
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(59) 	(2022-05-27 18:31:57) 	read from db is =  20  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:31:57) 	the time is =  "2022-05-27"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 18:31:57) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 18:31:57) 	the time is =  "2022-05-27"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 18:31:57) 	The result of it is =  0  and  0
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-27 18:31:57) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 18:31:57) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 18:31:59) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 18:31:59) 	The current index is =  3
+Debug:  F:(qrc:/main.qml) L:(134) 	(2022-05-27 18:32:02) 	start to here!!!
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 18:32:02) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 18:32:02) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 18:32:02) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:32:03) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-27 18:32:03) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 18:32:03) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 18:32:03) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 18:32:03) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 18:32:03) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 18:32:03) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:32:05) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-27 18:32:05) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:32:05) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 18:32:05) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:32:05) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 18:32:05) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:32:05) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 18:32:05) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:32:05) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:32:05) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 18:32:05) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 18:32:05) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:32:08) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 18:32:08) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:32:08) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 18:32:08) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:32:08) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 18:32:08) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:32:08) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 18:32:08) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:32:08) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 18:32:08) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:32:08) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 18:32:08) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Debug:  F:(qrc:/qmls/Page/IntoLogin.qml) L:(170) 	(2022-05-27 18:32:16) 	insert message is  大学生
+Debug:  F:(qrc:/qmls/Page/IntoLogin.qml) L:(171) 	(2022-05-27 18:32:16) 	
+Debug:  F:(qrc:/qmls/Page/IntoLogin.qml) L:(172) 	(2022-05-27 18:32:16) 	
+Debug:  F:(qrc:/qmls/Page/IntoLogin.qml) L:(173) 	(2022-05-27 18:32:16) 	
+Debug:  F:(qrc:/qmls/Page/IntoLogin.qml) L:(174) 	(2022-05-27 18:32:16) 	
+Debug:  F:(qrc:/qmls/Page/IntoLogin.qml) L:(179) 	(2022-05-27 18:32:16) 	have empty!
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 18:32:19) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 18:32:19) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 18:32:19) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 18:32:24) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 18:32:24) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 18:32:24) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/main.qml) L:(116) 	(2022-05-27 18:32:24) 	qrc:/main.qml:116:31: QML PhoneLogin: StackView has detected conflicting anchors. Transitions may not execute properly.
+Warning:  F:(qrc:/main.qml) L:(116) 	(2022-05-27 18:32:27) 	qrc:/main.qml:116:31: QML PhoneLogin: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:() L:(0) 	(2022-05-27 18:32:37) 	The password is =  "123456"
+Debug:  F:() L:(0) 	(2022-05-27 18:32:37) 	The id is =  "18036196029"
+Debug:  F:() L:(0) 	(2022-05-27 18:32:37) 	The id is =  "大学生"
+Debug:  F:() L:(0) 	(2022-05-27 18:32:37) 	The id is =  1
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(295) 	(2022-05-27 18:32:37) 	userId is : 20182621  -  123456  -  123456 - allWords1
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(99) 	(2022-05-27 18:32:37) 	The res =  true
+Warning:  F:(qrc:/qmls/Page/EnterPage.qml) L:(59) 	(2022-05-27 18:32:37) 	qrc:/qmls/Page/EnterPage.qml:59:5: QML Rectangle: Cannot anchor a vertical edge to a horizontal edge.
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:32:37) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(55) 	(2022-05-27 18:32:37) 	The page is load!!!
+Debug:  F:() L:(0) 	(2022-05-27 18:32:37) 	The sno is =  1
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(59) 	(2022-05-27 18:32:37) 	read from db is =  5  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:32:37) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:32:37) 	The result of it is =  35  and  24
+Debug:  F:() L:(0) 	(2022-05-27 18:32:37) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:32:37) 	The result of it is =  35  and  24
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 18:32:37) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 18:32:37) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(109) 	(2022-05-27 18:32:37) 	config sno =  1  and  1
+Debug:  F:(qrc:/qmls/Component/SearchEdit.qml) L:(62) 	(2022-05-27 18:33:00) 	aaaa: 1
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	The word is =  "have"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	word context : =  "19649"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	word context : =  "have"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	word context : =  "/h?v/"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	word context : =  "v. 有，持有，具有；吃；做（某事）；（have to）必须，不得不；拿，取得；  aux. 现在完成式；  n. 〈口〉有产者，有钱人，富国，〈英俚〉欺骗，诈骗"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	word context : =  "1"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	word context : =  "4"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	word context : =  "26"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	word context : =  "{\"word_third\": [\"has\"], \"word_done\": [\"had\"], \"word_pl\": \"\", \"word_est\": \"\", \"word_ing\": [\"having\"], \"word_er\": \"\", \"word_past\": [\"had\"], \"word_er\": \"\"}"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	word context : =  ""
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	word context : =  ""
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	word context : =  "0"
+Warning:  F:() L:(0) 	(2022-05-27 18:33:00) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Component/SearchEdit.qml) L:(65) 	(2022-05-27 18:33:00) 	really??? =  have
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	STAT TO VOICE
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	The string is =  "have"
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 18:33:00) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 18:33:00) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 18:33:00) 	The target word  is =  have
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	The word is =  "have"
+Warning:  F:() L:(0) 	(2022-05-27 18:33:00) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:00) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 18:33:00) 	The target word  is =  have
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	The word is =  "have"
+Warning:  F:() L:(0) 	(2022-05-27 18:33:00) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:00) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:(qrc:/main.qml) L:(106) 	(2022-05-27 18:33:00) 	qrc:/main.qml:106:33: QML ShowWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:() L:(0) 	(2022-05-27 18:33:00) 	context is =  ""
+Warning:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(68) 	(2022-05-27 18:33:07) 	qrc:/qmls/Page/EditWordPage.qml:68: ReferenceError: failRec is not defined
+Warning:  F:(qrc:/main.qml) L:(107) 	(2022-05-27 18:33:07) 	qrc:/main.qml:107:33: QML EditWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Warning:  F:(qrc:/main.qml) L:(106) 	(2022-05-27 18:33:07) 	qrc:/main.qml:106:33: QML ShowWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(127) 	(2022-05-27 18:33:10) 	test accent =  /h?v/
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(129) 	(2022-05-27 18:33:10) 	test mean =  v. 有，持有，具有；吃；做（某事）；（have to）必须，不得不；拿，取得；  aux. 现在完成式；  n. 〈口〉有产者，有钱人，富国，〈英俚〉欺骗，诈骗
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(176) 	(2022-05-27 18:33:10) 	aaaa:  第三人称形式: has
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(176) 	(2022-05-27 18:33:10) 	aaaa:  过去分词形式: had
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(176) 	(2022-05-27 18:33:10) 	aaaa:  复数形式: 
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(176) 	(2022-05-27 18:33:10) 	aaaa:  最高级形式: 
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(176) 	(2022-05-27 18:33:10) 	aaaa:  现在分词形式: having
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(176) 	(2022-05-27 18:33:10) 	aaaa:  过去式: had
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(199) 	(2022-05-27 18:33:10) 	result is =  {"word_third": ["has"], "word_done": ["had"], "word_pl": "", "word_est": "", "word_ing": ["having"], "word_er": "", "word_past": ["had"], "word_er": ""}
+Warning:  F:(qrc:/main.qml) L:(107) 	(2022-05-27 18:33:10) 	qrc:/main.qml:107:33: QML EditWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Warning:  F:(qrc:/main.qml) L:(106) 	(2022-05-27 18:33:10) 	qrc:/main.qml:106:33: QML ShowWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	The word is =  "have"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "19649"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "have"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "/h?v/"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "v. 有，持有，具有；吃；做（某事）；（have to）必须，不得不；拿，取得；  aux. 现在完成式；  n. 〈口〉有产者，有钱人，富国，〈英俚〉欺骗，诈骗"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "1"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "4"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "26"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "{\"word_third\": [\"has\"], \"word_done\": [\"had\"], \"word_pl\": \"\", \"word_est\": \"\", \"word_ing\": [\"having\"], \"word_er\": \"\", \"word_past\": [\"had\"], \"word_er\": \"\"}"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  ""
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "324234"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "0"
+Warning:  F:() L:(0) 	(2022-05-27 18:33:10) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 18:33:10) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 18:33:10) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 18:33:10) 	The target word  is =  have
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	The word is =  "have"
+Warning:  F:() L:(0) 	(2022-05-27 18:33:10) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:10) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 18:33:10) 	The target word  is =  have
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	The word is =  "have"
+Warning:  F:() L:(0) 	(2022-05-27 18:33:10) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:10) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:(qrc:/qmls/Component/SearchEdit.qml) L:(31) 	(2022-05-27 18:33:10) 	qrc:/qmls/Component/SearchEdit.qml:31: TypeError: Property 'pop' of object QQuickWindowQmlImpl_QML_51(0x26841ad28c0) is not a function
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	The word is =  "have"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "19649"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "have"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "/h?v/"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "v. 有，持有，具有；吃；做（某事）；（have to）必须，不得不；拿，取得；  aux. 现在完成式；  n. 〈口〉有产者，有钱人，富国，〈英俚〉欺骗，诈骗"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "1"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "4"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "26"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "{\"word_third\": [\"has\"], \"word_done\": [\"had\"], \"word_pl\": \"\", \"word_est\": \"\", \"word_ing\": [\"having\"], \"word_er\": \"\", \"word_past\": [\"had\"], \"word_er\": \"\"}"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  ""
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "324234"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  "0"
+Warning:  F:() L:(0) 	(2022-05-27 18:33:10) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 18:33:10) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 18:33:10) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 18:33:10) 	The target word  is =  have
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	The word is =  "have"
+Warning:  F:() L:(0) 	(2022-05-27 18:33:10) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:10) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 18:33:10) 	The target word  is =  have
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	The word is =  "have"
+Warning:  F:() L:(0) 	(2022-05-27 18:33:10) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:10) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:10) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 18:33:10) 	is collect =  true
+Warning:  F:(qrc:/qmls/Component/SearchEdit.qml) L:(31) 	(2022-05-27 18:33:10) 	qrc:/qmls/Component/SearchEdit.qml:31: TypeError: Property 'pop' of object QQuickWindowQmlImpl_QML_51(0x26841ad28c0) is not a function
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 18:33:16) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(258) 	(2022-05-27 18:33:16) 	click the sc
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 18:33:17) 	is collect =  false
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(258) 	(2022-05-27 18:33:17) 	click the sc
+Debug:  F:() L:(0) 	(2022-05-27 18:33:17) 	Table name is =  "allWords1"   and =  "have"
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 18:33:18) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(258) 	(2022-05-27 18:33:18) 	click the sc
+Warning:  F:(qrc:/main.qml) L:(106) 	(2022-05-27 18:33:20) 	qrc:/main.qml:106:33: QML ShowWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:() L:(0) 	(2022-05-27 18:33:23) 	collect table is =  "allWords1"
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(116) 	(2022-05-27 18:33:23) 	show sentence is =  veracity&n. 诚实，精确性，老实，说真实话
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 18:33:23) 	show sentence is =  veracity&n. 诚实，精确性，老实，说真实话
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 18:33:23) 	show sentence is =  have&v. 有，持有，具有；吃；做（某事）；（have to）必须，不得不；拿，取得；  aux. 现在完成式；  n. 〈口〉有产者，有钱人，富国，〈英俚〉欺骗，诈骗
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 18:33:23) 	show sentence is =  headachy&adj. 头痛的；令人头痛的
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 18:33:23) 	show sentence is =  nailhead&n. 钉头；钉头装饰
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 18:33:23) 	show sentence is =  finagle&v. 欺骗；哄骗；欺瞒
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(22) 	(2022-05-27 18:33:23) 	load
+Debug:  F:() L:(0) 	(2022-05-27 18:33:32) 	Table name is =  "allWords1"   and =  "have"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:35) 	Table name is =  "allWords1"   and =  "have"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:36) 	Table name is =  "allWords1"   and =  "have"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:37) 	collect table is =  "allWords1"
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(116) 	(2022-05-27 18:33:37) 	show sentence is =  veracity&n. 诚实，精确性，老实，说真实话
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 18:33:37) 	show sentence is =  veracity&n. 诚实，精确性，老实，说真实话
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 18:33:37) 	show sentence is =  headachy&adj. 头痛的；令人头痛的
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 18:33:37) 	show sentence is =  nailhead&n. 钉头；钉头装饰
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 18:33:37) 	show sentence is =  finagle&v. 欺骗；哄骗；欺瞒
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(22) 	(2022-05-27 18:33:37) 	load
+Debug:  F:(qrc:/qmls/Component/SearchEdit.qml) L:(62) 	(2022-05-27 18:33:52) 	aaaa: 1
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	The word is =  "Nice to meet you"
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Component/SearchEdit.qml) L:(65) 	(2022-05-27 18:33:52) 	really??? =  
+Debug:  F:(qrc:/qmls/Component/SearchEdit.qml) L:(70) 	(2022-05-27 18:33:52) 	The edit is =  Nice to meet you
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	STAT TO VOICE
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	The string is =  "Nice%20to%20meet%20you"
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	context is =  ""
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	The context is =  ""
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	The tar is =  ""
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	The split of string is =  ""
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	empty1
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 18:33:52) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 18:33:52) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 18:33:52) 	The target word  is =  
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	The word is =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 18:33:52) 	The target word  is =  
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	The word is =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:33:52) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:33:52) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:(qrc:/main.qml) L:(106) 	(2022-05-27 18:33:52) 	qrc:/main.qml:106:33: QML ShowWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Warning:  F:(qrc:/main.qml) L:(106) 	(2022-05-27 18:33:54) 	qrc:/main.qml:106:33: QML ShowWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Warning:  F:(qrc:/qmls/Page/ShowSentence.qml) L:(107) 	(2022-05-27 18:33:56) 	qrc:/qmls/Page/ShowSentence.qml:107: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowSentence.qml) L:(114) 	(2022-05-27 18:33:56) 	qrc:/qmls/Page/ShowSentence.qml:114: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowSentence.qml) L:(121) 	(2022-05-27 18:33:56) 	qrc:/qmls/Page/ShowSentence.qml:121: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowSentence.qml) L:(128) 	(2022-05-27 18:33:56) 	qrc:/qmls/Page/ShowSentence.qml:128: TypeError: Cannot read property '0' of undefined
+Debug:  F:() L:(0) 	(2022-05-27 18:33:56) 	The table name is =  "sentence"
+Debug:  F:(qrc:/qmls/Component/SearchEdit.qml) L:(62) 	(2022-05-27 18:36:11) 	aaaa: 1
+Debug:  F:() L:(0) 	(2022-05-27 18:36:11) 	The word is =  "Nice to meet you"
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:11) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:11) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:11) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:11) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:11) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:11) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:11) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:11) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:11) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:11) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:11) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:11) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:11) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:11) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:11) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Component/SearchEdit.qml) L:(65) 	(2022-05-27 18:36:11) 	really??? =  
+Debug:  F:(qrc:/qmls/Component/SearchEdit.qml) L:(70) 	(2022-05-27 18:36:11) 	The edit is =  Nice to meet you
+Debug:  F:() L:(0) 	(2022-05-27 18:36:11) 	STAT TO VOICE
+Debug:  F:() L:(0) 	(2022-05-27 18:36:11) 	The string is =  "Nice%20to%20meet%20you"
+Debug:  F:() L:(0) 	(2022-05-27 18:36:11) 	context is =  ""
+Debug:  F:() L:(0) 	(2022-05-27 18:36:12) 	The context is =  ""
+Debug:  F:() L:(0) 	(2022-05-27 18:36:12) 	The tar is =  ""
+Debug:  F:() L:(0) 	(2022-05-27 18:36:12) 	The split of string is =  ""
+Debug:  F:() L:(0) 	(2022-05-27 18:36:12) 	empty1
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 18:36:12) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 18:36:12) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 18:36:12) 	The target word  is =  
+Debug:  F:() L:(0) 	(2022-05-27 18:36:12) 	The word is =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:12) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:12) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:12) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 18:36:12) 	The target word  is =  
+Debug:  F:() L:(0) 	(2022-05-27 18:36:12) 	The word is =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:12) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:12) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:12) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:(qrc:/main.qml) L:(106) 	(2022-05-27 18:36:12) 	qrc:/main.qml:106:33: QML ShowWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Warning:  F:(qrc:/main.qml) L:(106) 	(2022-05-27 18:36:14) 	qrc:/main.qml:106:33: QML ShowWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:(qrc:/qmls/Component/SearchEdit.qml) L:(62) 	(2022-05-27 18:36:39) 	aaaa: 1
+Debug:  F:() L:(0) 	(2022-05-27 18:36:39) 	The word is =  "Nice to meet you"
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:39) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:39) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:39) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:39) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:39) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:39) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:39) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:39) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:39) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:39) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:39) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:39) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:39) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:39) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:() L:(0) 	(2022-05-27 18:36:39) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Component/SearchEdit.qml) L:(65) 	(2022-05-27 18:36:39) 	really??? =  
+Debug:  F:(qrc:/qmls/Component/SearchEdit.qml) L:(70) 	(2022-05-27 18:36:39) 	The edit is =  Nice to meet you
+Debug:  F:() L:(0) 	(2022-05-27 18:36:39) 	STAT TO VOICE
+Debug:  F:() L:(0) 	(2022-05-27 18:36:39) 	The string is =  "Nice%20to%20meet%20you"
+Debug:  F:() L:(0) 	(2022-05-27 18:36:39) 	context is =  ""
+Debug:  F:() L:(0) 	(2022-05-27 18:36:40) 	The context is =  ""
+Debug:  F:() L:(0) 	(2022-05-27 18:36:40) 	The tar is =  ""
+Debug:  F:() L:(0) 	(2022-05-27 18:36:40) 	The split of string is =  ""
+Debug:  F:() L:(0) 	(2022-05-27 18:36:40) 	empty1
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 18:36:40) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 18:36:40) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 18:36:40) 	The target word  is =  
+Debug:  F:() L:(0) 	(2022-05-27 18:36:40) 	The word is =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:40) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:40) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:40) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 18:36:40) 	The target word  is =  
+Debug:  F:() L:(0) 	(2022-05-27 18:36:40) 	The word is =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:40) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 18:36:40) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 18:36:40) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:(qrc:/main.qml) L:(106) 	(2022-05-27 18:36:40) 	qrc:/main.qml:106:33: QML ShowWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Warning:  F:(qrc:/main.qml) L:(106) 	(2022-05-27 18:36:44) 	qrc:/main.qml:106:33: QML ShowWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 18:36:47) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 18:36:47) 	The current index is =  2
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:36:50) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 18:36:50) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:36:50) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 18:36:50) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:36:51) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 18:36:51) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:36:51) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 18:36:51) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(362) 	(2022-05-27 18:36:53) 	The mdifficult is =  1
+Debug:  F:() L:(0) 	(2022-05-27 18:37:00) 	The upgrade information is =  1   and  2   1
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(681) 	(2022-05-27 18:37:04) 	click the start..
+Debug:  F:() L:(0) 	(2022-05-27 18:37:04) 	the num =  2    and name is =  "allWords1"  -1:  0.3  -2:  0.3  -3:  0.2  -4:  0.2
+Debug:  F:() L:(0) 	(2022-05-27 18:37:04) 	the result of n4 =  0
+Debug:  F:() L:(0) 	(2022-05-27 18:37:04) 	the result of n3 =  0
+Debug:  F:() L:(0) 	(2022-05-27 18:37:04) 	the result of n2 =  0
+Debug:  F:() L:(0) 	(2022-05-27 18:37:04) 	the result of n1 =  2
+Debug:  F:() L:(0) 	(2022-05-27 18:37:04) 	The number of word is =  2
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(887) 	(2022-05-27 18:37:04) 	The test number is =  2
+Debug:  F:() L:(0) 	(2022-05-27 18:37:04) 	write the appear is =  0
+Debug:  F:() L:(0) 	(2022-05-27 18:37:04) 	write the appear is =  3
+Debug:  F:() L:(0) 	(2022-05-27 18:37:04) 	Last error num is =  2
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(739) 	(2022-05-27 18:37:20) 	current word is =  half
+Debug:  F:() L:(0) 	(2022-05-27 18:37:20) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(771) 	(2022-05-27 18:37:20) 	current word is =  half
+Debug:  F:() L:(0) 	(2022-05-27 18:37:20) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(739) 	(2022-05-27 18:37:21) 	current word is =  half
+Debug:  F:() L:(0) 	(2022-05-27 18:37:21) 	The accuracy is =  1
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(771) 	(2022-05-27 18:37:22) 	current word is =  half
+Debug:  F:() L:(0) 	(2022-05-27 18:37:22) 	The accuracy is =  0
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:37:35) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 18:37:35) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:37:35) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 18:37:35) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 18:37:37) 	The current index is =  0   and   
+Debug:  F:() L:(0) 	(2022-05-27 18:37:37) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 18:37:42) 	The current index is =  1   and   half
+Debug:  F:() L:(0) 	(2022-05-27 18:37:42) 	The accuracy is =  1
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 18:37:47) 	The current index is =  2   and   ...
+Debug:  F:() L:(0) 	(2022-05-27 18:37:47) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 18:37:52) 	The current index is =  3   and   
+Debug:  F:() L:(0) 	(2022-05-27 18:37:52) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(843) 	(2022-05-27 18:37:52) 	current time is =  2022-05-27
+Debug:  F:() L:(0) 	(2022-05-27 18:37:52) 	get number =  35  and  24
+Debug:  F:() L:(0) 	(2022-05-27 18:37:52) 	insert
+Debug:  F:(qrc:/qmls/Page/DirectoryPage.qml) L:(292) 	(2022-05-27 18:37:52) 	get the finish signal
+Debug:  F:() L:(0) 	(2022-05-27 18:37:52) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:37:52) 	The result of it is =  39  and  25
+Debug:  F:() L:(0) 	(2022-05-27 18:37:52) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:37:52) 	The result of it is =  39  and  25
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 18:38:01) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 18:38:01) 	The current index is =  0
+Debug:  F:(qrc:/qmls/Page/WordBooks.qml) L:(24) 	(2022-05-27 18:38:02) 	load
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(63) 	(2022-05-27 18:38:03) 	qrc:/qmls/Page/ShowDetailWord.qml:63:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(74) 	(2022-05-27 18:38:03) 	qrc:/qmls/Page/ShowDetailWord.qml:74:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(65) 	(2022-05-27 18:38:03) 	qrc:/qmls/Page/ShowDetailWord.qml:65: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(76) 	(2022-05-27 18:38:03) 	qrc:/qmls/Page/ShowDetailWord.qml:76: TypeError: Cannot read property '0' of undefined
+Debug:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(13) 	(2022-05-27 18:38:03) 	The title is =  错题本
+Debug:  F:() L:(0) 	(2022-05-27 18:38:03) 	The table name is =  "allWords1"
+Debug:  F:(qrc:/qmls/Page/WordBooks.qml) L:(78) 	(2022-05-27 18:38:03) 	The book name is =  错题本
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 18:39:42) 	The current status is =  [object Object]
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	the time is =  "2022-05-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	The result of it is =  50  and  33
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	the time is =  "2022-05-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	The result of it is =  50  and  42
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	the time is =  "2022-05-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	the time is =  "2022-05-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	The result of it is =  30  and  24
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	the time is =  "2022-05-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	The result of it is =  60  and  42
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	The result of it is =  50  and  23
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	The result of it is =  39  and  25
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-27 18:39:42) 	The max top value is =  60
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	the time is =  "2022-05-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	The result of it is =  50  and  33
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	the time is =  "2022-05-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	The result of it is =  50  and  42
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	the time is =  "2022-05-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	the time is =  "2022-05-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	The result of it is =  30  and  24
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	the time is =  "2022-05-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	The result of it is =  60  and  42
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	The result of it is =  50  and  23
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	The result of it is =  39  and  25
+Debug:  F:() L:(0) 	(2022-05-27 18:39:42) 	The a1::: 52   48   22   16
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 18:39:42) 	The result is =  52
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 18:39:42) 	The result is =  48
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 18:39:42) 	The result is =  22
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 18:39:42) 	The result is =  16
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(244) 	(2022-05-27 18:39:42) 	陌生: 37.68%
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(248) 	(2022-05-27 18:39:42) 	一般: 34.78% and  48
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(252) 	(2022-05-27 18:39:42) 	熟悉: 15.94% and  22
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(256) 	(2022-05-27 18:39:42) 	牢记: 11.59%
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 18:39:42) 	The current index is =  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	the time is =  "2022-05-14"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	the time is =  "2022-05-15"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	the time is =  "2022-05-16"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	The result of it is =  20  and  14
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	the time is =  "2022-05-17"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	the time is =  "2022-05-18"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	The result of it is =  40  and  34
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	the time is =  "2022-05-19"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	the time is =  "2022-05-20"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	The result of it is =  60  and  47
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-27 18:40:49) 	The max top value is =  60
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	the time is =  "2022-05-14"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	the time is =  "2022-05-15"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	the time is =  "2022-05-16"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	The result of it is =  20  and  14
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	the time is =  "2022-05-17"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	the time is =  "2022-05-18"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	The result of it is =  40  and  34
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	the time is =  "2022-05-19"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	the time is =  "2022-05-20"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:49) 	The result of it is =  60  and  47
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	the time is =  "2022-05-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	The result of it is =  50  and  33
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	the time is =  "2022-05-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	The result of it is =  50  and  42
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	the time is =  "2022-05-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	the time is =  "2022-05-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	The result of it is =  30  and  24
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	the time is =  "2022-05-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	The result of it is =  60  and  42
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	The result of it is =  50  and  23
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	The result of it is =  39  and  25
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-27 18:40:51) 	The max top value is =  60
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	the time is =  "2022-05-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	The result of it is =  50  and  33
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	the time is =  "2022-05-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	The result of it is =  50  and  42
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	the time is =  "2022-05-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	the time is =  "2022-05-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	The result of it is =  30  and  24
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	the time is =  "2022-05-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	The result of it is =  60  and  42
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	The result of it is =  50  and  23
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 18:40:51) 	The result of it is =  39  and  25
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 18:40:58) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 18:40:58) 	The current index is =  3
+Debug:  F:(qrc:/qmls/Page/UserPage.qml) L:(168) 	(2022-05-27 18:41:05) 	The mm is =  123456
+Warning:  F:(qrc:/qmls/Component/ListItemForUserInfo.qml) L:(-1) 	(2022-05-27 18:41:05) 	qrc:/qmls/Component/ListItemForUserInfo.qml: ReferenceError: arr is not defined
+Warning:  F:(qrc:/qmls/Component/ListItemForUserInfo.qml) L:(25) 	(2022-05-27 18:41:05) 	qrc:/qmls/Component/ListItemForUserInfo.qml:25: ReferenceError: arr is not defined
+Warning:  F:(qrc:/qmls/Component/ListItemForUserInfo.qml) L:(25) 	(2022-05-27 18:41:05) 	qrc:/qmls/Component/ListItemForUserInfo.qml:25: ReferenceError: arr is not defined
+Warning:  F:(qrc:/qmls/Component/ListItemForUserInfo.qml) L:(25) 	(2022-05-27 18:41:05) 	qrc:/qmls/Component/ListItemForUserInfo.qml:25: ReferenceError: arr is not defined
+Debug:  F:(qrc:/qmls/Component/ListItemForUserInfo.qml) L:(34) 	(2022-05-27 18:41:06) 	The name is =  我的名称
+Debug:  F:(qrc:/qmls/Component/ListItemForUserInfo.qml) L:(37) 	(2022-05-27 18:41:06) 	The key and value is =  我的名称   and: 20182621
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:41:06) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 18:41:06) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 18:41:06) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:(qrc:/qmls/Component/ListItemForUserInfo.qml) L:(34) 	(2022-05-27 18:41:08) 	The name is =  我的电话
+Debug:  F:(qrc:/qmls/Component/ListItemForUserInfo.qml) L:(37) 	(2022-05-27 18:41:08) 	The key and value is =  我的电话   and: 18036196029
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 18:41:08) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 18:41:08) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 18:41:08) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont

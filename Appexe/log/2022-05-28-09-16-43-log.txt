@@ -1,0 +1,50 @@
+Debug:  F:() L:(0) 	(2022-05-28 09:16:43) 	App begin
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-28 09:16:44) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-28 09:16:44) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-28 09:16:44) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:() L:(0) 	(2022-05-28 09:16:46) 	The password is =  "123456"
+Debug:  F:() L:(0) 	(2022-05-28 09:16:46) 	The id is =  "18036196029"
+Debug:  F:() L:(0) 	(2022-05-28 09:16:46) 	The id is =  "´óÑ§Éú"
+Debug:  F:() L:(0) 	(2022-05-28 09:16:46) 	The id is =  1
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(295) 	(2022-05-28 09:16:46) 	userId is : 20182621  -  123456  -  123456 - allWords1
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(99) 	(2022-05-28 09:16:46) 	The res =  true
+Warning:  F:(qrc:/qmls/Page/EnterPage.qml) L:(59) 	(2022-05-28 09:16:46) 	qrc:/qmls/Page/EnterPage.qml:59:5: QML Rectangle: Cannot anchor a vertical edge to a horizontal edge.
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-28 09:16:46) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(55) 	(2022-05-28 09:16:46) 	The page is load!!!
+Debug:  F:() L:(0) 	(2022-05-28 09:16:46) 	The sno is =  1
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(59) 	(2022-05-28 09:16:46) 	read from db is =  2  and  1
+Debug:  F:() L:(0) 	(2022-05-28 09:16:46) 	the time is =  "2022-05-28"  and  1
+Debug:  F:() L:(0) 	(2022-05-28 09:16:46) 	The result of it is =  4  and  2
+Debug:  F:() L:(0) 	(2022-05-28 09:16:46) 	the time is =  "2022-05-28"  and  1
+Debug:  F:() L:(0) 	(2022-05-28 09:16:46) 	The result of it is =  4  and  2
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-28 09:16:46) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-28 09:16:46) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(109) 	(2022-05-28 09:16:46) 	config sno =  1  and  1
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-28 09:16:47) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-28 09:16:47) 	The current index is =  2
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-28 09:16:49) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-28 09:16:49) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-28 09:16:49) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-28 09:16:49) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-28 09:16:50) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-28 09:16:50) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-28 09:16:50) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-28 09:16:50) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-28 09:16:52) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-28 09:16:52) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-28 09:16:52) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-28 09:16:52) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-28 09:17:02) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-28 09:17:02) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-28 09:17:02) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-28 09:17:02) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-28 09:17:04) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-28 09:17:04) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-28 09:17:04) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-28 09:17:04) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(362) 	(2022-05-28 09:17:09) 	The mdifficult is =  1
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(362) 	(2022-05-28 09:18:12) 	The mdifficult is =  1
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-28 09:18:38) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-28 09:18:38) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-28 09:18:38) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-28 09:18:38) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined

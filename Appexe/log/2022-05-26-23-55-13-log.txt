@@ -1,0 +1,17 @@
+Debug:  F:() L:(0) 	(2022-05-26 23:55:13) 	App begin
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:55:14) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:55:14) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-26 23:55:14) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Page/EnterPage.qml) L:(59) 	(2022-05-26 23:55:15) 	qrc:/qmls/Page/EnterPage.qml:59:5: QML Rectangle: Cannot anchor a vertical edge to a horizontal edge.
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-26 23:55:15) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(55) 	(2022-05-26 23:55:15) 	The page is load!!!
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(59) 	(2022-05-26 23:55:15) 	read from db is =  20  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:55:15) 	the time is =  "2022-05-27"  and  -1
+Debug:  F:() L:(0) 	(2022-05-26 23:55:15) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-26 23:55:15) 	the time is =  "2022-05-27"  and  -1
+Debug:  F:() L:(0) 	(2022-05-26 23:55:15) 	The result of it is =  0  and  0
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-26 23:55:15) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-26 23:55:15) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-26 23:55:16) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-26 23:55:16) 	The current index is =  2
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(362) 	(2022-05-26 23:55:19) 	The mdifficult is =  1

@@ -1,0 +1,393 @@
+Debug:  F:() L:(0) 	(2022-05-27 16:15:13) 	App begin
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:15:13) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:15:13) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 16:15:13) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Page/EnterPage.qml) L:(59) 	(2022-05-27 16:15:22) 	qrc:/qmls/Page/EnterPage.qml:59:5: QML Rectangle: Cannot anchor a vertical edge to a horizontal edge.
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:15:22) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(55) 	(2022-05-27 16:15:22) 	The page is load!!!
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(59) 	(2022-05-27 16:15:22) 	read from db is =  20  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:15:22) 	the time is =  "2022-05-27"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 16:15:22) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 16:15:22) 	the time is =  "2022-05-27"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 16:15:22) 	The result of it is =  0  and  0
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-27 16:15:22) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 16:15:22) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 16:15:26) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 16:15:26) 	The current index is =  2
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 16:15:27) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 16:15:27) 	The current index is =  3
+Debug:  F:(qrc:/main.qml) L:(134) 	(2022-05-27 16:15:28) 	start to here!!!
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:15:28) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:15:28) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 16:15:28) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Page/EnterPage.qml) L:(59) 	(2022-05-27 16:15:30) 	qrc:/qmls/Page/EnterPage.qml:59:5: QML Rectangle: Cannot anchor a vertical edge to a horizontal edge.
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:15:30) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(55) 	(2022-05-27 16:15:30) 	The page is load!!!
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(59) 	(2022-05-27 16:15:30) 	read from db is =  20  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:15:30) 	the time is =  "2022-05-27"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 16:15:30) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 16:15:30) 	the time is =  "2022-05-27"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 16:15:30) 	The result of it is =  0  and  0
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-27 16:15:30) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 16:15:30) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 16:15:32) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 16:15:32) 	The current index is =  3
+Debug:  F:(qrc:/main.qml) L:(134) 	(2022-05-27 16:15:33) 	start to here!!!
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:15:33) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:15:33) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 16:15:33) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:15:35) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-27 16:15:35) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:15:35) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:15:35) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:15:35) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:15:35) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 16:15:35) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:15:37) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:15:37) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:15:37) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:15:37) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:15:37) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:15:37) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:15:37) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:15:37) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:15:37) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:15:37) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:15:37) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:15:37) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:15:39) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:15:39) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:15:39) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:15:39) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:15:39) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:15:39) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:15:39) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:15:39) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:15:39) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:15:39) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:15:39) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:15:39) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:15:40) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:15:40) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:15:40) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:15:40) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:15:40) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:15:40) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:15:40) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:15:40) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:15:40) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:15:40) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:15:40) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:15:40) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:15:47) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:15:47) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 16:15:47) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:15:55) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:15:55) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 16:15:55) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/main.qml) L:(116) 	(2022-05-27 16:15:55) 	qrc:/main.qml:116:31: QML PhoneLogin: StackView has detected conflicting anchors. Transitions may not execute properly.
+Warning:  F:(qrc:/main.qml) L:(116) 	(2022-05-27 16:15:58) 	qrc:/main.qml:116:31: QML PhoneLogin: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:() L:(0) 	(2022-05-27 16:16:07) 	The password is =  "123456"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:07) 	The id is =  "18036196029"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:07) 	The id is =  "大学生"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:07) 	The id is =  1
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(295) 	(2022-05-27 16:16:07) 	userId is : 20182621  -  123456  -  123456 - allWords1
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(99) 	(2022-05-27 16:16:07) 	The res =  true
+Warning:  F:(qrc:/qmls/Page/EnterPage.qml) L:(59) 	(2022-05-27 16:16:07) 	qrc:/qmls/Page/EnterPage.qml:59:5: QML Rectangle: Cannot anchor a vertical edge to a horizontal edge.
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:16:07) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(55) 	(2022-05-27 16:16:07) 	The page is load!!!
+Debug:  F:() L:(0) 	(2022-05-27 16:16:07) 	The sno is =  1
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(59) 	(2022-05-27 16:16:07) 	read from db is =  5  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:16:07) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:16:07) 	The result of it is =  35  and  24
+Debug:  F:() L:(0) 	(2022-05-27 16:16:07) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:16:07) 	The result of it is =  35  and  24
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:16:07) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 16:16:07) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(109) 	(2022-05-27 16:16:07) 	config sno =  1  and  1
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 16:16:09) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 16:16:09) 	The current index is =  3
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 16:16:11) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 16:16:11) 	The current index is =  0
+Debug:  F:(qrc:/qmls/Component/SearchEdit.qml) L:(62) 	(2022-05-27 16:16:40) 	aaaa: 1
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	The word is =  "have connection with"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	word context : =  "20244"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	word context : =  "have connection with"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	word context : =  "/h?v k??nek?(?)n w?θ/"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	word context : =  "phr. 与……有联系/有关联"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	word context : =  "10"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	word context : =  "20"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	word context : =  ""
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	word context : =  ""
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	word context : =  ""
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	word context : =  ""
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	word context : =  "0"
+Warning:  F:() L:(0) 	(2022-05-27 16:16:40) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Component/SearchEdit.qml) L:(65) 	(2022-05-27 16:16:40) 	really??? =  have connection with
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	STAT TO VOICE
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	The string is =  "have%20connection%20with"
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 16:16:40) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 16:16:40) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 16:16:40) 	The target word  is =  have connection with
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	The word is =  "have connection with"
+Warning:  F:() L:(0) 	(2022-05-27 16:16:40) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 16:16:40) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 16:16:40) 	The target word  is =  have connection with
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	The word is =  "have connection with"
+Warning:  F:() L:(0) 	(2022-05-27 16:16:40) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 16:16:40) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:(qrc:/main.qml) L:(106) 	(2022-05-27 16:16:40) 	qrc:/main.qml:106:33: QML ShowWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:() L:(0) 	(2022-05-27 16:16:40) 	context is =  "<!DOCTYPE html><html lang=\"zh\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"/><title>have connection with是什么意思_have connection with的翻译_音标_读音_用法_例句_爱词霸在线词典</title><meta name=\"keywords\" content=\"have connection with是什么意思,have connection with的翻译,have connection with怎么读,have connection with的读音,have connection with的用法,have connection with的例句\"/><meta name=\"description\" content=\"爱词霸权威在线词典,为您提供have connection with的中文意思,have connection with的用法讲解,have connection with的读音,have connection with的同义词,have connection with的反义词,have connection with的例句等英语服务。\"/><meta name=\"next-head-count\" content=\"5\"/><meta charSet=\"utf-8\"/><meta name=\"theme-color\" content=\"#666666\"/><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\"/><meta name=\"keywords\" content=\"在线查词、金山词霸、在线翻译、英语学习资料、英语社区、英语真题、在线测试、汉语词典、情景会话、写作句库\"/><meta name=\"description\" content=\"爱词霸英语为广大英语学习爱好者提供金山词霸、在线词典、在线翻译、英语学习资料、英语歌曲、英语真题在线测试、汉语查词等服务,爱词霸英语在线查词和在线翻译频道致力于为您提供优质的在线查词及在线翻译服务\"/><link rel=\"shortcut icon\" href=\"//cdn.iciba.com/www/img/www/favicon.ico\"/><script src=\"//dup.baidustatic.com/js/ds.js\"></script><script src=\"//cdn.iciba.com/www/js/dw-min-2.6.7.js\" type=\"text/javascript\"></script><link rel=\"preload\" href=\"/_next/static/css/1727ec43572c49a9.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/1727ec43572c49a9.css\" data-n-g=\"\"/><link rel=\"preload\" href=\"/_next/static/css/2eadcb607cd5b667.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/2eadcb607cd5b667.css\" data-n-p=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-5cd94c89d3acac5f.js\"></script><script src=\"/_next/static/chunks/webpack-ddc35916766ba275.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-bb5c596eafb42b22.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-8e1b37d3848abed7.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-8013b52c59c97511.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/word-24f3ffd94e68e9a9.js\" defer=\"\"></script><script src=\"/_next/static/H6BexVSI1kg23j8Za8vgO/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/H6BexVSI1kg23j8Za8vgO/_ssgManifest.js\" defer=\"\"></script><script src=\"/_next/static/H6BexVSI1kg23j8Za8vgO/_middlewareManifest.js\" defer=\"\"></script><style id=\"__jsx-1408617862\">.corner.jsx-1408617862{position:absolute;width:26px;height:12px;top:7px;right:-26px;font-size:12px;}</style><style id=\"__jsx-1500050861\">img.jsx-1500050861{width:18px;height:16px;margin-left:8px;vertical-align:middle;opacity:0.8;cursor:pointer;}img.jsx-1500050861:hover{opacity:1;}</style><style id=\"__jsx-1311071109\">div.jsx-1311071109{margin-bottom:12px;}</style><style id=\"__jsx-2211446375\">.record.jsx-2211446375{font-size:14px;color:rgba(255,255,255,0.2);line-height:40px;background-color:#1a1b1d;text-align:center;min-width:1200px;}.guohui.jsx-2211446375{vertical-align:sub;-webkit-transform:translateY(2px);-ms-transform:translateY(2px);transform:translateY(2px);}a.jsx-2211446375{color:rgb(147,147,147);-webkit-text-decoration:none;text-decoration:none;height:20px;lineHeight:20px;}a.jsx-2211446375:hover{-webkit-text-decoration:none;text-decoration:none;color:rgb(147,147,147);}</style></head><body><div id=\"__next\" data-reactroot=\"\"><div><div class=\"Nav_nav__3wFB0\" style=\"background-color:rgba(38,40,42, 0.98)\"><div class=\"Nav_content__Prswm\"><div class=\"Nav_left__I6XDm\" style=\"display:flex\"><img src=\"https://cdn.iciba.com/www/top/logo.png\" alt=\"\"/><ul><li>首页</li><li>翻译</li><li>文档翻译</li><li>人工翻译</li><li>背单词</li><li>精品课</li><li>写作校对<img src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIxMnB4IiB2aWV3Qm94PSIwIDAgMjQgMTIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8dGl0bGU+57yW57uEIDIyPC90aXRsZT4KICAgIDxnIGlkPSLlhpnkvZzmoKHlr7kiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSLmoKHlr7lf5oql6ZSZIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNjk3LjAwMDAwMCwgLTEwLjAwMDAwMCkiPgogICAgICAgICAgICA8ZyBpZD0i57yW57uELTIyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2OTcuMDAwMDAwLCAxMC4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik02LDAgTDE4LDAgQzIxLjMxMzcwODUsLTYuMDg3MTgzNzZlLTE2IDI0LDIuNjg2MjkxNSAyNCw2IEMyNCw5LjMxMzcwODUgMjEuMzEzNzA4NSwxMiAxOCwxMiBMMCwxMiBMMCwxMiBMMCw2IEMtNC4wNTgxMjI1MWUtMTYsMi42ODYyOTE1IDIuNjg2MjkxNSw2LjA4NzE4Mzc2ZS0xNiA2LDAgWiIgaWQ9IuefqeW9oiIgZmlsbD0iI0Y1MkIwMSI+PC9wYXRoPgogICAgICAgICAgICAgICAgPHBhdGggZD0iTTMuOSwxMC40MDkgQzUuNjQ2LDkuNzM0IDYuNzcxLDguODc5IDcuMjU3LDcuODM1IEM3LjMyOSw3LjY3MyA3LjQwMSw3LjUxMSA3LjQ2NCw3LjM0IEw3LjkzMiw3LjM0IEw3LjkzMiw5LjMxMSBDNy45MzIsOS45NDEgOC4yMTEsMTAuMjU2IDguNzY5LDEwLjI1NiBMMTAuNTMzLDEwLjI1NiBDMTAuODQ4LDEwLjI1NiAxMS4wNzMsMTAuMTc1IDExLjIxNywxMC4wMTMgQzExLjM3OSw5LjgyNCAxMS40ODcsOS4yOTMgMTEuNTUsOC40MjkgTDEwLjkyOSw4LjIzMSBDMTAuOTAyLDguOTA2IDEwLjg0OCw5LjMxMSAxMC43NTgsOS40NTUgQzEwLjY4Niw5LjU2MyAxMC41NzgsOS42MjYgMTAuNDE2LDkuNjI2IEw4Ljk2Nyw5LjYyNiBDOC43MDYsOS42MjYgOC41OCw5LjQ3MyA4LjU4LDkuMTc2IEw4LjU4LDcuMzQgTDEwLjYzMiw3LjM0IEwxMC42MzIsNC42MTMgTDguNDI3LDQuNjEzIEM4Ljc5Niw0LjI4OSA5LjE2NSwzLjg5MyA5LjU0MywzLjQyNSBMOS41NDMsMi45MyBMNi40MzgsMi45MyBDNi42LDIuNzE0IDYuNzUzLDIuNDg5IDYuODk3LDIuMjU1IEw2LjI0OSwyLjEwMiBDNS41MiwzLjIxOCA0LjU5Myw0LjEwOSAzLjQ1OSw0Ljc5MyBMMy44NzMsNS4yODggQzQuMTA3LDUuMTM1IDQuMzQxLDQuOTczIDQuNTc1LDQuODAyIEw0LjU3NSw3LjM0IEw2Ljc3MSw3LjM0IEM2LjcxNyw3LjQ2NiA2LjY2Myw3LjYwMSA2LjYsNy43MjcgQzYuMDk2LDguNTkxIDUuMDUyLDkuMzIgMy40ODYsOS44OTYgTDMuOSwxMC40MDkgWiBNNy41OTksNC42MTMgTDQuODE4LDQuNjEzIEM1LjIzMiw0LjI4IDUuNjEsMy45MiA1Ljk2MSwzLjUyNCBMOC42OTcsMy41MjQgQzguMzM3LDMuOTM4IDcuOTc3LDQuMjk4IDcuNTk5LDQuNjEzIFogTTEwLjAxMSw2LjcyOCBMNy42NDQsNi43MjggQzcuNzUyLDYuMjY5IDcuODA2LDUuNzY1IDcuODI0LDUuMjE2IEwxMC4wMTEsNS4yMTYgTDEwLjAxMSw2LjcyOCBaIE02Ljk2OSw2LjcyOCBMNS4yMDUsNi43MjggTDUuMjA1LDUuMjE2IEw3LjE3Niw1LjIxNiBDNy4xNTgsNS43NjUgNy4wODYsNi4yNjkgNi45NjksNi43MjggWiBNMTQuNDEyLDguOTk2IEwxNC40MTIsNy4xMjQgTDE4LjgyMiw3LjEyNCBMMTguODIyLDguOTk2IEwxOS40NjEsOC45OTYgTDE5LjQ2MSw2LjU0OCBMMTMuOTM1LDYuNTQ4IEMxNC40NTcsNi4zNjggMTQuODUzLDYuMTQzIDE1LjE0MSw1Ljg3MyBDMTUuMzAzLDUuNzAyIDE1LjQ0Nyw1LjUwNCAxNS41NjQsNS4yNzkgTDE3LjEzOSw1LjI3OSBMMTcuMTM5LDYuMzA1IEwxNy43NjksNi4zMDUgTDE3Ljc2OSw1LjI3OSBMMTkuNTc4LDUuMjc5IEMxOS41NjksNS41MTMgMTkuNTQyLDUuNjY2IDE5LjQ4OCw1Ljc0NyBDMTkuNDE2LDUuODM3IDE5LjI0NSw1Ljg4MiAxOC45NjYsNS44ODIgQzE4LjgyMiw1Ljg4MiAxOC42NjksNS44NzMgMTguNTA3LDUuODY0IEwxOC42MzMsNi4zMjMgQzE4Ljc1OSw2LjMyMyAxOC45MDMsNi4zMzIgMTkuMDQ3LDYuMzMyIEMxOS41MzMsNi4zMzIgMTkuODQ4LDYuMjMzIDE5Ljk4Myw2LjAzNSBDMjAuMTE4LDUuODY0IDIwLjE5LDUuNDUgMjAuMTksNC43ODQgTDE3Ljc2OSw0Ljc4NCBMMTcuNzY5LDQuMjE3IEwxOS43NTgsNC4yMTcgTDE5Ljc1OCwyLjU5NyBMMTcuNzY5LDIuNTk3IEwxNy43NjksMi4xMjkgTDE3LjEzOSwyLjEyOSBMMTcuMTM5LDIuNTk3IEwxNS44MjUsMi41OTcgTDE1LjgyNSwyLjEyOSBMMTUuMTk1LDIuMTI5IEwxNS4xOTUsMi41OTcgTDEzLjE0MywyLjU5NyBMMTMuMTQzLDMuMTI4IEwxNS4xOTUsMy4xMjggTDE1LjE5NSwzLjcwNCBMMTMuMzc3LDMuNzA0IEwxMy4wNjIsNS4yNzkgTDE0LjgzNSw1LjI3OSBDMTQuNzgxLDUuMzUxIDE0LjcxOCw1LjQyMyAxNC42NTUsNS40OTUgQzE0LjMwNCw1LjgxOSAxMy42NzQsNi4wOCAxMi43NTYsNi4yNzggTDEzLjA4LDYuNzkxIEMxMy4zMTQsNi43MzcgMTMuNTQ4LDYuNjc0IDEzLjc3Myw2LjYwMiBMMTMuNzczLDguOTk2IEwxNC40MTIsOC45OTYgWiBNMTcuMTM5LDMuNzA0IEwxNS44MjUsMy43MDQgTDE1LjgyNSwzLjEyOCBMMTcuMTM5LDMuMTI4IEwxNy4xMzksMy43MDQgWiBNMTkuMTQ2LDMuNzA0IEwxNy43NjksMy43MDQgTDE3Ljc2OSwzLjEyOCBMMTkuMTQ2LDMuMTI4IEwxOS4xNDYsMy43MDQgWiBNMTUuMDk2LDQuNzg0IEwxMy43NjQsNC43ODQgTDEzLjkwOCw0LjIxNyBMMTUuMTk1LDQuMjE3IEMxNS4xODYsNC40MTUgMTUuMTUsNC42MDQgMTUuMDk2LDQuNzg0IFogTTE3LjEzOSw0Ljc4NCBMMTUuNzQ0LDQuNzg0IEMxNS43OCw0LjYwNCAxNS44MDcsNC40MTUgMTUuODI1LDQuMjE3IEwxNy4xMzksNC4yMTcgTDE3LjEzOSw0Ljc4NCBaIE0xMi45ODEsMTAuNDA5IEMxNC42MDEsMTAuMjkyIDE1LjYzNiwxMC4wMTMgMTYuMTA0LDkuNTcyIEMxNi41MjcsOS4yMTIgMTYuNzk3LDguNTI4IDE2LjkxNCw3LjUwMiBMMTYuMjY2LDcuNDM5IEMxNi4xOTQsOC4yNTggMTUuOTYsOC44NDMgMTUuNTU1LDkuMTk0IEMxNS4wOTYsOS41NTQgMTQuMTUxLDkuNzYxIDEyLjcyLDkuODMzIEwxMi45ODEsMTAuNDA5IFogTTE5LjkzOCwxMC40NDUgTDIwLjI4OSw5LjkwNSBDMTkuMzI2LDkuNDkxIDE4LjI2NCw5LjE0OSAxNy4xMDMsOC44NyBMMTYuNzc5LDkuMzU2IEMxNy44NTksOS42MTcgMTguOTEyLDkuOTc3IDE5LjkzOCwxMC40NDUgWiIgaWQ9IuWFjei0uSIgZmlsbD0iI0ZGRkZGRiIgZmlsbC1ydWxlPSJub256ZXJvIj48L3BhdGg+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==\" alt=\"\" class=\"jsx-1408617862 corner\"/></li><li><div html=\"\n                    &lt;div id=&quot;7090170&quot; /&gt;\n                    &lt;script&gt;\n                      (window.slotbydup = window.slotbydup || []).push({\n                        id: &quot;7090170&quot;,\n                        container: &quot;7090170&quot;,\n                        async: true\n                      });\n                    &lt;/script&gt;\"></div></li></ul></div><div class=\"Nav_right__VioT3\"><ul><li class=\"active\">我的文档翻译</li><li class=\"active\">客户端下载</li><li class=\"active\">专栏平台</li></ul><div class=\"Nav_user__DXflG\"><i style=\"background-image:url(https://cdn.iciba.com/www/img/www/0312/user.png)\"></i></div></div></div></div></div><main style=\"background-color:#FAFAFA\"><div class=\"Search_search__3tl_B\"><div class=\"Search_content__ZVF_f\"><div class=\"Search_input__HC9ev\"><i></i><input type=\"search\"/><div class=\"Search_btn__alHLY\">翻译</div></div></div></div><div class=\"Content_content__eIxcI\"><div class=\"Content_left__6AuZA\"><ul class=\"NavList_nav__MwE1S\"><li class=\"NavList_active__hWXr0\">释义</li></ul></div><div class=\"Content_center__z9WQY\"><ul><li><div class=\"FoldBox_fold__j7cgz\"><div class=\"FoldBox_content__HsTfE\"><div class=\"Mean_mean__Bo27F\"><h1 class=\"Mean_word__hwr_g\">have connection with<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAZlBMVEUAAAAAAAAAAAAAAAA7pvw7qf80kNY7qf81luI7qP47qP48qP46pvo5o/U6o/U4nu42mugugcIobp8aR2E0kto7qP87qP47p/w7pvw6pfs6pvs7pPg5o/g6ovU4ovQ5nu83meY7qP989rniAAAAIXRSTlMKAAMGvvIx+T7b19Kof3hXTCMXDjfmzsjBs6+YjoRwXUZohyd2AAABOklEQVRIx6WWWY6EMAxEawIJ+9r73nX/S06LaT5GNjIR75d6ihFWEfwIXIIviZNPsZAWji4kUEgWBYcFnBTmuK1A5A0DIm8YEHnDgMgbBkTeMCYBK5kFt1ZwXwGIOALqPoS6KOqgbgm0A14ZP2Qv7QgobzB4TvhBeQsoEzX80igzQZnoOgtXZSY4CNJZSCFwSOKEBDAEi679L7SdIZQccJmFCwaWhnBijscsPJDzZAg3NggZJ7KAhjdD6HkY8fwTnhgP7GFwZA28z96f30DNIyzyjPcdJnZ3Znv7S3SeZf9Rdn1J34m4shqhIH1VebIIcjW05Rvbih+qdtSWTy/gnMz1YoZeAXtyr9cA9A4IZIDCUgkAaapOFF0z8UUWX5XxZRxf92sNt+mXZRtuy2/XVlzk1WHb5ST6+vMLuPAXERybF0UAAAAASUVORK5CYII=\" alt=\"\"/></h1><ul class=\"Mean_symbols__fpCmS\"><li>英<!-- -->[h?v k??nek??n wie]</li><li>美<!-- -->[h?v k??n?k??n w?e]<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGwAAABgCAMAAADPemeEAAAAnFBMVEUAAABEq/88qf9Rrv88qv88q/88qf9WuP87qf89qv9f0/9Arf87qf87qP87qf87qf9Brv88qf87qf88qf88qf88qf88qf87qf8+qv87qf87qf88qv8/rf9BsP88qf89q/87qf88qf87qf88qf88qf88qf87qP87qf88qv88qv8+rP87qf87qf89q/87qf88qv88qf88qf87qP87qP93cczaAAAAM3RSTlMADvkJeED8Be47AiP26t/ZF8bBqZKKg30t8rJzHRJaMuXRbWXVrqGcVE4nu6RFzDa3mF9wVIiXAAAEUUlEQVRo3r2Z2YKiMBBFS1A2QUFxBcQNt9ZWJ///bzPTVEg6KosS7huleEzlpioE+EinoWHMp9CINjb5JzsG+WoNSaoBSNe1R1CaDpIVKCRTC6TKvSGnAdhlSZqC6WONNAULPWQ0ADsYpClYa4+ABmBmn2PYAkymM1ZT5TVMXZ/96yes6Ypw8lV4DWv9/6o2eX9YE4VDOUeAHFg7/WD8Jiv+NawvF3Jh1Eajt0w44mdLCQDyYX/I+7TDkvxyBhTBrDlBbar63eNR2kiHQhjolKZ1nnxoLtbt5/oivPomQC5MpBldsdztDVJKmq9CEUykbdXfRrULKWxYZWGgfj8xibUviVLGKlSAQehgOrhSMirJGpwAKsHAxC/01SyilUL1FgBFMHMRi4Uk1QRQXhmUE6hQBHM9LC1MFk7bDKNxCdT3GlG5sCRNWQicaGPw08txVu4WnecyI0DlwwzMN1tX7OeVNDjAG4YWVJQIo07vR3xRRUfuf65o1TvBp7AOvfT4pAfY1X/+AV3P+scwONLrHTCpOJqfRkFQ6ucwRjs8Dq1fIwxpGhZfzpIRfqtTNwwCajdgGqL7a4fBEEMmC11wSdQPixx0JDBhaFo7DBYY4xr0Dgtk3TBWJeYP/JsE2AWDXZba1KOOBBh4rK2gtmkklADDPePqwaIHCbDWTMxjG8cqAUYH8geojmngLgO2oV2FaooGlQHr4n4RqFycRRkwSCdNsQBl4UZGCsyjVkfhjsGQAjuLxdiRCPPT8FGAzaTAxriIhTTaMmEL5hiJaRwJI1NxGyJzzi7CwhtIgeFj4BVQHdyYSIFhS3GF7unLgOlp3BDncCMDdhX3PANMqwxYQLOGslLna6oMmCcUkCl1vgRYiI/tkdCo9zJgbfE9hpetcY3eUBdMX6L3hNaptQB6dAdbFww3V3YWXONIucfcpBYYe/jbi0t8zT/A+2otsAkmrSvUKiVKfYlybrvd+by7+5P18WS9CYsxdgaqBAsjt7xF2avzolUdpm7x9mxgU433RIxXj1J8txqMHftNxA7QZ1l+pV63EswaYmCrA8okQtfev6YllWA7OgcxULyHdIs56GUmjSqw++MhdPDkrMIcvID1K8DWBHUHqpONJ23COeRoNaO+cHq9fs/OViKckuV2rBbAWC3aWWIStRgepEdR5Loq9ew6+Qqs7O/dCmGOyAK/+puEBNtTEWwksjZ0LirUJix24yKYPlLIrI0s7pROM6G8VlhIi62vhwwFsYGfBlBBbb4AxfPl7VLm9PtKWWeoIv1/XZgduMPzr1MhzKTe/q7aTMz2JgT+aNYOrHxYl46rF8K7anFv63JhI1Zc35ZOMjmXPNj9IxbqxmjaJAd2qYEFpyVhmucYZGP8S3UIn8md9Mq9gVenLnyuVvIEJk/jJmGwUBqEgek0CINuv0EYRIMGYaCfm4GJptR0kK+Nxh6G5Ovy07RmMTSi7tAwkimU1V8yBRUSWK7iaQAAAABJRU5ErkJggg==\" alt=\"\" class=\"jsx-1500050861\"/></li></ul><div class=\"Mean_definition__En0yh\"><div class=\"Mean_normal__mkzjn\"><h3 class=\"Mean_title__k3R4B\">释义</h3><ul class=\"Mean_part__UI9M6\"><li><div><span>与…有联系</span></div></li></ul></div></div></div></div></div></li></ul><div class=\"jsx-1311071109 \"><div html=\"\n            &lt;div id=&quot;7070365&quot; /&gt;\n            &lt;script&gt;\n              (window.slotbydup = window.slotbydup || []).push({\n                id: &quot;7070365&quot;,\n                container: &quot;7070365&quot;,\n                async: true\n              });\n            &lt;/script&gt;\"></div></div></div><div class=\"Content_right__QH2VD\"><div class=\"jsx-1311071109 \"><div html=\"\n            &lt;div id=&quot;7070628&quot; /&gt;\n            &lt;script&gt;\n              (window.slotbydup = window.slotbydup || []).push({\n                id: &quot;7070628&quot;,\n                container: &quot;7070628&quot;,\n                async: true\n              });\n            &lt;/script&gt;\"></div></div><div class=\"jsx-1311071109 \"><div html=\"\n            &lt;div id=&quot;7070370&quot; /&gt;\n            &lt;script&gt;\n              (window.slotbydup = window.slotbydup || []).push({\n                id: &quot;7070370&quot;,\n                container: &quot;7070370&quot;,\n                async: true\n              });\n            &lt;/script&gt;\"></div></div></div></div><audio></audio></main><h5 class=\"jsx-2211446375 record\"><img src=\"//dict-pc.cache.iciba.com/public-icons/guohui.png\" alt=\"\" class=\"jsx-2211446375 guohui\"/>?<a target=\"_blank\" href=\"https://beian.miit.gov.cn/#/Integrated/recordQuery\" open=\"\" class=\"jsx-2211446375\">京ICP备14035597号</a></h5></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{\"query\":{\"w\":\"have connection with\"},\"initialReduxState\":{\"user\":{\"isLogin\":false,\"userInfo\":{}},\"store\":{\"prevPath\":{}},\"word\":{\"wordInfo\":{\"exchanges\":[\"have connection with\"],\"baesInfo\":{\"word_name\":\"have connection with\",\"is_CRI\":\"0\",\"symbols\":[{\"ph_en\":\"h?v k??nek??n wie\",\"ph_am\":\"h?v k??n?k??n w?e\",\"ph_other\":\"\",\"ph_en_mp3\":\"\",\"ph_am_mp3\":\"\",\"ph_tts_mp3\":\"http://res-tts.iciba.com/2/f/8/2f860aa44a2dfb00e8d564f3e2fd6a8f.mp3\",\"ph_tts_mp3_bk\":\"http://res-tts.ksyun.iciba.com/2/f/8/2f860aa44a2dfb00e8d564f3e2fd6a8f.mp3\",\"parts\":[{\"part\":\"\",\"means\":[\"与…有联系\"]}]}],\"translate_type\":1}},\"history\":[]},\"fy\":{\"fyHeight\":\"auto\",\"transedWord\":{},\"allLanguateMap\":{},\"searchWord\":\"\",\"loading\":false,\"upbroadparams\":{\"reqid\":\"\",\"version\":\"\",\"ttype\":\"\"}},\"fyPassage\":{\"blockToggle\":\"UploadPanel\",\"passageFile\":[],\"languageParams\":{},\"progressInfo\":{},\"tid\":null,\"fileUrl\":null,\"formalDownloadurl\":\"\",\"imgUrl\":null,\"allOptionsMap\":null},\"rgfy\":{\"billInformation\":{}},\"grammar\":{\"res\":[],\"data\":{},\"contractData\":{},\"defaultText\":\"\",\"cache\":{\"refName\":\"\",\"repairList\":[],\"ignoreList\":[]},\"errorData\":{\"标点符号错误\":[],\"语法错误\":[],\"同义词替换\":[],\"句子推荐\":[],\"句子改写\":[]},\"errorIds\":{\"标点符号错误\":[],\"语法错误\":[],\"同义词替换\":[],\"句子推荐\":[],\"句子改写\":[]},\"repairList\":[],\"copyMap\":{},\"ignoreList\":[],\"refName\":\"\",\"prevInput\":\"\",\"isShowErrorType\":null,\"canContract\":false,\"sentences\":[],\"polish\":[],\"error\":\"\"}}}},\"page\":\"/word\",\"query\":{\"w\":\"have connection with\"},\"buildId\":\"H6BexVSI1kg23j8Za8vgO\",\"isFallback\":false,\"customServer\":true,\"gip\":true,\"scriptLoader\":[]}</script></body></html>"
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(145) 	(2022-05-27 16:16:43) 	showstr =  第三人称形式: 
+过去分词形式: 
+复数形式: 
+最高级形式: 
+现在分词形式: 
+过去式: 
+
+Warning:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(68) 	(2022-05-27 16:16:43) 	qrc:/qmls/Page/EditWordPage.qml:68: ReferenceError: failRec is not defined
+Warning:  F:(qrc:/main.qml) L:(107) 	(2022-05-27 16:16:43) 	qrc:/main.qml:107:33: QML EditWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Warning:  F:(qrc:/main.qml) L:(106) 	(2022-05-27 16:16:43) 	qrc:/main.qml:106:33: QML ShowWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(127) 	(2022-05-27 16:16:52) 	test accent =  /h?v k??nek?(?)n w?θ/
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(129) 	(2022-05-27 16:16:52) 	test mean =  phr. 与……有联系/有关联
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(176) 	(2022-05-27 16:16:52) 	aaaa:  第三人称形式: 2
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(176) 	(2022-05-27 16:16:52) 	aaaa:  过去分词形式: 2
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(176) 	(2022-05-27 16:16:52) 	aaaa:  复数形式: 2
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(176) 	(2022-05-27 16:16:52) 	aaaa:  最高级形式: 2
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(176) 	(2022-05-27 16:16:52) 	aaaa:  现在分词形式: 22
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(176) 	(2022-05-27 16:16:52) 	aaaa:  过去式: 
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(199) 	(2022-05-27 16:16:52) 	result is =  {"word_third": ["2"], "word_done": ["2"], "word_pl": ["2"], "word_est": ["2"], "word_ing": ["22"], "word_er": "", "word_past": "", "word_er": ""}
+Warning:  F:(qrc:/main.qml) L:(107) 	(2022-05-27 16:16:52) 	qrc:/main.qml:107:33: QML EditWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Warning:  F:(qrc:/main.qml) L:(106) 	(2022-05-27 16:16:52) 	qrc:/main.qml:106:33: QML ShowWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	The word is =  "have connection with"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "20244"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "have connection with"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "/h?v k??nek?(?)n w?θ/"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "phr. 与……有联系/有关联"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "10"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "20"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  ""
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "{\"word_third\": [\"2\"], \"word_done\": [\"2\"], \"word_pl\": [\"2\"], \"word_est\": [\"2\"], \"word_ing\": [\"22\"], \"word_er\": \"\", \"word_past\": \"\", \"word_er\": \"\"}"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  ""
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "1212"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "0"
+Warning:  F:() L:(0) 	(2022-05-27 16:16:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 16:16:52) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 16:16:52) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 16:16:52) 	The target word  is =  have connection with
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	The word is =  "have connection with"
+Warning:  F:() L:(0) 	(2022-05-27 16:16:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 16:16:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 16:16:52) 	The target word  is =  have connection with
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	The word is =  "have connection with"
+Warning:  F:() L:(0) 	(2022-05-27 16:16:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 16:16:52) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:(qrc:/qmls/Component/SearchEdit.qml) L:(31) 	(2022-05-27 16:16:52) 	qrc:/qmls/Component/SearchEdit.qml:31: TypeError: Property 'pop' of object QQuickWindowQmlImpl_QML_51(0x214236af440) is not a function
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	The word is =  "have connection with"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "20244"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "have connection with"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "/h?v k??nek?(?)n w?θ/"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "phr. 与……有联系/有关联"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "10"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "20"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  ""
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "{\"word_third\": [\"2\"], \"word_done\": [\"2\"], \"word_pl\": [\"2\"], \"word_est\": [\"2\"], \"word_ing\": [\"22\"], \"word_er\": \"\", \"word_past\": \"\", \"word_er\": \"\"}"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  ""
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "1212"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  "0"
+Warning:  F:() L:(0) 	(2022-05-27 16:16:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 16:16:52) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 16:16:52) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 16:16:52) 	The target word  is =  have connection with
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	The word is =  "have connection with"
+Warning:  F:() L:(0) 	(2022-05-27 16:16:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 16:16:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 16:16:52) 	The target word  is =  have connection with
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	The word is =  "have connection with"
+Warning:  F:() L:(0) 	(2022-05-27 16:16:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 16:16:52) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 16:16:52) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 16:16:52) 	is collect =  true
+Warning:  F:(qrc:/qmls/Component/SearchEdit.qml) L:(31) 	(2022-05-27 16:16:52) 	qrc:/qmls/Component/SearchEdit.qml:31: TypeError: Property 'pop' of object QQuickWindowQmlImpl_QML_51(0x214236af440) is not a function
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 16:16:58) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(258) 	(2022-05-27 16:16:58) 	click the sc
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 16:16:59) 	is collect =  false
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(258) 	(2022-05-27 16:16:59) 	click the sc
+Debug:  F:() L:(0) 	(2022-05-27 16:16:59) 	Table name is =  "allWords1"   and =  "have connection with"
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 16:17:01) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(258) 	(2022-05-27 16:17:01) 	click the sc
+Warning:  F:(qrc:/main.qml) L:(106) 	(2022-05-27 16:17:02) 	qrc:/main.qml:106:33: QML ShowWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:() L:(0) 	(2022-05-27 16:17:03) 	collect table is =  "allWords1"
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(116) 	(2022-05-27 16:17:03) 	show sentence is =  veracity&n. 诚实，精确性，老实，说真实话
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:17:03) 	show sentence is =  veracity&n. 诚实，精确性，老实，说真实话
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:17:03) 	show sentence is =  have connection with&phr. 与……有联系/有关联
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:17:03) 	show sentence is =  headachy&adj. 头痛的；令人头痛的
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:17:03) 	show sentence is =  nailhead&n. 钉头；钉头装饰
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:17:03) 	show sentence is =  finagle&v. 欺骗；哄骗；欺瞒
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(22) 	(2022-05-27 16:17:03) 	load
+Debug:  F:() L:(0) 	(2022-05-27 16:17:10) 	Table name is =  "allWords1"   and =  "have connection with"
+Debug:  F:() L:(0) 	(2022-05-27 16:17:18) 	Table name is =  "allWords1"   and =  "have connection with"
+Debug:  F:() L:(0) 	(2022-05-27 16:17:21) 	collect table is =  "allWords1"
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(116) 	(2022-05-27 16:17:21) 	show sentence is =  veracity&n. 诚实，精确性，老实，说真实话
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:17:21) 	show sentence is =  veracity&n. 诚实，精确性，老实，说真实话
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:17:21) 	show sentence is =  headachy&adj. 头痛的；令人头痛的
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:17:21) 	show sentence is =  nailhead&n. 钉头；钉头装饰
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:17:21) 	show sentence is =  finagle&v. 欺骗；哄骗；欺瞒
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(22) 	(2022-05-27 16:17:21) 	load
+Warning:  F:(qrc:/qmls/Page/ImportWordPage.qml) L:(86) 	(2022-05-27 16:17:28) 	qrc:/qmls/Page/ImportWordPage.qml:86:9: QML Rectangle: Cannot anchor to an item that isn't a parent or sibling.
+Warning:  F:(qrc:/main.qml) L:(109) 	(2022-05-27 16:17:28) 	qrc:/main.qml:109:35: QML ImportWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:17:37) 	aaaaaaaa: 1
+Debug:  F:() L:(0) 	(2022-05-27 16:17:37) 	The tablename is =  "ImportTable1"
+Debug:  F:() L:(0) 	(2022-05-27 16:17:37) 	error : QSqlError("1", "Unable to execute statement", "table ImportTable1 already exists")
+Debug:  F:() L:(0) 	(2022-05-27 16:17:37) 	The get message is =  "have"  and  "由"
+Warning:  F:() L:(0) 	(2022-05-27 16:17:37) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 16:17:37) 	The target word is =  ""
+Debug:  F:() L:(0) 	(2022-05-27 16:17:37) 	The table name is =  "ImportTable1"
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:17:37) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:17:37) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:17:37) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:17:37) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:17:37) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:17:37) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:17:37) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:17:37) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:17:37) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:17:37) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:17:37) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:17:37) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:17:37) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:17:37) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:17:37) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:17:37) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:17:37) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:17:37) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:17:37) 	aaaaaaaa: 1
+Warning:  F:(qrc:/main.qml) L:(109) 	(2022-05-27 16:17:38) 	qrc:/main.qml:109:35: QML ImportWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:(qrc:/qmls/Page/WordBooks.qml) L:(24) 	(2022-05-27 16:17:39) 	load
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(63) 	(2022-05-27 16:17:40) 	qrc:/qmls/Page/ShowDetailWord.qml:63:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(74) 	(2022-05-27 16:17:40) 	qrc:/qmls/Page/ShowDetailWord.qml:74:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(65) 	(2022-05-27 16:17:40) 	qrc:/qmls/Page/ShowDetailWord.qml:65: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(76) 	(2022-05-27 16:17:40) 	qrc:/qmls/Page/ShowDetailWord.qml:76: TypeError: Cannot read property '0' of undefined
+Debug:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(13) 	(2022-05-27 16:17:40) 	The title is =  我的单词本
+Debug:  F:() L:(0) 	(2022-05-27 16:17:40) 	The table name is =  "ImportTable1"
+Debug:  F:(qrc:/qmls/Page/WordBooks.qml) L:(78) 	(2022-05-27 16:17:40) 	The book name is =  我的单词本
+Warning:  F:(qrc:/qmls/Page/ShowSentence.qml) L:(107) 	(2022-05-27 16:17:48) 	qrc:/qmls/Page/ShowSentence.qml:107: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowSentence.qml) L:(114) 	(2022-05-27 16:17:48) 	qrc:/qmls/Page/ShowSentence.qml:114: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowSentence.qml) L:(121) 	(2022-05-27 16:17:48) 	qrc:/qmls/Page/ShowSentence.qml:121: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowSentence.qml) L:(128) 	(2022-05-27 16:17:48) 	qrc:/qmls/Page/ShowSentence.qml:128: TypeError: Cannot read property '0' of undefined
+Debug:  F:() L:(0) 	(2022-05-27 16:17:48) 	The table name is =  "sentence"
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 16:18:02) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 16:18:02) 	The current index is =  2
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(362) 	(2022-05-27 16:18:05) 	The mdifficult is =  1
+Debug:  F:() L:(0) 	(2022-05-27 16:18:12) 	The upgrade information is =  1   and  5   1
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(681) 	(2022-05-27 16:18:15) 	click the start..
+Debug:  F:() L:(0) 	(2022-05-27 16:18:15) 	the num =  5    and name is =  "allWords1"  -1:  0.3  -2:  0.3  -3:  0.2  -4:  0.2
+Debug:  F:() L:(0) 	(2022-05-27 16:18:15) 	the result of n4 =  1
+Debug:  F:() L:(0) 	(2022-05-27 16:18:15) 	the result of n3 =  1
+Debug:  F:() L:(0) 	(2022-05-27 16:18:15) 	the result of n2 =  1
+Debug:  F:() L:(0) 	(2022-05-27 16:18:15) 	the result of n1 =  2
+Debug:  F:() L:(0) 	(2022-05-27 16:18:15) 	The number of word is =  5
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(887) 	(2022-05-27 16:18:15) 	The test number is =  5
+Debug:  F:() L:(0) 	(2022-05-27 16:18:15) 	write the appear is =  0
+Debug:  F:() L:(0) 	(2022-05-27 16:18:15) 	write the appear is =  0
+Debug:  F:() L:(0) 	(2022-05-27 16:18:15) 	write the appear is =  3
+Debug:  F:() L:(0) 	(2022-05-27 16:18:15) 	write the appear is =  1
+Debug:  F:() L:(0) 	(2022-05-27 16:18:15) 	Last error num is =  4
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(739) 	(2022-05-27 16:18:35) 	current word is =  tell
+Debug:  F:() L:(0) 	(2022-05-27 16:18:35) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(771) 	(2022-05-27 16:18:36) 	current word is =  through
+Debug:  F:() L:(0) 	(2022-05-27 16:18:36) 	The accuracy is =  0
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:18:58) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:18:58) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:18:58) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:18:58) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 16:19:08) 	The current index is =  0   and   slow
+Debug:  F:() L:(0) 	(2022-05-27 16:19:08) 	The error is =  QSqlError("1", "Unable to execute statement", "near \"s\": syntax error")
+Debug:  F:() L:(0) 	(2022-05-27 16:19:08) 	The error is =  QSqlError("1", "Unable to execute statement", "near \"s\": syntax error")
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 16:19:13) 	The current index is =  1   and   ...
+Debug:  F:() L:(0) 	(2022-05-27 16:19:13) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 16:19:18) 	The current index is =  2   and   tell
+Debug:  F:() L:(0) 	(2022-05-27 16:19:18) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 16:19:23) 	The current index is =  3   and   through
+Debug:  F:() L:(0) 	(2022-05-27 16:19:23) 	The accuracy is =  1
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 16:19:28) 	The current index is =  4   and   halif
+Debug:  F:() L:(0) 	(2022-05-27 16:19:28) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 16:19:33) 	The current index is =  5   and   wish
+Debug:  F:() L:(0) 	(2022-05-27 16:19:33) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 16:19:38) 	The current index is =  6   and   unlike
+Debug:  F:() L:(0) 	(2022-05-27 16:19:38) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 16:19:43) 	The current index is =  7   and   family
+Debug:  F:() L:(0) 	(2022-05-27 16:19:43) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 16:19:48) 	The current index is =  8   and   bewteen
+Debug:  F:() L:(0) 	(2022-05-27 16:19:48) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(843) 	(2022-05-27 16:19:48) 	current time is =  2022-05-27
+Debug:  F:() L:(0) 	(2022-05-27 16:19:48) 	get number =  35  and  24
+Debug:  F:() L:(0) 	(2022-05-27 16:19:48) 	insert
+Debug:  F:(qrc:/qmls/Page/DirectoryPage.qml) L:(292) 	(2022-05-27 16:19:48) 	get the finish signal
+Debug:  F:() L:(0) 	(2022-05-27 16:19:48) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:19:48) 	The result of it is =  44  and  28
+Debug:  F:() L:(0) 	(2022-05-27 16:19:48) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:19:48) 	The result of it is =  44  and  28
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 16:19:58) 	The current status is =  [object Object]
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	the time is =  "2022-05-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	The result of it is =  50  and  33
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	the time is =  "2022-05-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	The result of it is =  50  and  42
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	the time is =  "2022-05-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	the time is =  "2022-05-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	The result of it is =  30  and  24
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	the time is =  "2022-05-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	The result of it is =  60  and  42
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	The result of it is =  50  and  23
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	The result of it is =  44  and  28
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-27 16:19:58) 	The max top value is =  60
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	the time is =  "2022-05-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	The result of it is =  50  and  33
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	the time is =  "2022-05-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	The result of it is =  50  and  42
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	the time is =  "2022-05-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	the time is =  "2022-05-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	The result of it is =  30  and  24
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	the time is =  "2022-05-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	The result of it is =  60  and  42
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	The result of it is =  50  and  23
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	The result of it is =  44  and  28
+Debug:  F:() L:(0) 	(2022-05-27 16:19:58) 	The a1::: 52   51   22   16
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 16:19:58) 	The result is =  52
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 16:19:58) 	The result is =  51
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 16:19:58) 	The result is =  22
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 16:19:58) 	The result is =  16
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(244) 	(2022-05-27 16:19:58) 	陌生: 36.88%
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(248) 	(2022-05-27 16:19:58) 	一般: 36.17% and  51
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(252) 	(2022-05-27 16:19:58) 	熟悉: 15.60% and  22
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(256) 	(2022-05-27 16:19:58) 	牢记: 11.35%
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 16:19:58) 	The current index is =  1
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 16:20:22) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 16:20:22) 	The current index is =  2
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 16:20:23) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 16:20:23) 	The current index is =  3
+Debug:  F:(qrc:/qmls/Page/UserPage.qml) L:(168) 	(2022-05-27 16:20:35) 	The mm is =  123456
+Warning:  F:(qrc:/qmls/Component/ListItemForUserInfo.qml) L:(-1) 	(2022-05-27 16:20:35) 	qrc:/qmls/Component/ListItemForUserInfo.qml: ReferenceError: arr is not defined
+Warning:  F:(qrc:/qmls/Component/ListItemForUserInfo.qml) L:(25) 	(2022-05-27 16:20:35) 	qrc:/qmls/Component/ListItemForUserInfo.qml:25: ReferenceError: arr is not defined
+Warning:  F:(qrc:/qmls/Component/ListItemForUserInfo.qml) L:(25) 	(2022-05-27 16:20:35) 	qrc:/qmls/Component/ListItemForUserInfo.qml:25: ReferenceError: arr is not defined
+Warning:  F:(qrc:/qmls/Component/ListItemForUserInfo.qml) L:(25) 	(2022-05-27 16:20:35) 	qrc:/qmls/Component/ListItemForUserInfo.qml:25: ReferenceError: arr is not defined

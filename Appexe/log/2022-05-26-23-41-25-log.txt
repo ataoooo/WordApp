@@ -1,0 +1,139 @@
+Debug:  F:() L:(0) 	(2022-05-26 23:41:25) 	App begin
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:41:25) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:41:25) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-26 23:41:25) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:41:27) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:41:28) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:41:30) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:41:30) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-26 23:41:30) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/main.qml) L:(116) 	(2022-05-26 23:41:30) 	qrc:/main.qml:116:31: QML PhoneLogin: StackView has detected conflicting anchors. Transitions may not execute properly.
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:41:35) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:41:35) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:41:35) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:41:35) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:41:35) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:41:36) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:41:36) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:41:36) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:41:36) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:41:36) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:41:36) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 23:41:37) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/main.qml) L:(116) 	(2022-05-26 23:41:43) 	qrc:/main.qml:116:31: QML PhoneLogin: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:() L:(0) 	(2022-05-26 23:41:46) 	The password is =  "123456"
+Debug:  F:() L:(0) 	(2022-05-26 23:41:46) 	The id is =  "18036196029"
+Debug:  F:() L:(0) 	(2022-05-26 23:41:46) 	The id is =  "大学生"
+Debug:  F:() L:(0) 	(2022-05-26 23:41:46) 	The id is =  1
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(295) 	(2022-05-26 23:41:46) 	userId is : 20182621  -  123456  -  123456 - allWords1
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(99) 	(2022-05-26 23:41:46) 	The res =  true
+Warning:  F:(qrc:/qmls/Page/EnterPage.qml) L:(59) 	(2022-05-26 23:41:46) 	qrc:/qmls/Page/EnterPage.qml:59:5: QML Rectangle: Cannot anchor a vertical edge to a horizontal edge.
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-26 23:41:46) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(55) 	(2022-05-26 23:41:46) 	The page is load!!!
+Debug:  F:() L:(0) 	(2022-05-26 23:41:46) 	The sno is =  1
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(59) 	(2022-05-26 23:41:46) 	read from db is =  10  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:41:46) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:41:46) 	The result of it is =  30  and  18
+Debug:  F:() L:(0) 	(2022-05-26 23:41:46) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:41:46) 	The result of it is =  30  and  18
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-26 23:41:46) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-26 23:41:46) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(109) 	(2022-05-26 23:41:46) 	config sno =  1  and  1
+Warning:  F:(qrc:/qmls/Page/ShowSentence.qml) L:(107) 	(2022-05-26 23:41:48) 	qrc:/qmls/Page/ShowSentence.qml:107: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowSentence.qml) L:(114) 	(2022-05-26 23:41:48) 	qrc:/qmls/Page/ShowSentence.qml:114: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowSentence.qml) L:(121) 	(2022-05-26 23:41:48) 	qrc:/qmls/Page/ShowSentence.qml:121: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowSentence.qml) L:(128) 	(2022-05-26 23:41:48) 	qrc:/qmls/Page/ShowSentence.qml:128: TypeError: Cannot read property '0' of undefined
+Debug:  F:() L:(0) 	(2022-05-26 23:41:48) 	The table name is =  "sentence"
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-26 23:41:53) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-26 23:41:53) 	The current index is =  2
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-26 23:41:54) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-26 23:41:54) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-26 23:41:54) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-26 23:41:54) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(362) 	(2022-05-26 23:41:56) 	The mdifficult is =  1
+Debug:  F:() L:(0) 	(2022-05-26 23:41:58) 	the num =  10    and name is =  "allWords1"  -1:  0.3  -2:  0.3  -3:  0.2  -4:  0.2
+Debug:  F:() L:(0) 	(2022-05-26 23:41:58) 	the result of n4 =  2
+Debug:  F:() L:(0) 	(2022-05-26 23:41:58) 	the result of n3 =  2
+Debug:  F:() L:(0) 	(2022-05-26 23:41:58) 	the result of n2 =  3
+Debug:  F:() L:(0) 	(2022-05-26 23:41:58) 	the result of n1 =  3
+Debug:  F:() L:(0) 	(2022-05-26 23:41:58) 	The number of word is =  10
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(887) 	(2022-05-26 23:41:58) 	The test number is =  10
+Debug:  F:() L:(0) 	(2022-05-26 23:41:58) 	write the appear is =  2
+Debug:  F:() L:(0) 	(2022-05-26 23:41:58) 	write the appear is =  2
+Debug:  F:() L:(0) 	(2022-05-26 23:41:58) 	write the appear is =  2
+Debug:  F:() L:(0) 	(2022-05-26 23:41:58) 	write the appear is =  2
+Debug:  F:() L:(0) 	(2022-05-26 23:41:58) 	write the appear is =  2
+Debug:  F:() L:(0) 	(2022-05-26 23:41:58) 	write the appear is =  2
+Debug:  F:() L:(0) 	(2022-05-26 23:41:58) 	write the appear is =  2
+Debug:  F:() L:(0) 	(2022-05-26 23:41:58) 	write the appear is =  2
+Debug:  F:() L:(0) 	(2022-05-26 23:41:58) 	write the appear is =  2
+Debug:  F:() L:(0) 	(2022-05-26 23:41:58) 	write the appear is =  2
+Debug:  F:() L:(0) 	(2022-05-26 23:41:58) 	Last error num is =  10
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-26 23:42:04) 	The current index is =  0   and   question
+Debug:  F:() L:(0) 	(2022-05-26 23:42:04) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-26 23:42:09) 	The current index is =  1   and   
+Debug:  F:() L:(0) 	(2022-05-26 23:42:09) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-26 23:42:14) 	The current index is =  2   and   faml
+Debug:  F:() L:(0) 	(2022-05-26 23:42:14) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-26 23:42:19) 	The current index is =  3   and   great
+Debug:  F:() L:(0) 	(2022-05-26 23:42:19) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-26 23:42:23) 	The current index is =  4   and   better
+Debug:  F:() L:(0) 	(2022-05-26 23:42:24) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-26 23:42:29) 	The current index is =  5   and   ...
+Debug:  F:() L:(0) 	(2022-05-26 23:42:29) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-26 23:42:34) 	The current index is =  6   and   slow
+Debug:  F:() L:(0) 	(2022-05-26 23:42:34) 	The error is =  QSqlError("1", "Unable to execute statement", "near \"s\": syntax error")
+Debug:  F:() L:(0) 	(2022-05-26 23:42:34) 	The error is =  QSqlError("1", "Unable to execute statement", "near \"s\": syntax error")
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-26 23:42:39) 	The current index is =  7   and   ...
+Debug:  F:() L:(0) 	(2022-05-26 23:42:39) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-26 23:42:44) 	The current index is =  8   and   ...
+Debug:  F:() L:(0) 	(2022-05-26 23:42:44) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-26 23:42:48) 	The current index is =  9   and   life
+Debug:  F:() L:(0) 	(2022-05-26 23:42:49) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-26 23:42:53) 	The current index is =  10   and   make
+Debug:  F:() L:(0) 	(2022-05-26 23:42:54) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-26 23:42:59) 	The current index is =  11   and   making
+Debug:  F:() L:(0) 	(2022-05-26 23:42:59) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-26 23:43:04) 	The current index is =  12   and   show
+Debug:  F:() L:(0) 	(2022-05-26 23:43:04) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-26 23:43:09) 	The current index is =  13   and   great
+Debug:  F:() L:(0) 	(2022-05-26 23:43:09) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-26 23:43:14) 	The current index is =  14   and   agrresvie
+Debug:  F:() L:(0) 	(2022-05-26 23:43:14) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-26 23:43:19) 	The current index is =  15   and   good
+Debug:  F:() L:(0) 	(2022-05-26 23:43:19) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-26 23:43:24) 	The current index is =  16   and   ...
+Debug:  F:() L:(0) 	(2022-05-26 23:43:24) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-26 23:43:29) 	The current index is =  17   and   ...
+Debug:  F:() L:(0) 	(2022-05-26 23:43:29) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-26 23:43:34) 	The current index is =  18   and   ...
+Debug:  F:() L:(0) 	(2022-05-26 23:43:34) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-26 23:43:39) 	The current index is =  19   and   
+Debug:  F:() L:(0) 	(2022-05-26 23:43:39) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(843) 	(2022-05-26 23:43:39) 	current time is =  2022-05-26
+Debug:  F:() L:(0) 	(2022-05-26 23:43:39) 	get number =  30  and  18
+Debug:  F:() L:(0) 	(2022-05-26 23:43:39) 	insert
+Debug:  F:(qrc:/qmls/Page/DirectoryPage.qml) L:(292) 	(2022-05-26 23:43:39) 	get the finish signal
+Debug:  F:() L:(0) 	(2022-05-26 23:43:39) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:43:39) 	The result of it is =  50  and  23
+Debug:  F:() L:(0) 	(2022-05-26 23:43:39) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 23:43:39) 	The result of it is =  50  and  23
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-26 23:44:27) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-26 23:44:27) 	The current index is =  0
+Debug:  F:(qrc:/qmls/Page/WordBooks.qml) L:(23) 	(2022-05-26 23:44:27) 	load
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(59) 	(2022-05-26 23:44:29) 	qrc:/qmls/Page/ShowDetailWord.qml:59:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(70) 	(2022-05-26 23:44:29) 	qrc:/qmls/Page/ShowDetailWord.qml:70:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(61) 	(2022-05-26 23:44:29) 	qrc:/qmls/Page/ShowDetailWord.qml:61: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(72) 	(2022-05-26 23:44:29) 	qrc:/qmls/Page/ShowDetailWord.qml:72: TypeError: Cannot read property '0' of undefined
+Debug:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(13) 	(2022-05-26 23:44:29) 	The title is =  我的单词本
+Debug:  F:() L:(0) 	(2022-05-26 23:44:29) 	The table name is =  "ImportTable1"
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(152) 	(2022-05-26 23:44:29) 	qrc:/qmls/Page/ShowDetailWord.qml:152: TypeError: Cannot call method 'split' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(152) 	(2022-05-26 23:44:29) 	qrc:/qmls/Page/ShowDetailWord.qml:152: TypeError: Cannot call method 'split' of undefined
+Debug:  F:(qrc:/qmls/Page/WordBooks.qml) L:(77) 	(2022-05-26 23:44:29) 	The book name is =  我的单词本
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(59) 	(2022-05-26 23:44:48) 	qrc:/qmls/Page/ShowDetailWord.qml:59:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(70) 	(2022-05-26 23:44:48) 	qrc:/qmls/Page/ShowDetailWord.qml:70:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(61) 	(2022-05-26 23:44:48) 	qrc:/qmls/Page/ShowDetailWord.qml:61: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(72) 	(2022-05-26 23:44:48) 	qrc:/qmls/Page/ShowDetailWord.qml:72: TypeError: Cannot read property '0' of undefined
+Debug:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(13) 	(2022-05-26 23:44:48) 	The title is =  英语词汇
+Debug:  F:() L:(0) 	(2022-05-26 23:44:48) 	The table name is =  "allWords1"
+Debug:  F:(qrc:/qmls/Page/WordBooks.qml) L:(77) 	(2022-05-26 23:44:48) 	The book name is =  英语词汇

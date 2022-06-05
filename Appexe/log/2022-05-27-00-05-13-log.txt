@@ -1,0 +1,61 @@
+Debug:  F:() L:(0) 	(2022-05-27 00:05:13) 	App begin
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 00:05:14) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 00:05:14) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 00:05:14) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 00:05:15) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-27 00:05:15) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 00:05:15) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 00:05:15) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 00:05:15) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 00:05:15) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 00:05:15) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 00:05:17) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 00:05:17) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 00:05:17) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 00:05:18) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-27 00:05:18) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 00:05:18) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 00:05:18) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 00:05:18) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 00:05:18) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 00:05:18) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:(qrc:/qmls/Page/IntoLogin.qml) L:(170) 	(2022-05-27 00:05:38) 	insert message is  小学生
+Debug:  F:(qrc:/qmls/Page/IntoLogin.qml) L:(171) 	(2022-05-27 00:05:38) 	tr
+Debug:  F:(qrc:/qmls/Page/IntoLogin.qml) L:(172) 	(2022-05-27 00:05:38) 	14324222335
+Debug:  F:(qrc:/qmls/Page/IntoLogin.qml) L:(173) 	(2022-05-27 00:05:38) 	12345
+Debug:  F:(qrc:/qmls/Page/IntoLogin.qml) L:(174) 	(2022-05-27 00:05:38) 	12345
+Warning:  F:() L:(0) 	(2022-05-27 00:05:38) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 00:05:38) 	The id is =  ""
+Debug:  F:(qrc:/qmls/Page/IntoLogin.qml) L:(199) 	(2022-05-27 00:05:38) 	The res =  true
+Debug:  F:() L:(0) 	(2022-05-27 00:05:38) 	insert message "14324222335  小学生  tr  12345"
+Debug:  F:() L:(0) 	(2022-05-27 00:05:39) 	The sno is =  2
+Debug:  F:(qrc:/qmls/Page/IntoLogin.qml) L:(215) 	(2022-05-27 00:05:39) 	login success
+Debug:  F:() L:(0) 	(2022-05-27 00:05:39) 	The id is =  2
+Debug:  F:() L:(0) 	(2022-05-27 00:05:39) 	The tablename is =  "allWords2"
+Debug:  F:() L:(0) 	(2022-05-27 00:05:39) 	The id is =  2
+Debug:  F:() L:(0) 	(2022-05-27 00:05:39) 	insert into success!
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 00:05:39) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 00:05:39) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 00:05:39) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:() L:(0) 	(2022-05-27 00:05:43) 	The password is =  "123456"
+Debug:  F:() L:(0) 	(2022-05-27 00:05:43) 	The id is =  "18036196029"
+Debug:  F:() L:(0) 	(2022-05-27 00:05:43) 	The id is =  "大学生"
+Debug:  F:() L:(0) 	(2022-05-27 00:05:43) 	The id is =  1
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(295) 	(2022-05-27 00:05:43) 	userId is : 20182621  -  123456  -  123456 - allWords1
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(99) 	(2022-05-27 00:05:43) 	The res =  true
+Warning:  F:(qrc:/qmls/Page/EnterPage.qml) L:(59) 	(2022-05-27 00:05:43) 	qrc:/qmls/Page/EnterPage.qml:59:5: QML Rectangle: Cannot anchor a vertical edge to a horizontal edge.
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 00:05:43) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(55) 	(2022-05-27 00:05:43) 	The page is load!!!
+Debug:  F:() L:(0) 	(2022-05-27 00:05:43) 	The sno is =  1
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(59) 	(2022-05-27 00:05:43) 	read from db is =  10  and  1
+Debug:  F:() L:(0) 	(2022-05-27 00:05:43) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 00:05:43) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 00:05:43) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 00:05:43) 	The result of it is =  0  and  0
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-27 00:05:43) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 00:05:43) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(109) 	(2022-05-27 00:05:43) 	config sno =  1  and  1
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 00:05:45) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 00:05:45) 	The current index is =  3
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 00:05:46) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 00:05:46) 	The current index is =  0

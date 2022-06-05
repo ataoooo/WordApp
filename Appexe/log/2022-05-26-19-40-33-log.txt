@@ -1,0 +1,22 @@
+Debug:  F:() L:(0) 	(2022-05-26 19:40:33) 	App begin
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 19:40:34) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-26 19:40:34) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-26 19:40:34) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:() L:(0) 	(2022-05-26 19:40:38) 	The password is =  "123456"
+Debug:  F:() L:(0) 	(2022-05-26 19:40:38) 	The id is =  "14242354234"
+Debug:  F:() L:(0) 	(2022-05-26 19:40:38) 	The id is =  "´óÑ§Éú"
+Debug:  F:() L:(0) 	(2022-05-26 19:40:38) 	The id is =  1
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(295) 	(2022-05-26 19:40:38) 	userId is : 20182621  -  123456  -  123456 - allWords1
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(99) 	(2022-05-26 19:40:38) 	The res =  true
+Warning:  F:(qrc:/qmls/Page/EnterPage.qml) L:(59) 	(2022-05-26 19:40:38) 	qrc:/qmls/Page/EnterPage.qml:59:5: QML Rectangle: Cannot anchor a vertical edge to a horizontal edge.
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-26 19:40:38) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(55) 	(2022-05-26 19:40:38) 	The page is load!!!
+Debug:  F:() L:(0) 	(2022-05-26 19:40:38) 	The sno is =  1
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(59) 	(2022-05-26 19:40:38) 	read from db is =  20  and  1
+Debug:  F:() L:(0) 	(2022-05-26 19:40:38) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 19:40:38) 	The result of it is =  20  and  8
+Debug:  F:() L:(0) 	(2022-05-26 19:40:38) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-26 19:40:38) 	The result of it is =  20  and  8
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-26 19:40:38) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-26 19:40:38) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(109) 	(2022-05-26 19:40:38) 	config sno =  1  and  1

@@ -1,0 +1,384 @@
+Debug:  F:() L:(0) 	(2022-05-27 16:38:26) 	App begin
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:38:27) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:38:27) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 16:38:27) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Page/EnterPage.qml) L:(59) 	(2022-05-27 16:38:44) 	qrc:/qmls/Page/EnterPage.qml:59:5: QML Rectangle: Cannot anchor a vertical edge to a horizontal edge.
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:38:44) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(55) 	(2022-05-27 16:38:44) 	The page is load!!!
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(59) 	(2022-05-27 16:38:44) 	read from db is =  20  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:38:44) 	the time is =  "2022-05-27"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 16:38:44) 	The result of it is =  0  and  0
+Debug:  F:() L:(0) 	(2022-05-27 16:38:44) 	the time is =  "2022-05-27"  and  -1
+Debug:  F:() L:(0) 	(2022-05-27 16:38:44) 	The result of it is =  0  and  0
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-27 16:38:44) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 16:38:44) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 16:38:47) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 16:38:47) 	The current index is =  3
+Debug:  F:(qrc:/main.qml) L:(134) 	(2022-05-27 16:38:48) 	start to here!!!
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:38:48) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:38:48) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 16:38:48) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:38:50) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-27 16:38:50) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:38:50) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:38:50) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:38:50) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:38:50) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 16:38:50) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:38:51) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(32) 	(2022-05-27 16:38:51) 	qrc:/qmls/Component/MyComboBox.qml:32: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:38:51) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:38:51) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:38:51) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:38:51) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:38:51) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:38:51) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:38:51) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:38:51) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:38:51) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:38:51) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:39:00) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:39:00) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 16:39:00) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:39:04) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:39:04) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 16:39:04) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Warning:  F:(qrc:/main.qml) L:(116) 	(2022-05-27 16:39:04) 	qrc:/main.qml:116:31: QML PhoneLogin: StackView has detected conflicting anchors. Transitions may not execute properly.
+Warning:  F:(qrc:/main.qml) L:(116) 	(2022-05-27 16:39:06) 	qrc:/main.qml:116:31: QML PhoneLogin: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:() L:(0) 	(2022-05-27 16:39:16) 	The password is =  "123456"
+Debug:  F:() L:(0) 	(2022-05-27 16:39:16) 	The id is =  "18036196029"
+Debug:  F:() L:(0) 	(2022-05-27 16:39:16) 	The id is =  "大学生"
+Debug:  F:() L:(0) 	(2022-05-27 16:39:16) 	The id is =  1
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(295) 	(2022-05-27 16:39:16) 	userId is : 20182621  -  123456  -  123456 - allWords1
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(99) 	(2022-05-27 16:39:16) 	The res =  true
+Warning:  F:(qrc:/qmls/Page/EnterPage.qml) L:(59) 	(2022-05-27 16:39:16) 	qrc:/qmls/Page/EnterPage.qml:59:5: QML Rectangle: Cannot anchor a vertical edge to a horizontal edge.
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:39:16) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(55) 	(2022-05-27 16:39:16) 	The page is load!!!
+Debug:  F:() L:(0) 	(2022-05-27 16:39:16) 	The sno is =  1
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(59) 	(2022-05-27 16:39:16) 	read from db is =  5  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:39:16) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:39:16) 	The result of it is =  53  and  28
+Debug:  F:() L:(0) 	(2022-05-27 16:39:16) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:39:16) 	The result of it is =  53  and  28
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:39:16) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 16:39:16) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:(qrc:/qmls/Page/IntoPage.qml) L:(109) 	(2022-05-27 16:39:16) 	config sno =  1  and  1
+Debug:  F:(qrc:/qmls/Component/SearchEdit.qml) L:(62) 	(2022-05-27 16:39:44) 	aaaa: 1
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	The word is =  "haven"
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	word context : =  "4538"
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	word context : =  "haven"
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	word context : =  "/?he?vn/"
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	word context : =  "n. 港湾；避难所；  vt. 为…提供庇护所"
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	word context : =  "9"
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	word context : =  "5"
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	word context : =  "4735"
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	word context : =  "{\"word_third\": [\"havens\"], \"word_done\": [\"havened\"], \"word_pl\": [\"havens\"], \"word_est\": \"\", \"word_ing\": [\"havening\"], \"word_er\": \"\", \"word_past\": [\"havened\"]}"
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	word context : =  ""
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	word context : =  ""
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	word context : =  "0"
+Warning:  F:() L:(0) 	(2022-05-27 16:39:44) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Component/SearchEdit.qml) L:(65) 	(2022-05-27 16:39:44) 	really??? =  haven
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	STAT TO VOICE
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	The string is =  "haven"
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 16:39:44) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 16:39:44) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 16:39:44) 	The target word  is =  haven
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	The word is =  "haven"
+Warning:  F:() L:(0) 	(2022-05-27 16:39:44) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 16:39:44) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 16:39:44) 	The target word  is =  haven
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	The word is =  "haven"
+Warning:  F:() L:(0) 	(2022-05-27 16:39:44) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 16:39:44) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:(qrc:/main.qml) L:(106) 	(2022-05-27 16:39:44) 	qrc:/main.qml:106:33: QML ShowWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:() L:(0) 	(2022-05-27 16:39:44) 	context is =  "<script>top.self.location.href='http://210.43.246.175/eportal/index.jsp?wlanuserip=2108cd65d7abc98d6f5136532dc5d3de&wlanacname=249abdc040c2da2fba43081a710a842d&ssid=&nasip=ffc5ade63a06c97202d99a38aebb3697&snmpagentip=&mac=a68eff3474431ead211ef87ce606433b&t=wireless-v2&url=709db9dc9ce334aa21dca0064f49e5cb32657e9e23760a88024676f4d41a53f097bb650791342902&apmac=&nasid=249abdc040c2da2fba43081a710a842d&vid=03176de68d1802a6&port=b72b63944bda6134&nasportid=5b9da5b08a53a540c50f09ff9314858f5bfbda549d368c7f81d896115f3f6c29'</script>\r\n"
+Warning:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(68) 	(2022-05-27 16:39:55) 	qrc:/qmls/Page/EditWordPage.qml:68: ReferenceError: failRec is not defined
+Warning:  F:(qrc:/main.qml) L:(107) 	(2022-05-27 16:39:55) 	qrc:/main.qml:107:33: QML EditWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Warning:  F:(qrc:/main.qml) L:(106) 	(2022-05-27 16:39:55) 	qrc:/main.qml:106:33: QML ShowWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(127) 	(2022-05-27 16:39:59) 	test accent =  /?he?vn/
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(129) 	(2022-05-27 16:39:59) 	test mean =  n. 港湾；避难所；  vt. 为…提供庇护所
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(176) 	(2022-05-27 16:39:59) 	aaaa:  第三人称形式: havens
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(176) 	(2022-05-27 16:39:59) 	aaaa:  过去分词形式: havened
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(176) 	(2022-05-27 16:39:59) 	aaaa:  复数形式: havens
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(176) 	(2022-05-27 16:39:59) 	aaaa:  最高级形式: 
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(176) 	(2022-05-27 16:39:59) 	aaaa:  现在分词形式: havening
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(176) 	(2022-05-27 16:39:59) 	aaaa:  过去式: havened
+Debug:  F:(qrc:/qmls/Page/EditWordPage.qml) L:(199) 	(2022-05-27 16:39:59) 	result is =  {"word_third": ["havens"], "word_done": ["havened"], "word_pl": ["havens"], "word_est": "", "word_ing": ["havening"], "word_er": "", "word_past": ["havened"], "word_er": ""}
+Warning:  F:(qrc:/main.qml) L:(107) 	(2022-05-27 16:40:00) 	qrc:/main.qml:107:33: QML EditWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Warning:  F:(qrc:/main.qml) L:(106) 	(2022-05-27 16:40:00) 	qrc:/main.qml:106:33: QML ShowWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	The word is =  "haven"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "4538"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "haven"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "/?he?vn/"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "n. 港湾；避难所；  vt. 为…提供庇护所"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "9"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "5"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "4735"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "{\"word_third\": [\"havens\"], \"word_done\": [\"havened\"], \"word_pl\": [\"havens\"], \"word_est\": \"\", \"word_ing\": [\"havening\"], \"word_er\": \"\", \"word_past\": [\"havened\"], \"word_er\": \"\"}"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  ""
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "313123"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "0"
+Warning:  F:() L:(0) 	(2022-05-27 16:40:00) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 16:40:00) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 16:40:00) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 16:40:00) 	The target word  is =  haven
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	The word is =  "haven"
+Warning:  F:() L:(0) 	(2022-05-27 16:40:00) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 16:40:00) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 16:40:00) 	The target word  is =  haven
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	The word is =  "haven"
+Warning:  F:() L:(0) 	(2022-05-27 16:40:00) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 16:40:00) 	QSqlQuery::value: not positioned on a valid record
+Warning:  F:(qrc:/qmls/Component/SearchEdit.qml) L:(31) 	(2022-05-27 16:40:00) 	qrc:/qmls/Component/SearchEdit.qml:31: TypeError: Property 'pop' of object QQuickWindowQmlImpl_QML_51(0x1b96d7f5260) is not a function
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	The word is =  "haven"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "4538"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "haven"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "/?he?vn/"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "n. 港湾；避难所；  vt. 为…提供庇护所"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "9"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "5"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "4735"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "{\"word_third\": [\"havens\"], \"word_done\": [\"havened\"], \"word_pl\": [\"havens\"], \"word_est\": \"\", \"word_ing\": [\"havening\"], \"word_er\": \"\", \"word_past\": [\"havened\"], \"word_er\": \"\"}"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  ""
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "313123"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "0"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  "0"
+Warning:  F:() L:(0) 	(2022-05-27 16:40:00) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 16:40:00) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 16:40:00) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 16:40:00) 	The target word  is =  haven
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	The word is =  "haven"
+Warning:  F:() L:(0) 	(2022-05-27 16:40:00) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 16:40:00) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(315) 	(2022-05-27 16:40:00) 	The target word  is =  haven
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	The word is =  "haven"
+Warning:  F:() L:(0) 	(2022-05-27 16:40:00) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 16:40:00) 	word context : =  ""
+Warning:  F:() L:(0) 	(2022-05-27 16:40:00) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 16:40:00) 	is collect =  true
+Warning:  F:(qrc:/qmls/Component/SearchEdit.qml) L:(31) 	(2022-05-27 16:40:00) 	qrc:/qmls/Component/SearchEdit.qml:31: TypeError: Property 'pop' of object QQuickWindowQmlImpl_QML_51(0x1b96d7f5260) is not a function
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 16:40:07) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(258) 	(2022-05-27 16:40:07) 	click the sc
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 16:40:09) 	is collect =  false
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(258) 	(2022-05-27 16:40:09) 	click the sc
+Debug:  F:() L:(0) 	(2022-05-27 16:40:09) 	Table name is =  "allWords1"   and =  "haven"
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(332) 	(2022-05-27 16:40:10) 	is collect =  true
+Debug:  F:(qrc:/qmls/Page/ShowWordPage.qml) L:(258) 	(2022-05-27 16:40:10) 	click the sc
+Warning:  F:(qrc:/main.qml) L:(106) 	(2022-05-27 16:40:13) 	qrc:/main.qml:106:33: QML ShowWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:() L:(0) 	(2022-05-27 16:40:15) 	collect table is =  "allWords1"
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(116) 	(2022-05-27 16:40:15) 	show sentence is =  haven&n. 港湾；避难所；  vt. 为…提供庇护所
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:40:15) 	show sentence is =  haven&n. 港湾；避难所；  vt. 为…提供庇护所
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:40:15) 	show sentence is =  veracity&n. 诚实，精确性，老实，说真实话
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:40:15) 	show sentence is =  headachy&adj. 头痛的；令人头痛的
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:40:15) 	show sentence is =  nailhead&n. 钉头；钉头装饰
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:40:15) 	show sentence is =  finagle&v. 欺骗；哄骗；欺瞒
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(22) 	(2022-05-27 16:40:15) 	load
+Debug:  F:() L:(0) 	(2022-05-27 16:40:18) 	collect table is =  "allWords1"
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(116) 	(2022-05-27 16:40:18) 	show sentence is =  haven&n. 港湾；避难所；  vt. 为…提供庇护所
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:40:18) 	show sentence is =  haven&n. 港湾；避难所；  vt. 为…提供庇护所
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:40:18) 	show sentence is =  veracity&n. 诚实，精确性，老实，说真实话
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:40:18) 	show sentence is =  headachy&adj. 头痛的；令人头痛的
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:40:18) 	show sentence is =  nailhead&n. 钉头；钉头装饰
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:40:18) 	show sentence is =  finagle&v. 欺骗；哄骗；欺瞒
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(22) 	(2022-05-27 16:40:18) 	load
+Debug:  F:() L:(0) 	(2022-05-27 16:40:20) 	Table name is =  "allWords1"   and =  "haven"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:26) 	Table name is =  "allWords1"   and =  "haven"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:28) 	collect table is =  "allWords1"
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(116) 	(2022-05-27 16:40:28) 	show sentence is =  veracity&n. 诚实，精确性，老实，说真实话
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:40:28) 	show sentence is =  veracity&n. 诚实，精确性，老实，说真实话
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:40:28) 	show sentence is =  headachy&adj. 头痛的；令人头痛的
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:40:28) 	show sentence is =  nailhead&n. 钉头；钉头装饰
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(118) 	(2022-05-27 16:40:28) 	show sentence is =  finagle&v. 欺骗；哄骗；欺瞒
+Debug:  F:(qrc:/qmls/Page/ShowCollectWord.qml) L:(22) 	(2022-05-27 16:40:28) 	load
+Warning:  F:(qrc:/qmls/Page/ImportWordPage.qml) L:(86) 	(2022-05-27 16:40:32) 	qrc:/qmls/Page/ImportWordPage.qml:86:9: QML Rectangle: Cannot anchor to an item that isn't a parent or sibling.
+Warning:  F:(qrc:/main.qml) L:(109) 	(2022-05-27 16:40:32) 	qrc:/main.qml:109:35: QML ImportWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:40:41) 	aaaaaaaa: 1
+Debug:  F:() L:(0) 	(2022-05-27 16:40:41) 	The tablename is =  "ImportTable1"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:41) 	error : QSqlError("1", "Unable to execute statement", "table ImportTable1 already exists")
+Debug:  F:() L:(0) 	(2022-05-27 16:40:41) 	The get message is =  "have"  and  "由"
+Warning:  F:() L:(0) 	(2022-05-27 16:40:41) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 16:40:41) 	The target word is =  ""
+Debug:  F:() L:(0) 	(2022-05-27 16:40:41) 	The table name is =  "ImportTable1"
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:40:41) 	aaaaaaaa: 1
+Debug:  F:() L:(0) 	(2022-05-27 16:40:41) 	The tablename is =  "ImportTable1"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:41) 	error : QSqlError("1", "Unable to execute statement", "table ImportTable1 already exists")
+Debug:  F:() L:(0) 	(2022-05-27 16:40:41) 	The get message is =  "111"  and  "1111"
+Warning:  F:() L:(0) 	(2022-05-27 16:40:41) 	QSqlQuery::value: not positioned on a valid record
+Debug:  F:() L:(0) 	(2022-05-27 16:40:41) 	The target word is =  ""
+Debug:  F:() L:(0) 	(2022-05-27 16:40:41) 	The table name is =  "ImportTable1"
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:40:41) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:40:41) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:40:41) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:40:41) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:40:41) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:40:41) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:40:41) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:40:41) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:40:41) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:40:41) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:40:41) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:40:41) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:40:41) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:40:41) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:40:41) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:40:41) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:40:41) 	aaaaaaaa: 1
+Debug:  F:(qrc:/qmls/Component/AddWordText.qml) L:(47) 	(2022-05-27 16:40:41) 	aaaaaaaa: 1
+Warning:  F:(qrc:/main.qml) L:(109) 	(2022-05-27 16:40:42) 	qrc:/main.qml:109:35: QML ImportWordPage: StackView has detected conflicting anchors. Transitions may not execute properly.
+Debug:  F:(qrc:/qmls/Page/WordBooks.qml) L:(24) 	(2022-05-27 16:40:43) 	load
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(63) 	(2022-05-27 16:40:44) 	qrc:/qmls/Page/ShowDetailWord.qml:63:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(74) 	(2022-05-27 16:40:44) 	qrc:/qmls/Page/ShowDetailWord.qml:74:17: Unable to assign int to QQuickAnchorLine
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(65) 	(2022-05-27 16:40:44) 	qrc:/qmls/Page/ShowDetailWord.qml:65: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(76) 	(2022-05-27 16:40:44) 	qrc:/qmls/Page/ShowDetailWord.qml:76: TypeError: Cannot read property '0' of undefined
+Debug:  F:(qrc:/qmls/Page/ShowDetailWord.qml) L:(13) 	(2022-05-27 16:40:44) 	The title is =  我的单词本
+Debug:  F:() L:(0) 	(2022-05-27 16:40:44) 	The table name is =  "ImportTable1"
+Debug:  F:(qrc:/qmls/Page/WordBooks.qml) L:(78) 	(2022-05-27 16:40:44) 	The book name is =  我的单词本
+Debug:  F:() L:(0) 	(2022-05-27 16:40:48) 	The table name is =  "ImportTable1"
+Debug:  F:() L:(0) 	(2022-05-27 16:40:49) 	The table name is =  "ImportTable1"
+Warning:  F:(qrc:/qmls/Page/ShowSentence.qml) L:(107) 	(2022-05-27 16:40:54) 	qrc:/qmls/Page/ShowSentence.qml:107: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowSentence.qml) L:(114) 	(2022-05-27 16:40:54) 	qrc:/qmls/Page/ShowSentence.qml:114: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowSentence.qml) L:(121) 	(2022-05-27 16:40:54) 	qrc:/qmls/Page/ShowSentence.qml:121: TypeError: Cannot read property '0' of undefined
+Warning:  F:(qrc:/qmls/Page/ShowSentence.qml) L:(128) 	(2022-05-27 16:40:54) 	qrc:/qmls/Page/ShowSentence.qml:128: TypeError: Cannot read property '0' of undefined
+Debug:  F:() L:(0) 	(2022-05-27 16:40:54) 	The table name is =  "sentence"
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 16:41:07) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 16:41:07) 	The current index is =  2
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:41:10) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:41:10) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:41:10) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:41:10) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:41:12) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:41:12) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:41:12) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:41:12) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(362) 	(2022-05-27 16:41:16) 	The mdifficult is =  1
+Debug:  F:() L:(0) 	(2022-05-27 16:41:24) 	The upgrade information is =  1   and  2   1
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(681) 	(2022-05-27 16:41:27) 	click the start..
+Debug:  F:() L:(0) 	(2022-05-27 16:41:27) 	the num =  2    and name is =  "allWords1"  -1:  0.3  -2:  0.3  -3:  0.2  -4:  0.2
+Debug:  F:() L:(0) 	(2022-05-27 16:41:27) 	the result of n4 =  0
+Debug:  F:() L:(0) 	(2022-05-27 16:41:27) 	the result of n3 =  0
+Debug:  F:() L:(0) 	(2022-05-27 16:41:27) 	the result of n2 =  0
+Debug:  F:() L:(0) 	(2022-05-27 16:41:27) 	the result of n1 =  2
+Debug:  F:() L:(0) 	(2022-05-27 16:41:27) 	The number of word is =  2
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(887) 	(2022-05-27 16:41:27) 	The test number is =  2
+Debug:  F:() L:(0) 	(2022-05-27 16:41:27) 	write the appear is =  2
+Debug:  F:() L:(0) 	(2022-05-27 16:41:27) 	write the appear is =  2
+Debug:  F:() L:(0) 	(2022-05-27 16:41:27) 	write the appear is =  1
+Debug:  F:() L:(0) 	(2022-05-27 16:41:27) 	write the appear is =  1
+Debug:  F:() L:(0) 	(2022-05-27 16:41:27) 	write the appear is =  3
+Debug:  F:() L:(0) 	(2022-05-27 16:41:27) 	write the appear is =  1
+Debug:  F:() L:(0) 	(2022-05-27 16:41:27) 	write the appear is =  2
+Debug:  F:() L:(0) 	(2022-05-27 16:41:27) 	write the appear is =  1
+Debug:  F:() L:(0) 	(2022-05-27 16:41:27) 	Last error num is =  8
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(739) 	(2022-05-27 16:41:52) 	current word is =  twist
+Debug:  F:() L:(0) 	(2022-05-27 16:41:52) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(771) 	(2022-05-27 16:41:53) 	current word is =  twist
+Debug:  F:() L:(0) 	(2022-05-27 16:41:53) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(681) 	(2022-05-27 16:42:05) 	click the start..
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(681) 	(2022-05-27 16:42:07) 	click the start..
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:42:19) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:42:19) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:42:19) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:42:19) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(362) 	(2022-05-27 16:42:33) 	The mdifficult is =  1
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 16:42:40) 	The current index is =  0   and   t
+Debug:  F:() L:(0) 	(2022-05-27 16:42:40) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 16:42:45) 	The current index is =  1   and   word
+Debug:  F:() L:(0) 	(2022-05-27 16:42:45) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 16:42:50) 	The current index is =  2   and   wrist
+Debug:  F:() L:(0) 	(2022-05-27 16:42:50) 	The accuracy is =  1
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 16:42:55) 	The current index is =  3   and   ....half
+Debug:  F:() L:(0) 	(2022-05-27 16:42:55) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 16:43:00) 	The current index is =  4   and   idae
+Debug:  F:() L:(0) 	(2022-05-27 16:43:00) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 16:43:05) 	The current index is =  5   and   land
+Debug:  F:() L:(0) 	(2022-05-27 16:43:05) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 16:43:10) 	The current index is =  6   and   between
+Debug:  F:() L:(0) 	(2022-05-27 16:43:10) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 16:43:15) 	The current index is =  7   and   run
+Debug:  F:() L:(0) 	(2022-05-27 16:43:15) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 16:43:20) 	The current index is =  8   and   
+Debug:  F:() L:(0) 	(2022-05-27 16:43:20) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(853) 	(2022-05-27 16:43:25) 	The current index is =  9   and   .
+Debug:  F:() L:(0) 	(2022-05-27 16:43:25) 	The accuracy is =  0
+Debug:  F:(qrc:/qmls/Page/RemeberPage.qml) L:(843) 	(2022-05-27 16:43:25) 	current time is =  2022-05-27
+Debug:  F:() L:(0) 	(2022-05-27 16:43:25) 	get number =  53  and  28
+Debug:  F:() L:(0) 	(2022-05-27 16:43:25) 	insert
+Debug:  F:(qrc:/qmls/Page/DirectoryPage.qml) L:(292) 	(2022-05-27 16:43:25) 	get the finish signal
+Debug:  F:() L:(0) 	(2022-05-27 16:43:25) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:43:25) 	The result of it is =  63  and  31
+Debug:  F:() L:(0) 	(2022-05-27 16:43:25) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:43:25) 	The result of it is =  63  and  31
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 16:43:39) 	The current status is =  [object Object]
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	the time is =  "2022-05-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	The result of it is =  50  and  33
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	the time is =  "2022-05-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	The result of it is =  50  and  42
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	the time is =  "2022-05-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	the time is =  "2022-05-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	The result of it is =  30  and  24
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	the time is =  "2022-05-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	The result of it is =  60  and  42
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	The result of it is =  50  and  23
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	The result of it is =  63  and  31
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(213) 	(2022-05-27 16:43:39) 	The max top value is =  63
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	the time is =  "2022-05-21"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	The result of it is =  50  and  33
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	the time is =  "2022-05-22"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	The result of it is =  50  and  42
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	the time is =  "2022-05-23"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	The result of it is =  40  and  28
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	the time is =  "2022-05-24"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	The result of it is =  30  and  24
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	the time is =  "2022-05-25"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	The result of it is =  60  and  42
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	the time is =  "2022-05-26"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	The result of it is =  50  and  23
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	the time is =  "2022-05-27"  and  1
+Debug:  F:() L:(0) 	(2022-05-27 16:43:39) 	The result of it is =  63  and  31
+Debug:  F:() L:(0) 	(2022-05-27 16:43:40) 	The a1::: 55   54   22   16
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 16:43:40) 	The result is =  55
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 16:43:40) 	The result is =  54
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 16:43:40) 	The result is =  22
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(240) 	(2022-05-27 16:43:40) 	The result is =  16
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(244) 	(2022-05-27 16:43:40) 	陌生: 37.41%
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(248) 	(2022-05-27 16:43:40) 	一般: 36.73% and  54
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(252) 	(2022-05-27 16:43:40) 	熟悉: 14.97% and  22
+Debug:  F:(qrc:/qmls/Page/ChartView.qml) L:(256) 	(2022-05-27 16:43:40) 	牢记: 10.88%
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 16:43:40) 	The current index is =  1
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(49) 	(2022-05-27 16:44:06) 	The current status is =  [object Object]
+Debug:  F:(qrc:/qmls/Page/EnterPage.qml) L:(107) 	(2022-05-27 16:44:06) 	The current index is =  3
+Debug:  F:(qrc:/qmls/Page/UserPage.qml) L:(168) 	(2022-05-27 16:44:12) 	The mm is =  123456
+Warning:  F:(qrc:/qmls/Component/ListItemForUserInfo.qml) L:(-1) 	(2022-05-27 16:44:12) 	qrc:/qmls/Component/ListItemForUserInfo.qml: ReferenceError: arr is not defined
+Warning:  F:(qrc:/qmls/Component/ListItemForUserInfo.qml) L:(25) 	(2022-05-27 16:44:12) 	qrc:/qmls/Component/ListItemForUserInfo.qml:25: ReferenceError: arr is not defined
+Warning:  F:(qrc:/qmls/Component/ListItemForUserInfo.qml) L:(25) 	(2022-05-27 16:44:12) 	qrc:/qmls/Component/ListItemForUserInfo.qml:25: ReferenceError: arr is not defined
+Warning:  F:(qrc:/qmls/Component/ListItemForUserInfo.qml) L:(25) 	(2022-05-27 16:44:12) 	qrc:/qmls/Component/ListItemForUserInfo.qml:25: ReferenceError: arr is not defined
+Debug:  F:(qrc:/qmls/Component/ListItemForUserInfo.qml) L:(34) 	(2022-05-27 16:44:14) 	The name is =  我的电话
+Debug:  F:(qrc:/qmls/Component/ListItemForUserInfo.qml) L:(37) 	(2022-05-27 16:44:14) 	The key and value is =  我的电话   and: 18036196029
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:44:14) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:44:14) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 16:44:14) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:(qrc:/qmls/Component/ListItemForUserInfo.qml) L:(34) 	(2022-05-27 16:44:16) 	The name is =  我的名称
+Debug:  F:(qrc:/qmls/Component/ListItemForUserInfo.qml) L:(37) 	(2022-05-27 16:44:16) 	The key and value is =  我的名称   and: 20182621
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(29) 	(2022-05-27 16:44:16) 	qrc:/qmls/Component/MyComboBox.qml:29:22: QML QQuickText: Binding loop detected for property "leftPadding"
+Warning:  F:(qrc:/qmls/Component/MyComboBox.qml) L:(-1) 	(2022-05-27 16:44:16) 	qrc:/qmls/Component/MyComboBox.qml: ReferenceError: control is not defined
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 16:44:16) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
+Debug:  F:(qrc:/main.qml) L:(134) 	(2022-05-27 16:44:36) 	start to here!!!
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:44:36) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/InputEdit.qml) L:(43) 	(2022-05-27 16:44:36) 	qrc:/qmls/Component/InputEdit.qml:43:9: Unable to assign double to QFont
+Warning:  F:(qrc:/qmls/Component/LittleWindow.qml) L:(51) 	(2022-05-27 16:44:36) 	qrc:/qmls/Component/LittleWindow.qml:51:13: Unable to assign double to QFont
