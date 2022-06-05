@@ -19,6 +19,7 @@ StackPageBase{
         model: ListModel{
             ListElement{bookName: "英语词汇"; ImgSource: "../../assets/mdpi/English_Book.png";}
             ListElement{bookName: "我的单词本"; ImgSource: "../../assets/mdpi/book_png.png"}
+            ListElement{bookName: "错题本"; ImgSource: "../../assets/mdpi/errorbook.png"}
             function reflesh(){
                 console.log("load")
                 if(memView.headerItem != null)

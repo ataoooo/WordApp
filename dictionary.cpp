@@ -471,6 +471,26 @@ QVariantList Dictionary::getAllWords(QString tablename){
     return wordlist;
 }
 
+QVariantList Dictionary::getErrorWords(QString tablename){
+    if(connectDB() == false) return QVariantList{};
+    QSqlQuery query;
+    qDebug() << "The table name is = " << tablename;
+    bool res = query.exec(QString("select word,mean_cn from '%1' where lastMistake = 1").arg(tablename));
+    if(!res)
+    {
+        qDebug() << "select error : = " << query.lastError();
+        return QVariantList{};
+    }
+    QVariantList wordlist;
+    while(query.next())
+    {
+        QString tmps = query.value(0).toString() + "\n" + query.value(1).toString();
+        wordlist.push_back(tmps);
+    }
+    return wordlist;
+}
+
+
 QVariantList Dictionary::getAllSentence(){
     if(connectDB() == false) return QVariantList{};
     QSqlQuery query;
@@ -593,14 +613,16 @@ QVariantList Dictionary::calculateWord(QString sno){
     }
     int a1(0),a2(0),a3(0),a4(0);
     while(query.next()){
-        if(query.value(0).toInt() == 0 && query.value(1).toInt() > 0) ++a1;
-        else if(query.value(0).toInt() < 3 && query.value(0).toInt() > 0) ++a2;
-        else if(query.value(0).toInt() < 5 && query.value(0).toInt() > 2) ++a3;
-        else if(query.value(0).toInt() == 5) ++a4;
-    }
-    if(sno == "-1")
-    {
-        a1 = 100;
+        if(query.value(1).toInt() == 0) continue;
+        if(query.value(0).toFloat() / query.value(1).toFloat() < 0.3) ++a1;
+        else if (query.value(0).toFloat() / query.value(1).toFloat() < 0.5) ++a2;
+        else if (query.value(0).toFloat() / query.value(1).toFloat() < 0.8) ++a3;
+        else ++a4;
+
+//        if(query.value(0).toInt() == 0 && query.value(1).toInt() > 0) ++a1;
+//        else if(query.value(0).toInt() < 3 && query.value(0).toInt() > 0) ++a2;
+//        else if(query.value(0).toInt() < 5 && query.value(0).toInt() > 2) ++a3;
+//        else if(query.value(0).toInt() == 5) ++a4;
     }
     qDebug() << "The a1:::" << a1 << " " << a2 << " " << a3 << " " << a4;
     QVariantList tmplis;

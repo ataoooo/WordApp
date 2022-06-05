@@ -60,3 +60,5 @@ DISTFILES += \
     androidsource/ico/rabitbig.png \
     androidsource/ico/rabitmid.png
 ANDROID_PACKAGE_SOURCE_DIR = $$PWD/androidsource
+
+RC_FILE = myicon.rc
