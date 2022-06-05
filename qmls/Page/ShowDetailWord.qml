@@ -21,6 +21,10 @@ StackPageBase{
                 targetModel = wordDB.getAllWords("ImportTable" + root.userSno.toString());
                 delvisible = true
                 break;
+            case "错题本":
+                targetModel = wordDB.getErrorWords("allWords" + (root.userSno == -1 ? "" : root.userSno.toString()));
+                delvisible = false
+                break;
             }
         }
     }

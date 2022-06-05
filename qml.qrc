@@ -113,6 +113,7 @@
         <file>assets/mdpi/del.png</file>
         <file>qmls/Page/PhoneLogin.qml</file>
         <file>assets/mdpi/sound.png</file>
+        <file>assets/mdpi/errorbook.png</file>
     </qresource>
     <qresource prefix="/qmls"/>
     <qresource prefix="/sqs" lang="qws"/>

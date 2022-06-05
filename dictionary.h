@@ -46,6 +46,9 @@ public:
     //上一次背错的单词
     Q_INVOKABLE QVariantList lastErrorWord(QString sno);
 
+    //获取所有单词中上次测试错误单词
+    Q_INVOKABLE QVariantList getErrorWords(QString tablename);
+
     //获取所有单词中英文
     Q_INVOKABLE QVariantList getAllWords(QString tablename);
 
